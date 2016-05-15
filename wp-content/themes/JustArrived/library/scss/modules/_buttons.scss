@@ -30,14 +30,14 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   font-family: $sans-serif;
   text-decoration: none;
   color: $white;
-  font-size: 0.9em;
-  font-size: 34px;
-  line-height: 34px;
+  font-size: em(12);
+  line-height: 2.3;
   font-weight: normal;
-  padding: 0 24px;
-  border-radius: 4px;
+  padding: 0 18px;
+  border-radius: 30px;
   border: 0;
   cursor: pointer;
+  font-weight: 600;
   @include transition(background-color 0.14s ease-in-out);
 
   // hovering on the btn
@@ -49,8 +49,15 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 
   // clicking on the button
   &:active {
-    top: 1px; // adds a tiny hop to the click
+
   } // end active
+  &:visited {
+    color: $white;
+  }
+
+  @include mobile-large {
+    font-size: em(14);
+  }
 
 } // end .button
 
@@ -73,3 +80,48 @@ and it will create a button dependant on those variables.
   } // end active
 
 } // end blue button
+
+.primary-btn {
+  @extend %btn;
+  background-color: $cerise;
+  border: 1px solid $cerise;
+  &:hover {
+    background-color: darken($cerise, 4%);
+    color: $white;
+  }
+  &:active {
+    background-color: darken($cerise, 5%);
+  }
+  &:visited {
+    // color: $white;
+  }
+}
+
+.border-btn {
+  @extend %btn;
+  background-color: transparent;
+  border: 1px solid #fff;
+  &:hover {
+    // background-color: darken($cerise, 4%);
+  }
+  &:active {
+    // background-color: darken($cerise, 5%);
+  }
+}
+
+.transparent-btn {
+  @extend %btn;
+  background-color: transparent;
+  border: 1px solid transparent;
+  &:hover {
+    // background-color: darken($cerise, 4%);
+  }
+  &:active {
+    // background-color: darken($cerise, 5%);
+  }
+}
+
+.btn-large {
+  font-size: em(14);
+  // line-height: 2.3;
+}

@@ -35,6 +35,8 @@
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
 
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
+
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
 
@@ -48,8 +50,23 @@
 
 				<div id="inner-header" class="wrap cf">
 
-					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+					<!-- <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
+					<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p> -->
+
+					<!-- <img src="<?php echo get_template_directory_uri(); ?>/library/images/justarrived-logo.png" /> -->
+
+					<a href="<?php echo home_url(); ?>" rel="nofollow">
+						<div class="header__logo">JustArrived</div>
+					</a>
+
+					<div class="header__btns">
+						<a href="#" class="transparent-btn">English</a>
+						<a href="#" class="primary-btn">Sign Up</a>
+						<a href="#" class="border-btn">Login</a>
+					</div>
+
+
+					
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>

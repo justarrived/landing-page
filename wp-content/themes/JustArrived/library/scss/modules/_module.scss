@@ -1,0 +1,10 @@
+.module-cf {
+  @extend %clearfix;
+}
+
+.module-padding {
+  padding: 2em 0;
+  @include tablet {
+    padding: 5em 0;
+  }
+}

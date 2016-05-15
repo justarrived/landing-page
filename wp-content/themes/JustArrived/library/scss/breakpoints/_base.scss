@@ -16,13 +16,21 @@ GENERAL STYLES
 *********************/
 
 body {
-	font-family: $lato;
+	font-family: $sans-serif;
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
 	background-color: $gray;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
+}
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 /********************
@@ -71,7 +79,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 96%;
+	width: 92%;
 	margin: 0 auto;
 }
 
@@ -79,37 +87,42 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 
-a, a:visited {
-	color: $link-color;
+// a, a:visited {
+// 	color: $link-color;
 
-	/* on hover */
-	&:hover, &:focus {
-		color: $link-hover;
-	}
+// 	/* on hover */
+// 	&:hover, &:focus {
+// 		color: $link-hover;
+// 	}
 
-	/* on click */
-	&:active {
+// 	/* on click */
+// 	&:active {
 
-	}
+// 	}
 
-	/* mobile tap color */
-	&:link {
-		/*
-		this highlights links on iPhones/iPads.
-		so it basically works like the :hover selector
-		for mobile devices.
-		*/
-		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-	}
-}
+// 	/* mobile tap color */
+// 	&:link {
+// 		/*
+// 		this highlights links on iPhones/iPads.
+// 		so it basically works like the :hover selector
+// 		for mobile devices.
+// 		*/
+// 		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
+// 	}
+// }
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	font-family: $sans-serif;
 	text-rendering: optimizelegibility;
-	font-weight: 500;
+	font-weight: bold;
+	letter-spacing: -0.4px;
+	margin-top: 0;
+	color: $title-color;
+
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -122,7 +135,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-size: 2.5em;
+	font-size: 2.2em;
 	line-height: 1.333em;
 }
 
@@ -133,7 +146,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-	font-size: 1.125em;
+	font-size: 1.425em;
 }
 
 h4, .h4 {
@@ -148,21 +161,17 @@ h5, .h5 {
 	letter-spacing: 2px;
 }
 
-/*********************
-HEADER STYLES
-*********************/
-
-.header {
-	background-color: $black;
+.bordered {
+	&:after {
+		content: "";
+	    width: 30px;
+	    height: 3px;
+	    background: $title-color;
+	    display: block;
+	    margin-top: 0.8em;
+	}
 }
 
-	#logo {
-		margin: 0.75em 0;
-
-		a {
-			color: $white;
-		}
-	}
 
 /*********************
 NAVIGATION STYLES
@@ -251,9 +260,6 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 
-#content {
-	margin-top: 1.5em;
-}
 
 		.hentry {
 			background-color: $white;
@@ -862,7 +868,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
+	background-color: $footer-bg;
 	color: $light-gray;
 }
 
@@ -887,3 +893,6 @@ FOOTER STYLES
 
 
 	.copyright {}
+
+
+

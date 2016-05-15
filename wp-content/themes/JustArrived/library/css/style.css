@@ -504,6 +504,18 @@ The following is based of Typebase:
 https://github.com/devinhunt/typebase.css
 I've edited it a bit, but it's a nice starting point.
 */
+@font-face {
+  font-family: 'museo-reg';
+  src: url("../fonts/museo/MuseoSans_500-webfont.eot");
+  src: url("../fonts/museo/MuseoSans_500-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/museo/MuseoSans_500-webfont.woff2") format("woff2"), url("../fonts/museo/MuseoSans_500-webfont.woff") format("woff"), url("../fonts/museo/MuseoSans_500-webfont.ttf") format("truetype"), url("../fonts/museo/MuseoSans_500-webfont.svg#museo_sans500") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo-reg-ita';
+  src: url("../fonts/museo/MuseoSans_500_Italic-webfont.eot");
+  src: url("../fonts/museo/MuseoSans_500_Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/museo/MuseoSans_500_Italic-webfont.woff2") format("woff2"), url("../fonts/museo/MuseoSans_500_Italic-webfont.woff") format("woff"), url("../fonts/museo/MuseoSans_500_Italic-webfont.ttf") format("truetype"), url("../fonts/museo/MuseoSans_500_Italic-webfont.svg#museo_sans500_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /*
  i imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.
@@ -513,6 +525,8 @@ some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
 p {
+  font-size: 14px;
+  margin: 0 0 1em;
   -ms-word-wrap: break-word;
   word-break: break-word;
   word-wrap: break-word;
@@ -615,6 +629,9 @@ BOX SIZING
 /* @include box-sizing(border-box); */
 /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
+/*********************
+MEDIA QUERIES
+*********************/
 /******************************************************************
 Site Name:
 Author:
@@ -907,28 +924,31 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, .comment-reply-link, #submit {
+.blue-btn, .comment-reply-link, #submit, .primary-btn, .border-btn, .transparent-btn {
   display: inline-block;
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #fff;
-  font-size: 0.9em;
-  font-size: 34px;
-  line-height: 34px;
+  font-size: 0.75em;
+  line-height: 2.3;
   font-weight: normal;
-  padding: 0 24px;
-  border-radius: 4px;
+  padding: 0 18px;
+  border-radius: 30px;
   border: 0;
   cursor: pointer;
+  font-weight: 600;
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
-  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .primary-btn:hover, .border-btn:hover, .transparent-btn:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus, .primary-btn:focus, .border-btn:focus, .transparent-btn:focus {
     color: #fff;
     text-decoration: none;
     outline: none; }
-  .blue-btn:active, .comment-reply-link:active, #submit:active {
-    top: 1px; }
+  .blue-btn:visited, .comment-reply-link:visited, #submit:visited, .primary-btn:visited, .border-btn:visited, .transparent-btn:visited {
+    color: #fff; }
+  @media (min-width: 540px) {
+    .blue-btn, .comment-reply-link, #submit, .primary-btn, .border-btn, .transparent-btn {
+      font-size: 0.875em; } }
 
 /*
 An example button.
@@ -941,6 +961,26 @@ and it will create a button dependant on those variables.
     background-color: #2574a8; }
   .blue-btn:active, .comment-reply-link:active, #submit:active {
     background-color: #2472a4; }
+
+.primary-btn {
+  background-color: #e5007d;
+  border: 1px solid #e5007d; }
+  .primary-btn:hover {
+    background-color: #d10072;
+    color: #fff; }
+  .primary-btn:active {
+    background-color: #cc006f; }
+
+.border-btn {
+  background-color: transparent;
+  border: 1px solid #fff; }
+
+.transparent-btn {
+  background-color: transparent;
+  border: 1px solid transparent; }
+
+.btn-large {
+  font-size: 0.875em; }
 
 /******************************************************************
 Site Name:
@@ -985,14 +1025,14 @@ textarea,
   padding: 0 12px;
   margin-bottom: 14px;
   font-size: 1em;
-  color: #5c6b80;
+  color: #787D82;
   border-radius: 3px;
   vertical-align: middle;
   box-shadow: none;
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #eaedf2;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out; }
@@ -1231,6 +1271,50 @@ select {
   background-repeat: no-repeat;
   background-position: 97.5% center; }
 
+.header {
+  background-color: #222531;
+  padding: 12px 0; }
+
+.header__logo {
+  background: url(../images/justarrived-logo.png) no-repeat;
+  background-size: 219px 42px;
+  width: 219px;
+  height: 42px;
+  margin: 0 auto 1em;
+  text-indent: -9999em; }
+  @media (min-width: 540px) {
+    .header__logo {
+      float: left;
+      margin: 0; } }
+
+.header__btns {
+  float: left;
+  clear: both;
+  width: 100%;
+  text-align: center; }
+  .header__btns > a {
+    margin: 0 0.3em; }
+  .header__btns .transparent-btn {
+    padding: 0; }
+  @media (min-width: 540px) {
+    .header__btns {
+      float: right;
+      clear: none;
+      width: auto;
+      position: relative;
+      top: 4px; }
+      .header__btns > a {
+        margin: 0 0 0 0.6em; } }
+
+.module-padding {
+  padding: 2em 0; }
+  @media (min-width: 768px) {
+    .module-padding {
+      padding: 5em 0; } }
+
+.footer {
+  background: #121315 !important; }
+
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -1253,13 +1337,18 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
+  color: #787D82;
   background-color: #eaedf2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.module-cf:after, .module__intro:after, .col-wrapper:after, .module__btc--inner:after, .module__mtt--inner:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1304,33 +1393,22 @@ style a page via class
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 96%;
+  width: 92%;
   margin: 0 auto; }
 
 /*********************
 LINK STYLES
 *********************/
-a, a:visited {
-  color: #f01d4f;
-  /* on hover */
-  /* on click */
-  /* mobile tap color */ }
-  a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #d10e3c; }
-  a:link, a:visited:link {
-    /*
-    this highlights links on iPhones/iPads.
-    so it basically works like the :hover selector
-    for mobile devices.
-    */
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
-
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizelegibility;
-  font-weight: 500;
+  font-weight: bold;
+  letter-spacing: -0.4px;
+  margin-top: 0;
+  color: #383f4e;
   /*
   if you're going to use webfonts, be sure to check your weights
   http://css-tricks.com/watch-your-font-weight/
@@ -1340,7 +1418,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-decoration: none; }
 
 h1, .h1 {
-  font-size: 2.5em;
+  font-size: 2.2em;
   line-height: 1.333em; }
 
 h2, .h2 {
@@ -1349,7 +1427,7 @@ h2, .h2 {
   margin-bottom: 0.375em; }
 
 h3, .h3 {
-  font-size: 1.125em; }
+  font-size: 1.425em; }
 
 h4, .h4 {
   font-size: 1.1em;
@@ -1361,16 +1439,13 @@ h5, .h5 {
   text-transform: uppercase;
   letter-spacing: 2px; }
 
-/*********************
-HEADER STYLES
-*********************/
-.header {
-  background-color: #323944; }
-
-#logo {
-  margin: 0.75em 0; }
-  #logo a {
-    color: #fff; }
+.bordered:after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background: #383f4e;
+  display: block;
+  margin-top: 0.8em; }
 
 /*********************
 NAVIGATION STYLES
@@ -1415,9 +1490,6 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-#content {
-  margin-top: 1.5em; }
-
 .hentry {
   background-color: #fff;
   border-radius: 3px;
@@ -1580,10 +1652,10 @@ PAGE NAVI STYLES
       color: #fff; }
   .pagination .current {
     cursor: default;
-    color: #5c6b80; }
+    color: #787D82; }
     .pagination .current:hover, .pagination .current:focus {
       background-color: #fff;
-      color: #5c6b80; }
+      color: #787D82; }
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
@@ -1694,7 +1766,7 @@ COMMENT FORM STYLES
   font-style: italic;
   margin: 0; }
   .logged-in-as a {
-    color: #5c6b80; }
+    color: #787D82; }
 
 .comment-form-comment {
   margin: 1.5em 0 0.75em; }
@@ -1742,7 +1814,7 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
+  background-color: #222531;
   color: #f8f9fa; }
 
 /*
@@ -1755,6 +1827,171 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+.module-tertiary {
+  background: #222531; }
+  .module-tertiary h3 {
+    color: #fff; }
+    .module-tertiary h3:after {
+      background: #fff; }
+  .module-tertiary p {
+    color: rgba(255, 255, 255, 0.7); }
+
+.module-secondary {
+  background: #0069d2; }
+  .module-secondary h3 {
+    color: #fff; }
+    .module-secondary h3:after {
+      background: #fff; }
+  .module-secondary p {
+    color: rgba(255, 255, 255, 0.7); }
+
+.module-primary {
+  background: #e5007d; }
+  .module-primary h3 {
+    color: #fff; }
+    .module-primary h3:after {
+      background: #fff; }
+  .module-primary p {
+    color: rgba(255, 255, 255, 0.9); }
+  .module-primary a.txt-link {
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    .module-primary a.txt-link:hover {
+      border-color: rgba(255, 255, 255, 0.7); }
+
+.module-white a.txt-link {
+  font-weight: 600;
+  color: #383f4e;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(56, 63, 78, 0.2); }
+  .module-white a.txt-link:hover {
+    border-color: rgba(56, 63, 78, 0.7); }
+.module-white .border-btn {
+  border-color: #383f4e;
+  color: #383f4e; }
+
+@media (min-width: 768px) {
+  .module__intro--inner {
+    max-width: 740px !important; } }
+
+@media (min-width: 768px) {
+  .module__intro--title {
+    float: left;
+    width: 40%;
+    padding-right: 1em; } }
+
+@media (min-width: 768px) {
+  .module__intro--text {
+    margin: 0 auto;
+    padding-left: 1em;
+    max-width: 536px; } }
+
+@media (min-width: 768px) {
+  .module__how {
+    text-align: center; }
+    .module__how h3 {
+      max-width: 540px;
+      margin: 0 auto 2em; }
+    .module__how p {
+      max-width: 290px;
+      margin-left: auto;
+      margin-right: auto; } }
+
+.col-3 {
+  float: left;
+  width: 33%;
+  padding: 0 1em; }
+
+.col--icon {
+  background-position: 50% top;
+  background-repeat: no-repeat;
+  padding-top: 46px; }
+
+.icon--tick {
+  background-image: url(../images/icons/ic-tick.png);
+  background-size: 35px 35px; }
+
+.icon--pen {
+  background-image: url(../images/icons/ic-pen.png);
+  background-size: 28px 31px; }
+
+.icon--profile {
+  background-image: url(../images/icons/ic-profile.png);
+  background-size: 30px 32px; }
+
+.module__btc--image {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .module__btc--image {
+      float: left;
+      width: 50%;
+      padding-right: 2em; } }
+  .module__btc--image img {
+    margin: 0 auto 2em;
+    max-width: 488px;
+    display: block; }
+
+@media (min-width: 768px) {
+  .module__btc--text {
+    float: left;
+    width: 50%; } }
+
+.module__mtt--image {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .module__mtt--image {
+      float: right;
+      width: 50%;
+      padding-left: 2em; } }
+  .module__mtt--image img {
+    margin: 0 auto 2em;
+    max-width: 488px;
+    display: block; }
+
+@media (min-width: 768px) {
+  .module__mtt--text {
+    float: left;
+    width: 50%; } }
+
+@media (min-width: 768px) {
+  .module__joinus--title {
+    float: left;
+    width: 40%;
+    padding-right: 1em; } }
+
+@media (min-width: 768px) {
+  .module__joinus--text {
+    margin: 0 auto;
+    padding-left: 1em;
+    max-width: 536px; } }
+
+@media (min-width: 768px) {
+  .module__sayhi {
+    text-align: center; }
+    .module__sayhi h3 {
+      max-width: 540px;
+      margin: 0 auto 2em; }
+    .module__sayhi p {
+      max-width: 290px;
+      margin-left: auto;
+      margin-right: auto; } }
+.module__sayhi .col--icon {
+  padding-top: 0; }
+
+.profile-pic {
+  border: 2px solid #fff;
+  border-radius: 50%; }
+
+.signup-form {
+  max-width: 400px;
+  margin: 0 auto; }
+
+.form-col--submit-btn {
+  text-align: left;
+  margin-top: 1.2em; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's

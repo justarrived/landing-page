@@ -58,6 +58,12 @@ you hate oysters, then the world is your peanut butter & jelly sandwich.
 // forms (inputs & labels)
 @import "modules/forms";
 
+@import "modules/header";
+
+@import "modules/module";
+
+@import "modules/footer";
+
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -67,6 +73,9 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 
 // styles in base.scss
 @import "breakpoints/base";
+
+// Templates
+@import "templates/homepage";
 
 /*********************
 LARGER MOBILE DEVICES

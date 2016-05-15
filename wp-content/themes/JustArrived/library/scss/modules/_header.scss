@@ -1,0 +1,45 @@
+.header {
+  background-color: $header-bg;
+  padding: 12px 0;
+}
+
+.header__logo {
+  background: url(../images/justarrived-logo.png) no-repeat;
+  background-size: 219px 42px;
+  width: 219px;
+  height: 42px;
+  margin: 0 auto 1em;
+  text-indent: -9999em;
+
+  @include mobile-large {
+    float: left;
+    margin: 0;  
+  }
+}
+
+.header__btns {
+  float: left;
+  clear: both;
+  width: 100%;
+  text-align: center;
+
+  & > a {
+    margin: 0 0.3em;
+  }
+
+  & .transparent-btn {
+    padding: 0;
+  }
+
+  @include mobile-large {
+    float: right;
+    clear: none;
+    width: auto;
+    position: relative;
+    top: 4px;
+
+    & > a {
+      margin: 0 0 0 0.6em;
+    }
+  }
+}

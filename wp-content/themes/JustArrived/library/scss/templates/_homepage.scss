@@ -1,0 +1,237 @@
+.module__intro {
+	@extend %clearfix;
+}
+
+.module-tertiary {
+	background: $charcoal-medium;
+	& h3 {
+		color: #fff;
+		&:after {
+			background: #fff;
+		}
+	}
+	& p {
+		color: rgba(255,255,255,0.7);
+	}
+}
+
+.module-secondary {
+	background: $bluesea;
+	& h3 {
+		color: #fff;
+		&:after {
+			background: #fff;
+		}
+	}
+	& p {
+		color: rgba(255,255,255,0.7);
+	}
+}
+
+.module-primary {
+	background: $cerise;
+	& h3 {
+		color: #fff;
+		&:after {
+			background: #fff;
+		}
+	}
+	& p {
+		color: rgba(255,255,255,0.9);
+	}
+	& a.txt-link {
+		font-weight: 600;
+		color: $white;
+		text-decoration: none;
+		border-bottom: 1px solid transparentize($white, 0.6);
+		&:hover {
+			border-color: transparentize($white, 0.3);
+		}
+	}
+}
+
+.module-white {
+	& a.txt-link {
+		font-weight: 600;
+		color: $charcoal;
+		text-decoration: none;
+		border-bottom: 1px solid transparentize($charcoal, 0.8);
+		&:hover {
+			border-color: transparentize($charcoal, 0.3);
+		}
+	}
+	& .border-btn {
+		border-color: $charcoal;
+		color: $charcoal;
+	}
+}
+
+.module__intro--inner {
+	@include tablet {
+		max-width: 740px !important;
+	}
+}
+
+.module__intro--title {
+	@include tablet {
+		float: left;
+		width: 40%;
+		padding-right: 1em;
+	}
+}
+
+.module__intro--text {
+	@include tablet {
+		margin: 0 auto;
+		padding-left: 1em;
+		max-width: 536px;
+	}
+}
+
+.module__how {
+	@include tablet {
+		text-align: center;
+		& h3 {
+			max-width: 540px;
+			margin: 0 auto 2em;
+		}
+		& p {
+			max-width: 290px;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+	}
+}
+
+.col-wrapper {
+	@extend %clearfix;
+}
+
+.col-3 {
+	float: left;
+	width: 33%;
+	padding: 0 1em;
+}
+
+.col--icon {
+	background-position: 50% top;
+	background-repeat: no-repeat;
+	padding-top: 46px;
+	@include tablet {
+
+	}
+}
+
+.icon--tick {
+	background-image: url(../images/icons/ic-tick.png);
+	background-size: 35px 35px;
+}
+
+.icon--pen {
+	background-image: url(../images/icons/ic-pen.png);
+	background-size: 28px 31px;
+}
+
+.icon--profile {
+	background-image: url(../images/icons/ic-profile.png);
+	background-size: 30px 32px;
+}
+
+.module__btc--inner {
+	@extend %clearfix;
+}
+
+.module__btc--image {
+	width: 100%;
+	@include tablet {
+		float: left;
+		width: 50%;
+		padding-right: 2em;	
+	}
+	& img {
+		margin: 0 auto 2em;
+		max-width: 488px;
+		display: block;
+	}
+}
+
+.module__btc--text {
+	@include tablet {
+		float: left;
+		width: 50%;
+	}
+}
+
+.module__mtt--inner {
+	@extend %clearfix;
+}
+
+.module__mtt--image {
+	width: 100%;
+	@include tablet {
+		float: right;
+		width: 50%;
+		padding-left: 2em;	
+	}
+	& img {
+		margin: 0 auto 2em;
+		max-width: 488px;
+		display: block;
+	}
+}
+
+.module__mtt--text {
+	@include tablet {
+		float: left;
+		width: 50%;
+	}
+}
+
+.module__joinus--title {
+	@include tablet {
+		float: left;
+		width: 40%;
+		padding-right: 1em;
+	}
+}
+
+.module__joinus--text {
+	@include tablet {
+		margin: 0 auto;
+		padding-left: 1em;
+		max-width: 536px;
+	}
+}
+
+.module__sayhi {
+	@include tablet {
+		text-align: center;
+		& h3 {
+			max-width: 540px;
+			margin: 0 auto 2em;
+		}
+		& p {
+			max-width: 290px;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+	}
+	& .col--icon {
+		padding-top: 0;
+	}
+}
+
+.profile-pic {
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+
+.signup-form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.form-col--submit-btn {
+	text-align: left;
+    margin-top: 1.2em;
+}
