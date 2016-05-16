@@ -542,6 +542,9 @@ p {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig"; }
 
+strong {
+  font-weight: 600; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -942,11 +945,11 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   transition: background-color 0.14s ease-in-out; }
   .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .primary-btn:hover, .border-btn:hover, .transparent-btn:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus, .primary-btn:focus, .border-btn:focus, .transparent-btn:focus {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none !important;
     outline: none; }
   .blue-btn:visited, .comment-reply-link:visited, #submit:visited, .primary-btn:visited, .border-btn:visited, .transparent-btn:visited {
     color: #fff; }
-  @media (min-width: 540px) {
+  @media (min-width: 600px) {
     .blue-btn, .comment-reply-link, #submit, .primary-btn, .border-btn, .transparent-btn {
       font-size: 0.875em; } }
 
@@ -979,8 +982,13 @@ and it will create a button dependant on those variables.
   background-color: transparent;
   border: 1px solid transparent; }
 
+.transparent-btn--blue:hover {
+  background: #fff;
+  color: #0069d2; }
+
 .btn-large {
-  font-size: 0.875em; }
+  font-size: 0.875em;
+  padding: 0 24px; }
 
 /******************************************************************
 Site Name:
@@ -1282,7 +1290,7 @@ select {
   height: 42px;
   margin: 0 auto 1em;
   text-indent: -9999em; }
-  @media (min-width: 540px) {
+  @media (min-width: 600px) {
     .header__logo {
       float: left;
       margin: 0; } }
@@ -1296,7 +1304,7 @@ select {
     margin: 0 0.3em; }
   .header__btns .transparent-btn {
     padding: 0; }
-  @media (min-width: 540px) {
+  @media (min-width: 600px) {
     .header__btns {
       float: right;
       clear: none;
@@ -1306,14 +1314,168 @@ select {
       .header__btns > a {
         margin: 0 0 0 0.6em; } }
 
-.module-padding {
+.module {
+  position: relative; }
+  .module a {
+    text-decoration: none;
+    font-weight: 600; }
+    .module a:hover {
+      text-decoration: underline; }
+
+.module--padding {
   padding: 2em 0; }
+  @media (min-width: 600px) {
+    .module--padding {
+      padding: 3em 0; } }
   @media (min-width: 768px) {
-    .module-padding {
-      padding: 5em 0; } }
+    .module--padding {
+      padding: 4em 0; } }
+
+.module--white {
+  color: #fff; }
+  .module--white p, .module--white ul, .module--white ol {
+    color: #c8cdd2; }
+  .module--white a {
+    color: #fff; }
+
+.module--primary {
+  color: #fff; }
+  .module--primary p, .module--primary ul, .module--primary ol {
+    color: rgba(255, 255, 255, 0.9); }
+
+.module--black {
+  color: #222531; }
+  .module--black p, .module--black ul, .module--black ol {
+    color: #787D82; }
+
+.module--black-bg {
+  background: #222531; }
+
+.module--white-bg {
+  background: #fff; }
+
+.module--primary-bg {
+  background: #e5007d; }
+
+.module--secondary-bg {
+  background: #0069d2; }
+
+.module-content--padding {
+  padding: 2em 1em; }
+  @media (min-width: 600px) {
+    .module-content--padding {
+      padding: 2em; } }
+
+@media (min-width: 768px) {
+  .module-content--centered {
+    max-width: 520px;
+    margin: 0 auto; } }
+
+@media (min-width: 768px) {
+  .module-content--left {
+    float: left;
+    max-width: 420px; } }
+
+@media (min-width: 768px) {
+  .module-content--left-last {
+    float: left;
+    padding-left: 3em;
+    width: 100%;
+    max-width: 620px; } }
+
+@media (min-width: 768px) {
+  .module-content--right {
+    float: right;
+    max-width: 420px; } }
+
+.module--bg-cover {
+  background-size: cover;
+  background-position: 50%; }
+  .module--bg-cover .wrap {
+    position: relative;
+    z-index: 1; }
+
+.module__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
+.module__overlay--black {
+  background: #222531;
+  opacity: 0.9; }
+
+.module__overlay--secondary {
+  background: #0069d2;
+  opacity: 0.8; }
+
+.module--txt {
+  padding: 2em 1em; }
+  @media (min-width: 600px) {
+    .module--txt {
+      padding: 2em; } }
+  @media (min-width: 880px) {
+    .module--txt {
+      float: right;
+      width: 50%; } }
+
+.module--img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 280px; }
+  @media (min-width: 880px) {
+    .module--img {
+      position: absolute;
+      left: 0;
+      width: 50%;
+      height: 100%; } }
+
+.module--fig {
+  margin: 0 auto;
+  padding: 2em 4%;
+  clear: both;
+  width: auto; }
+  @media (min-width: 600px) {
+    .module--fig {
+      padding: 3em 12%; } }
+  @media (min-width: 768px) {
+    .module--fig {
+      width: 420px;
+      padding: 2em;
+      top: 0;
+      right: 0;
+      height: 100%;
+      position: absolute; } }
+
+@media (min-width: 768px) {
+  .module--txt-c {
+    text-align: center; } }
+
+.module--txt-l {
+  text-align: left; }
+
+.module--txt-r {
+  text-align: right; }
+
+.columns {
+  margin: 0 auto; }
+
+@media (min-width: 768px) {
+  .column-1-2 {
+    width: 50%;
+    padding: 0 1em;
+    float: left; } }
+
+@media (min-width: 768px) {
+  .column-1-3 {
+    width: 33%;
+    padding: 0 1em;
+    float: left; } }
 
 .footer {
-  background: #121315 !important; }
+  clear: both;
+  color: #f8f9fa;
+  background: #121315; }
 
 /*********************
 BASE (MOBILE) SIZE
@@ -1345,7 +1507,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.module-cf:after, .module__intro:after, .col-wrapper:after, .module__btc--inner:after, .module__mtt--inner:after {
+.module:after, .columns:after, .wrap:after, .module__intro:after, .col-wrapper:after, .module__btc--inner:after, .module__mtt--inner:after {
   content: "";
   display: table;
   clear: both; }
@@ -1393,8 +1555,18 @@ style a page via class
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
+  position: relative;
   width: 92%;
   margin: 0 auto; }
+  @media (min-width: 600px) {
+    .wrap {
+      width: 76%; } }
+  @media (min-width: 768px) {
+    .wrap {
+      width: 86%; } }
+  @media (min-width: 1024px) {
+    .wrap {
+      width: 92%; } }
 
 /*********************
 LINK STYLES
@@ -1403,12 +1575,11 @@ LINK STYLES
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "museo-reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizelegibility;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: -0.4px;
   margin-top: 0;
-  color: #383f4e;
   /*
   if you're going to use webfonts, be sure to check your weights
   http://css-tricks.com/watch-your-font-weight/
@@ -1422,9 +1593,13 @@ h1, .h1 {
   line-height: 1.333em; }
 
 h2, .h2 {
-  font-size: 1.75em;
-  line-height: 1.4em;
-  margin-bottom: 0.375em; }
+  font-size: 1.33em;
+  line-height: 1.22; }
+  @media (min-width: 768px) {
+    h2, .h2 {
+      font-size: 1.6em;
+      line-height: 1.333em;
+      margin-bottom: 0.6333em; } }
 
 h3, .h3 {
   font-size: 1.425em; }
@@ -1443,7 +1618,7 @@ h5, .h5 {
   content: "";
   width: 30px;
   height: 3px;
-  background: #383f4e;
+  background: #e5007d;
   display: block;
   margin-top: 0.8em; }
 
@@ -1809,24 +1984,11 @@ SIDEBARS & ASIDES
   border-radius: 2px;
   margin-bottom: 1.5em; }
 
-/*********************
-FOOTER STYLES
-*********************/
-.footer {
-  clear: both;
-  background-color: #222531;
-  color: #f8f9fa; }
+img {
+  max-width: 100%;
+  margin-bottom: 0;
+  width: 100%; }
 
-/*
-if you checked out the link above:
-http://www.alistapart.com/articles/organizing-mobile/
-you'll want to style the footer nav
-a bit more in-depth. Remember to keep
-it simple because you'll have to
-override these styles for the desktop
-view.
-*/
-/* end .footer-links */
 .module-tertiary {
   background: #222531; }
   .module-tertiary h3 {
@@ -1909,18 +2071,6 @@ view.
   background-repeat: no-repeat;
   padding-top: 46px; }
 
-.icon--tick {
-  background-image: url(../images/icons/ic-tick.png);
-  background-size: 35px 35px; }
-
-.icon--pen {
-  background-image: url(../images/icons/ic-pen.png);
-  background-size: 28px 31px; }
-
-.icon--profile {
-  background-image: url(../images/icons/ic-profile.png);
-  background-size: 30px 32px; }
-
 .module__btc--image {
   width: 100%; }
   @media (min-width: 768px) {
@@ -1982,7 +2132,9 @@ view.
 
 .profile-pic {
   border: 2px solid #fff;
-  border-radius: 50%; }
+  border-radius: 50%;
+  width: 140px;
+  height: 140px; }
 
 .signup-form {
   max-width: 400px;
@@ -1991,6 +2143,69 @@ view.
 .form-col--submit-btn {
   text-align: left;
   margin-top: 1.2em; }
+
+.section--introduction {
+  text-align: center; }
+  .section--introduction .columns {
+    text-align: left; }
+    @media (min-width: 880px) {
+      .section--introduction .columns {
+        width: 768px; } }
+
+.section--how-to h2,
+.section--say-hej h2 {
+  max-width: 560px;
+  margin: 0 auto; }
+.section--how-to .columns,
+.section--say-hej .columns {
+  margin-top: 0.5em; }
+  @media (min-width: 768px) {
+    .section--how-to .columns,
+    .section--say-hej .columns {
+      margin-top: 2em; } }
+.section--how-to .icon,
+.section--say-hej .icon {
+  padding: 1em 0 1em 50px;
+  background-position: left 50%; }
+  @media (min-width: 768px) {
+    .section--how-to .icon,
+    .section--say-hej .icon {
+      padding: 0;
+      padding-top: 50px;
+      background-position: 50% top; } }
+
+.icon {
+  background-repeat: no-repeat; }
+  .icon p {
+    margin: 0; }
+
+.icon--tick {
+  background-image: url(../images/icons/ic-tick-pink.png);
+  background-size: 35px 35px; }
+
+.icon--pen {
+  background-image: url(../images/icons/ic-pen-pink.png);
+  background-size: 28px 31px; }
+
+.icon--profile {
+  background-image: url(../images/icons/ic-profile-pink.png);
+  background-size: 30px 32px; }
+
+@media (max-width: 600px) {
+  .section--change .wrap {
+    width: 100%;
+    max-width: 100%; } }
+
+.module--meet-team-text p:last-child {
+  margin-bottom: 0; }
+
+.section--meet-team {
+  margin-top: 4em;
+  text-align: center;
+  min-height: 280px; }
+  @media (min-width: 768px) {
+    .section--meet-team {
+      min-height: 600px; } }
 
 /*********************
 LARGER MOBILE DEVICES

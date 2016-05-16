@@ -76,8 +76,9 @@ MEDIA QUERIES
 *********************/
 
 $mobile-width: 480px;
-$mobile-large-width: 540px;
+$tablet-small: 600px;
 $tablet-width: 768px;
+$desktop-small: 880px;
 $desktop-width: 1024px;
 
 @mixin mobile {
@@ -86,8 +87,14 @@ $desktop-width: 1024px;
   }
 }
 
-@mixin mobile-large {
-  @media (min-width: #{$mobile-large-width}) {
+@mixin tablet-small-down {
+  @media (max-width: #{$tablet-small}) {
+    @content;
+  }
+}
+
+@mixin tablet-small {
+  @media (min-width: #{$tablet-small}) {
     @content;
   }
 }
@@ -100,6 +107,12 @@ $desktop-width: 1024px;
 
 @mixin tablet-desktop {
   @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop-small {
+  @media (min-width: #{$desktop-small}) {
     @content;
   }
 }

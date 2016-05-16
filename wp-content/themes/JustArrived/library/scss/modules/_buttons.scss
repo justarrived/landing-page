@@ -43,7 +43,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   // hovering on the btn
   &:hover, &:focus {
     color: $white;
-    text-decoration: none;
+    text-decoration: none !important;
     outline: none;
   } // end hover
 
@@ -55,7 +55,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
     color: $white;
   }
 
-  @include mobile-large {
+  @include tablet-small {
     font-size: em(14);
   }
 
@@ -121,7 +121,15 @@ and it will create a button dependant on those variables.
   }
 }
 
+.transparent-btn--blue {
+  &:hover {
+    background: #fff;
+    color: $bluesea;
+  }
+}
+
 .btn-large {
   font-size: em(14);
+  padding: 0 24px;
   // line-height: 2.3;
 }

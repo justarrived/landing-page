@@ -597,6 +597,8 @@ body#tinymce.wp-editor {
     -ms-font-feature-settings: "liga", "dlig";
     -o-font-feature-settings: "liga", "dlig";
     font-feature-settings: "liga", "dlig"; }
+  body#tinymce.wp-editor strong {
+    font-weight: 600; }
   body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
     color: #f01d4f;
     /* on hover */

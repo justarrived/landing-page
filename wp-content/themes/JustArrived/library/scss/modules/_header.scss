@@ -11,7 +11,7 @@
   margin: 0 auto 1em;
   text-indent: -9999em;
 
-  @include mobile-large {
+  @include tablet-small {
     float: left;
     margin: 0;  
   }
@@ -31,7 +31,7 @@
     padding: 0;
   }
 
-  @include mobile-large {
+  @include tablet-small {
     float: right;
     clear: none;
     width: auto;

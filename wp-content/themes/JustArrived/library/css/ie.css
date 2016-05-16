@@ -122,6 +122,9 @@ p {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig"; }
 
+strong {
+  font-weight: 600; }
+
 /******************************************************************
 Site Name:
 Author:
