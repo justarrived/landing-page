@@ -20,9 +20,21 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: #efefef;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
+}
+
+#container {
+	@include mobile {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+#content {
+	background: #fff;
+	box-shadow: 0 0px 50px rgba(0,0,0,0.1);
 }
 
 %clearfix {
@@ -81,7 +93,7 @@ LAYOUT & GRID STYLES
 .wrap {
 	@extend %clearfix;
 	position: relative;
-	width: 92%;
+	width: 90%;
 	margin: 0 auto;
 	@include tablet-small {
 		width: 76%;
@@ -97,6 +109,10 @@ LAYOUT & GRID STYLES
 /*********************
 LINK STYLES
 *********************/
+
+a {
+	color: $bluesea;
+}
 
 // a, a:visited {
 // 	color: $link-color;
@@ -169,7 +185,7 @@ h4, .h4 {
 	font-weight: 700;
 }
 
-h5, .h5 {
+h5, .h5 {	
 	font-size: 0.846em;
 	line-height: 2.09em;
 	text-transform: uppercase;
@@ -177,13 +193,46 @@ h5, .h5 {
 }
 
 .bordered {
-	&:after {
+	&:before {
 		content: "";
 	    width: 30px;
 	    height: 3px;
-	    background: $cerise;
+	    background: $stone;
 	    display: block;
-	    margin-top: 0.8em;
+	    margin: 0 0 0.6em;
+	    @include tablet {
+	    	margin: 0 auto 0.6em;	
+	    }
+	}
+	&.bordered--centered {
+		&:before {
+			margin: 0 auto 0.6em;
+		}
+	}
+	&.bordered--left {
+		&:before {
+			margin: 0 0 0.6em;
+		}
+	}
+	&.bordered--primary {
+		&:before {
+			background: $cerise;
+		}
+	}
+	&.bordered--secondary {
+		&:before {
+			background: $bluesea;
+		}
+	}
+	&.bordered--white {
+		&:before {
+			background: #fff;
+		}
+	}
+	&.bordered--lightblue {
+		&:before {
+			background: $bluesky;
+		}
 	}
 }
 

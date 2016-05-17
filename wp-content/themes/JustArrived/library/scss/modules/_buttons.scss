@@ -30,7 +30,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   font-family: $sans-serif;
   text-decoration: none;
   color: $white;
-  font-size: em(12);
+  font-size: 14px;
   line-height: 2.3;
   font-weight: normal;
   padding: 0 18px;
@@ -107,6 +107,22 @@ and it will create a button dependant on those variables.
   &:active {
     // background-color: darken($cerise, 5%);
   }
+  &.border-btn--pink {
+    border-color: $cerise;
+    color: $cerise;
+    &:hover {
+      background: $cerise;
+      color: #fff;
+    }
+  }
+  &.border-btn--blue {
+    border-color: $bluesea;
+    color: $bluesea;
+    &:hover {
+      background: $bluesea;
+      color: #fff;
+    }
+  }
 }
 
 .transparent-btn {
@@ -128,8 +144,15 @@ and it will create a button dependant on those variables.
   }
 }
 
+.transparent-btn--pink {
+  &:hover {
+    background: #fff;
+    color: $cerise;
+  }
+}
+
 .btn-large {
-  font-size: em(14);
+  font-size: 16px;
   padding: 0 24px;
   // line-height: 2.3;
 }
