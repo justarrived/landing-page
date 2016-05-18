@@ -1,3 +1,22 @@
+.section--hero {
+	& .table {
+		min-height: 250px;
+		@include tablet {
+			min-height: 300px;
+		}
+		@include desktop {
+			min-height: 400px;
+		}
+	}
+	& h1 {
+		text-align: center;
+		@include desktop {
+			width: 580px;
+			margin: 0 auto;
+		}
+	}
+}
+
 .section--introduction {
 	& .columns {
 		@include desktop {
@@ -99,7 +118,21 @@
 	min-height: 280px;
 	background-position: 50% 50%;
 	@include tablet {
-		min-height: 500px;	
+		min-height: 580px;	
+	}
+}
+
+.section--joinus {
+
+}
+
+.module--checklist {
+	padding-top: 1.5em;
+	& h4 {
+		color: $bluesea;
+	}
+	& li {
+		margin-bottom: 0.6em;
 	}
 }
 

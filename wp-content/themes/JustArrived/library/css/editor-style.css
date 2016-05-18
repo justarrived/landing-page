@@ -580,7 +580,7 @@ body#tinymce.wp-editor {
     src: url("../fonts/museo/MuseoSans_500_Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/museo/MuseoSans_500_Italic-webfont.woff2") format("woff2"), url("../fonts/museo/MuseoSans_500_Italic-webfont.woff") format("woff"), url("../fonts/museo/MuseoSans_500_Italic-webfont.ttf") format("truetype"), url("../fonts/museo/MuseoSans_500_Italic-webfont.svg#museo_sans500_italic") format("svg");
     font-weight: normal;
     font-style: normal; } }
-  body#tinymce.wp-editor p {
+  body#tinymce.wp-editor p, body#tinymce.wp-editor ul, body#tinymce.wp-editor ol {
     font-size: 14px;
     margin: 0 0 1em;
     -ms-word-wrap: break-word;

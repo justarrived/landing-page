@@ -90,7 +90,7 @@ $lato:              'Lato', $sans-serif;
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
-p {
+p, ul, ol {
   font-size: 14px;
   margin: 0 0 1em;
   -ms-word-wrap: break-word;

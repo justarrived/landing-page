@@ -29,6 +29,7 @@ body {
 	@include mobile {
 		width: 90%;
 		margin: 0 auto;
+		max-width: 1480px;
 	}
 }
 
@@ -43,6 +44,17 @@ body {
     display: table;
     clear: both;
   }
+}
+
+.table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 /********************
@@ -162,8 +174,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-size: 2.2em;
-	line-height: 1.333em;
+	font-size: 1.4em;
+	line-height: 1.333;
+	@include mobile {
+		font-size: 1.8em;
+		line-height: 1.2;
+	}
+	@include tablet {
+		font-size: 2.2em;
+		line-height: 1.333em;	
+	}
 }
 
 h2, .h2 {

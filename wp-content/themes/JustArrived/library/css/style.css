@@ -524,7 +524,7 @@ I've edited it a bit, but it's a nice starting point.
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
-p {
+p, ul, ol {
   font-size: 14px;
   margin: 0 0 1em;
   -ms-word-wrap: break-word;
@@ -1394,7 +1394,7 @@ select {
 @media (min-width: 768px) {
   .module-content--left {
     float: left;
-    max-width: 420px; } }
+    width: 46%; } }
 
 @media (min-width: 768px) {
   .module-content--left-last {
@@ -1406,7 +1406,7 @@ select {
 @media (min-width: 768px) {
   .module-content--right {
     float: right;
-    max-width: 420px; } }
+    width: 46%; } }
 
 .module--bg-cover {
   background-size: cover;
@@ -1552,7 +1552,8 @@ body {
 @media (min-width: 480px) {
   #container {
     width: 90%;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    max-width: 1480px; } }
 
 #content {
   background: #fff;
@@ -1562,6 +1563,15 @@ body {
   content: "";
   display: table;
   clear: both; }
+
+.table {
+  display: table;
+  height: 100%;
+  width: 100%; }
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1643,8 +1653,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-decoration: none; }
 
 h1, .h1 {
-  font-size: 2.2em;
-  line-height: 1.333em; }
+  font-size: 1.4em;
+  line-height: 1.333; }
+  @media (min-width: 480px) {
+    h1, .h1 {
+      font-size: 1.8em;
+      line-height: 1.2; } }
+  @media (min-width: 768px) {
+    h1, .h1 {
+      font-size: 2.2em;
+      line-height: 1.333em; } }
 
 h2, .h2 {
   font-size: 1.33em;
@@ -2058,6 +2076,21 @@ img {
   margin-bottom: 0;
   width: 100%; }
 
+.section--hero .table {
+  min-height: 250px; }
+  @media (min-width: 768px) {
+    .section--hero .table {
+      min-height: 300px; } }
+  @media (min-width: 1024px) {
+    .section--hero .table {
+      min-height: 400px; } }
+.section--hero h1 {
+  text-align: center; }
+  @media (min-width: 1024px) {
+    .section--hero h1 {
+      width: 580px;
+      margin: 0 auto; } }
+
 @media (min-width: 1024px) {
   .section--introduction .columns {
     width: 768px; } }
@@ -2134,7 +2167,14 @@ img {
   background-position: 50% 50%; }
   @media (min-width: 768px) {
     .section--meet-team {
-      min-height: 500px; } }
+      min-height: 580px; } }
+
+.module--checklist {
+  padding-top: 1.5em; }
+  .module--checklist h4 {
+    color: #0069d2; }
+  .module--checklist li {
+    margin-bottom: 0.6em; }
 
 .section--say-hej {
   text-align: center; }

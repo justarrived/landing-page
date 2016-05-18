@@ -18,12 +18,31 @@
 			<div id="content">
 
 				<section class="
-					section--introduction
+					section--hero
 					module
 					module--padding
 					module--white
 					module--bg-cover"
 					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/couple.jpg)">
+					<div class="table">
+						<div class="table-cell">
+							<div class="wrap">
+								<div class="
+								module-content">
+									<h1>Helping new arrivals in Sweden enter the labour market</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="module__overlay module__overlay--black"></div>
+				</section>
+
+				<section class="
+					section--introduction
+					module
+					module--padding
+					module--white
+					module--black-bg">
 					<div class="wrap">
 						<div class="
 						module-content">
@@ -38,7 +57,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="module__overlay module__overlay--black"></div>
 				</section>
 
 				<section class="
@@ -177,17 +195,31 @@
 					<div class="wrap">
 						<div class="
 						module-content
-						module-content--centered
+						module-content--left
 						">
-							<h2 class="bordered bordered--secondary module--txt-c">Join us</h2>
+							<h2 class="bordered bordered--secondary bordered--left">Join us</h2>
 							<div>
-								<p>JustArrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please <a class="txt-link" href="hej@justarrived.se">get in touch</a>.</p>
+								<p>JustArrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.</p>
  
 							<p>We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.<br><br></p>
-							<p class="module--txt-c">
-								<a href="#" class="border-btn border-btn--blue btn-large">Join us</a>
+							<p>
+								<a href="#" class="border-btn border-btn--blue btn-large">I would like to contribute</a>
 							</p>
 							</div>
+						</div>
+						<div class="
+						module--checklist
+						module-content
+						module-content--right
+						">
+							<h4>Our checklist</h4>
+							<ul class="checklist">
+								<li class="complete"><strike>Application</strike></li>
+								<li class="complete"><strike>Landing page</strike></li>
+								<li class="incomplete">Translations</li>
+								<li class="incomplete">Sponsors</li>
+								<li class="incomplete">Programming</li>
+							</ul>
 						</div>
 					</div>
 				</section>
@@ -245,7 +277,7 @@
 						module-content--centered
 						module--txt-c
 						">
-							<h2 class="bordered bordered--primary">Join our mailing list to find out more</h2>
+							<h2 class="bordered bordered--primary">Sign up to post a job</h2>
 							<form class="signup-form">
 								<div class="form-col">
 									<input type="text" placeholder="Name" />
@@ -281,28 +313,28 @@
 							<h2 class="bordered bordered--primary">We've collaborated with some great companies</h2>
 							<div class="companies">
 								<div class="company">
-									<img src="http://placehold.it/100x60">
+									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60">
+									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60">
+									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60">
+									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60">
+									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60">
+									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60">
+									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60">
+									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
 								</div>
 							</div>
 						</div>
