@@ -125,6 +125,9 @@ p, ul, ol {
 strong {
   font-weight: 600; }
 
+ul.bullet {
+  list-style: disc; }
+
 /******************************************************************
 Site Name:
 Author:

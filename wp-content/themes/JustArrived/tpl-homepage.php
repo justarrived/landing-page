@@ -102,11 +102,16 @@
 							<div class="product-image">
 								<img src="<?php echo get_template_directory_uri(); ?>/library/images/inline/iphone6.png">
 							</div>
-
-							<div class="product-summary
-								">
+							<div class="product-summary">
 								<h2 class="bordered bordered--white bordered--left">Our Product</h2>
-								<p>In 2015, more than 160,000 people applied for asylum in Sweden. These are people like you and me, with the same needs and desires. However, statistics show that it takes many years for most new arrivals to get a job and support themselves in Sweden.*</p>
+								<p>JustArrived is a digital application that matches New Arrivals in Sweden with potential assignments provided by Swedish corporations. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows;</p>
+								<ul class="bullet">
+									<li><strong>Swedish Corporation</strong> post an assigment (from 1 hour to 6 months) on the application without cost</li>
+									<li><strong>New Arrival</strong> can register a digital CV and apply for the assigment</li>
+									<li><strong>Swedish Corporation</strong> can choose a candidate based on their digital CV and reviews from other assignments</li>
+									<li><strong>Swedish Corporation</strong> and New Arrival verify that the job is perfomed and an invoice is sent</li>
+									<li><strong>New Arrival</strong> recieve a the full amount invoiced (after deduction of taxes and other administrative costs)</li>
+								</ul>
 							</div>
 						</div>
 				</section>
@@ -193,33 +198,32 @@
 					module--padding
 					module--black">
 					<div class="wrap">
-						<div class="
-						module-content
-						module-content--left
-						">
+						<div class="module-content module-content--left">
 							<h2 class="bordered bordered--secondary bordered--left">Join us</h2>
-							<div>
-								<p>JustArrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.</p>
- 
-							<p>We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.<br><br></p>
-							<p>
-								<a href="#" class="border-btn border-btn--blue btn-large">I would like to contribute</a>
-							</p>
-							</div>
+							<p>JustArrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.</p>
+							<p>We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.</p>
 						</div>
-						<div class="
-						module--checklist
-						module-content
-						module-content--right
-						">
-							<h4>Our checklist</h4>
+						
+						<div class="module--checklist module-content module-content--right">
+							<h4>Checklist</h4>
 							<ul class="checklist">
-								<li class="complete"><strike>Application</strike></li>
-								<li class="complete"><strike>Landing page</strike></li>
+								<li class="complete">
+									Application
+									<span class="completed-by">Contributed by Company</span>
+								</li>
+								<li class="complete">
+									Landing page
+									<span class="completed-by">Contributed by <a href="http://nova.com" target="_blank" title="nova.com">Nova</a></span>
+								</li>
 								<li class="incomplete">Translations</li>
 								<li class="incomplete">Sponsors</li>
 								<li class="incomplete">Programming</li>
 							</ul>
+						</div>
+						<div class="module-content module-content--left">
+							<p>
+								<a href="#" class="contribute-btn border-btn border-btn--blue btn-large">I would like to contribute</a>
+							</p>
 						</div>
 					</div>
 				</section>
@@ -237,7 +241,7 @@
 
 							<div class="columns columns--inline">
 								<div class="column-1-3">
-									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/pp.jpg">
+									<img class="profile-pic profile-pic--no-border" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/general.png">
 									<p>
 										<strong>General enquiries</strong> <br>
 										<a class="txt-link" href="#">hej@justarrived.se</a> <br>
@@ -245,7 +249,7 @@
 									</p>
 								</div>
 								<div class="column-1-3">
-									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/pp1.jpg">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/andreas.jpg">
 									<p>
 										<strong>Andreas König</strong> <br>
 										Project Manager <br>
@@ -253,7 +257,7 @@
 									</p>
 								</div>
 								<div class="column-1-3">
-									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/pp2.jpg">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/fredric.jpg">
 									<p>
 										<strong>Fredric Ghatan</strong> <br>
 										Product Development <br>
@@ -270,14 +274,15 @@
 					section--mailinglist
 					module
 					module--padding
-					module--black">
+					module--white
+					module--secondary-bg">
 					<div class="wrap">
 						<div class="
 						module-content
 						module-content--centered
 						module--txt-c
 						">
-							<h2 class="bordered bordered--primary">Sign up to post a job</h2>
+							<h2 class="bordered bordered--white">Sign up to post a job</h2>
 							<form class="signup-form">
 								<div class="form-col">
 									<input type="text" placeholder="Name" />
@@ -292,7 +297,7 @@
 									<input type="text" placeholder="Company" />
 								</div>
 								<div class="form-col form-col--submit-btn">
-									<input type="submit" value="Sign up" class="border-btn btn-large border-btn--pink">
+									<input type="submit" value="Sign up" class="border-btn btn-large border-btn--white border-btn--white-blue">
 								</div>
 							</form>
 						</div>
@@ -307,34 +312,39 @@
 					<div class="wrap">
 						<div class="
 						module-content
-						module-content--centered
 						module--txt-c
 						">
 							<h2 class="bordered bordered--primary">We've collaborated with some great companies</h2>
 							<div class="companies">
 								<div class="company">
-									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/janssonnorin.png">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/antrop.png">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/frilansfinans.png">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/cygni.png">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/semantix.png">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/universum.png">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/wintrgarden.png">
 								</div>
 								<div class="company">
-									<img src="http://placehold.it/100x60/eaedf2?text=Logo">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/nova.png">
+								</div>
+								<div class="company">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/rodakorset.png">
+								</div>
+								<div class="company">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/nem.png">
 								</div>
 							</div>
 						</div>

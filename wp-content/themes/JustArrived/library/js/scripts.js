@@ -105,16 +105,94 @@ function loadGravatars() {
 } // end function
 
 
+// Validation
+
+
+
+
 /*
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
 
-  /*
-   * Let's fire off the gravatar function
-   * You can remove this if you don't need it
-  */
-  loadGravatars();
+
+  //open signup popup
+  $('.cd-popup-trigger-signin').on('click', function(event){
+    event.preventDefault();
+    $('.cd-popup-signin').addClass('is-visible');
+  });
+  
+
+  //open promo popup
+  $('.cd-popup-trigger-promo').on('click', function(event){
+    event.preventDefault();
+    $('.cd-popup-promo').addClass('is-visible');
+  });
+  
+  //close popup
+  $('.cd-popup').on('click', function(event){
+    if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
+      event.preventDefault();
+      $(this).removeClass('is-visible');
+    }
+  });
+
+  //close popup when clicking the esc keyboard button
+  $(document).keyup(function(event){
+    if(event.which=='27'){
+      $('.cd-popup').removeClass('is-visible');
+    }
+  });
+
+
+  // language
+  $('.current-lang').on('click', function(event){
+    event.preventDefault();
+    $('.lang-dropdown').addClass('is-visible');
+  });
+
+  $('.lang-dropdown').on('click', function(event){
+    if( $(event.target).is('.lang-dropdown li') || $(event.target).is('.lang-dropdown') ) {
+      event.preventDefault();
+      $(this).removeClass('is-visible');
+    }
+  }); 
+
+
+  var promoCode = $('#promo-code-input').val();
+  // var promoCode = 'this-should be the user input...';
+
+  var url = 'https://just-match-api.herokuapp/api/v1/promo-codes/validate';
+  var appURL = 'https://app.justarrived.se';
+  // var url = 'http://localhost:3000/api/v1/promo-codes/validate';
+  var payload = {
+    data: {
+      attributes: {
+        'promo-code': promoCode
+      }
+    }
+  };
+
+  var successFunction = function (data) {
+    location.href(appURL + '?promo_code=' + promoCode)
+    console.log("Hurray! Correct promo code, you're gonna be taken to the app!");
+  };
+
+  var failFunction = function (data) {
+    var errorMessage = 'Promo code' + data.responseJSON.errors[0].detail;
+    // Add errorMessage to DOM...
+    console.log('Wrong promo code please try again');
+  };
+
+  $.ajax({
+    type: 'POST',
+    url: url,
+    data: payload,
+    dataType: 'json'
+  }).success(successFunction).fail(failFunction);
+
 
 
 }); /* end of as page load scripts */
+
+

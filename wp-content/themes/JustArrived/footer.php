@@ -27,6 +27,63 @@
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
 
+		<div class="cd-popup cd-popup-signin">
+			<div class="cd-popup-container">
+				<section class="section--signup-popup">
+					<div class="
+					module-content
+					module-content--centered
+					module--txt-c
+					module--black
+					">
+						<h2 class="bordered bordered--primary">Sign up to post a job</h2>
+						<form class="signup-form">
+							<div class="form-col">
+								<input type="text" placeholder="Name" />
+							</div>
+							<div class="form-col">
+								<input type="email" placeholder="Email" />
+							</div>
+							<div class="form-col">
+								<input type="number" placeholder="Phone" />
+							</div>
+							<div class="form-col">
+								<input type="text" placeholder="Company" />
+							</div>
+							<div class="form-col form-col--submit-btn">
+								<input type="submit" value="Sign up" class="border-btn btn-large border-btn--pink">
+							</div>
+						</form>
+					</div>
+					<a href="#0" class="cd-popup-close img-replace"></a>
+				</section>
+			</div> <!-- cd-popup-container -->
+		</div> <!-- cd-popup -->
+
+		<div class="cd-popup cd-popup-promo">
+			<div class="cd-popup-container">
+				<section class="section--signup-popup">
+					<div class="
+					module-content
+					module-content--centered
+					module--txt-c
+					module--black
+					">
+						<h2 class="bordered bordered--secondary">Enter your promo code</h2>
+						<form class="signup-form">
+							<div class="form-col form-col--full-width">
+								<input type="text" placeholder="Promo code" id="promo-code-input" />
+							</div>
+							<div class="form-col form-col--submit-btn">
+								<input type="submit" value="Take me to the app" class="border-btn btn-large border-btn--blue">
+							</div>
+						</form>
+					</div>
+					<a href="#0" class="cd-popup-close img-replace"></a>
+				</section>
+			</div> <!-- cd-popup-container -->
+		</div> <!-- cd-popup -->
+
 	</body>
 
 </html> <!-- end of site. what a ride! -->
