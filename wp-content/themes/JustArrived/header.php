@@ -60,8 +60,9 @@
 					</a>
 
 					<div class="header__btns">
-						<div class="transparent-btn">
-							<span class="current-lang">English</span> / Arabic
+						<div class="lang-options">
+							<span class="current-lang">English</span>
+							<span>Arabic</span>
 						</div>
 						<a href="#" class="primary-btn cd-popup-trigger-signin">Sign Up</a>
 						<a href="#" class="border-btn cd-popup-trigger-promo">Have a Promo Code? Sign in</a>

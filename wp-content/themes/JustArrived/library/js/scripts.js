@@ -146,53 +146,52 @@ jQuery(document).ready(function($) {
 
 
   // language
-  $('.current-lang').on('click', function(event){
+  $('.lang-options span').on('click', function(event){
     event.preventDefault();
-    $('.lang-dropdown').addClass('is-visible');
+    $('.lang-options span').removeClass('current-lang');
+    $(this).addClass('current-lang');
   });
-
-  $('.lang-dropdown').on('click', function(event){
-    if( $(event.target).is('.lang-dropdown li') || $(event.target).is('.lang-dropdown') ) {
-      event.preventDefault();
-      $(this).removeClass('is-visible');
-    }
-  }); 
-
-
-  var promoCode = $('#promo-code-input').val();
-  // var promoCode = 'this-should be the user input...';
-
-  var url = 'https://just-match-api.herokuapp/api/v1/promo-codes/validate';
-  var appURL = 'https://app.justarrived.se';
-  // var url = 'http://localhost:3000/api/v1/promo-codes/validate';
-  var payload = {
-    data: {
-      attributes: {
-        'promo-code': promoCode
-      }
-    }
-  };
-
-  var successFunction = function (data) {
-    location.href(appURL + '?promo_code=' + promoCode)
-    console.log("Hurray! Correct promo code, you're gonna be taken to the app!");
-  };
-
-  var failFunction = function (data) {
-    var errorMessage = 'Promo code' + data.responseJSON.errors[0].detail;
-    // Add errorMessage to DOM...
-    console.log('Wrong promo code please try again');
-  };
-
-  $.ajax({
-    type: 'POST',
-    url: url,
-    data: payload,
-    dataType: 'json'
-  }).success(successFunction).fail(failFunction);
 
 
 
 }); /* end of as page load scripts */
+
+
+function submitPromoCode() {
+    var promoCode = jQuery('#promo-code-input').val();
+    var appURL = 'https://app.justarrived.se';
+
+    // Live URL
+    // var url = 'https://just-match-api.herokuapp.com/api/v1/promo-codes/validate';
+    //
+    // Straging URL
+    var url = 'https://just-match-mccracken.herokuapp.com/api/v1/promo-codes/validate';
+    var payload = {
+      data: {
+        attributes: {
+          'promo-code': promoCode
+        }
+      }
+    };
+
+    var successFunction = function (data) {
+      location.href = appURL + '?promo_code=' + promoCode;
+      // Add successMessage to DOM...
+      console.log("Hurray! Correct promo code, you're gonna be taken to the app!");
+    };
+
+    var failFunction = function (data) {
+      var errorMessage = 'Promo code ' + data.responseJSON.errors[0].detail;
+      // Add errorMessage to DOM...
+      console.log(errorMessage);
+    };
+
+    jQuery.ajax({
+      type: 'POST',
+      url: url,
+      data: payload,
+      dataType: 'json'
+    }).success(successFunction).fail(failFunction);
+  }
 
 
