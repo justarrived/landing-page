@@ -222,7 +222,7 @@
 						</div>
 						<div class="module-content module-content--left">
 							<p>
-								<a href="#" class="contribute-btn border-btn border-btn--blue btn-large">I would like to contribute</a>
+								<a href="mailto:hi@justarrived.se?subject=I would like to contribute to JustArrived" class="contribute-btn border-btn border-btn--blue btn-large">I would like to contribute</a>
 							</p>
 						</div>
 					</div>
@@ -301,6 +301,49 @@
 								</div>
 							</form>
 						</div>
+
+						<!-- Begin MailChimp Signup Form -->
+
+						<!-- Begin MailChimp Signup Form -->
+						<div id="mc_embed_signup">
+						<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						    <div id="mc_embed_signup_scroll">
+							<h2>Subscribe to our mailing list</h2>
+						<!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+						<div class="mc-field-group">
+							<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+						</label>
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
+						</div>
+						<div class="mc-field-group">
+							<!-- <label for="mce-NAME">Name  <span class="asterisk">*</span>
+						</label> -->
+							<input type="text" value="" name="NAME" class="required" id="mce-NAME" placeholder="Name">
+						</div>
+						<div class="mc-field-group size1of2">
+							<!-- <label for="mce-PHONE">Phone Number </label> -->
+							<input type="number" name="PHONE" class="" value="" id="mce-PHONE" placeholder="Phone">
+						</div>
+						<div class="mc-field-group">
+							<!-- <label for="mce-COMPANY">Company </label> -->
+							<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY" placeholder="Company">
+						</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value=""></div>
+						    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+						    </div>
+						</form>
+						</div>
+
+						<!--End mc_embed_signup-->
+
+
+						<!--End mc_embed_signup-->
+
+
 					</div>
 				</section>
 

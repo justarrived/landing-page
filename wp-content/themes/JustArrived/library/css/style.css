@@ -2245,7 +2245,7 @@ img {
       min-height: 300px; } }
   @media (min-width: 1024px) {
     .section--hero .table {
-      min-height: 400px; } }
+      min-height: 340px; } }
 .section--hero h1 {
   text-align: center; }
   @media (min-width: 1024px) {
@@ -2462,6 +2462,36 @@ img {
   .section--signup-popup .bordered:before {
     margin-left: auto;
     margin-right: auto; }
+
+.form-response {
+  font-size: 14px;
+  clear: both; }
+
+.error-message {
+  color: #e5007d; }
+  .error-message:before {
+    background: url(../images/icons/info.png) no-repeat left center;
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    content: "";
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    top: 4px; }
+
+.success-message {
+  color: #80B92B; }
+  .success-message:before {
+    background: url(../images/icons/ic-complete.png) no-repeat left center;
+    width: 16px;
+    height: 13px;
+    background-size: 32px 13px;
+    content: "";
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    top: 2px; }
 
 /*********************
 LARGER MOBILE DEVICES

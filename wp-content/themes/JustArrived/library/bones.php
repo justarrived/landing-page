@@ -298,4 +298,6 @@ function bones_excerpt_more($more) {
 
 
 
+
+
 ?>

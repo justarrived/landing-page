@@ -70,10 +70,12 @@
 					module--black
 					">
 						<h2 class="bordered bordered--secondary">Enter your promo code</h2>
-						<form class="promo-form">
+						<form class="promo-form" onsubmit="return submitPromoCode()">
 							<div class="form-col form-col--full-width">
-								<input type="text" placeholder="Promo code" id="promo-code-input" />
+								<input type="text" placeholder="Promo code" id="promo-code-input" value="" />
 							</div>
+							<div class="form-response" id="promo-error"></div>
+							<div class="form-response" id="promo-success"></div>
 							<div class="form-col form-col--submit-btn">
 								<input type="submit" value="Take me to the app" class="border-btn btn-large border-btn--blue">
 							</div>
