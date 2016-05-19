@@ -70,7 +70,7 @@
 					module--black
 					">
 						<h2 class="bordered bordered--secondary">Enter your promo code</h2>
-						<form class="signup-form">
+						<form class="promo-form">
 							<div class="form-col form-col--full-width">
 								<input type="text" placeholder="Promo code" id="promo-code-input" />
 							</div>

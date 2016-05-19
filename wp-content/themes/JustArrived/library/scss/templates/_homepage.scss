@@ -231,7 +231,8 @@
 	}
 }
 
-.signup-form {
+.signup-form,
+.promo-form {
 	@extend %clearfix;
 	margin: 2em auto 0;
 }
