@@ -70,3 +70,21 @@
     }
   }
 }
+
+.lang-options {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 1em;
+  & span {
+    color: $stone-dark;
+    cursor: pointer;
+    padding: 0.5em;
+    &:hover {
+      color: #fff;
+    }
+  }
+  & .current-lang {
+    color: #fff;
+    cursor: default;
+  }
+}

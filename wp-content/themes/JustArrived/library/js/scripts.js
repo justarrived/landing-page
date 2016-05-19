@@ -146,17 +146,11 @@ jQuery(document).ready(function($) {
 
 
   // language
-  $('.current-lang').on('click', function(event){
+  $('.lang-options span').on('click', function(event){
     event.preventDefault();
-    $('.lang-dropdown').addClass('is-visible');
+    $('.lang-options span').removeClass('current-lang');
+    $(this).addClass('current-lang');
   });
-
-  $('.lang-dropdown').on('click', function(event){
-    if( $(event.target).is('.lang-dropdown li') || $(event.target).is('.lang-dropdown') ) {
-      event.preventDefault();
-      $(this).removeClass('is-visible');
-    }
-  }); 
 
 
   var promoCode = $('#promo-code-input').val();
