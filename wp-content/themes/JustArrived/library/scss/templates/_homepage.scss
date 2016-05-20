@@ -118,7 +118,7 @@
 	min-height: 280px;
 	background-position: 50% 50%;
 	@include tablet {
-		min-height: 580px;
+		min-height: 420px;
 	}
 }
 
@@ -235,6 +235,9 @@
 .promo-form {
 	@extend %clearfix;
 	margin: 2em auto 0;
+	& input[type="checkbox"] {
+		margin-right: 0.5em;
+	}
 }
 
 .form-col {

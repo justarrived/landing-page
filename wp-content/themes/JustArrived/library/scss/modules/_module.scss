@@ -86,7 +86,7 @@
 .module-content--left {
   @include tablet {
     float: left;
-    width: 68%;
+    width: 52%;
   }
 }
 
@@ -102,7 +102,7 @@
 .module-content--right {
   @include tablet {
     float: right;
-    width: 26%;
+    width: 40%;
   }
 }
 

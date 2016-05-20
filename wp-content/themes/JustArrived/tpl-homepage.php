@@ -52,7 +52,7 @@
 									<p>We connect newly-arrived immigrants with Swedish businesses who need help with day-to-day activities. Our digital platform enables businesses to post simple tasks and services, and match them with new arrivals looking for work.</p>
 								</div>
 								<div class="column-1-2">
-									<p>JustArrived translates tasks into migrants’ local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. JustArrived also includes secure payment processing.</p>
+									<p>JustArrived translates tasks into migrants’ local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. JustArrived takes the employer responsibility for the newly arrived immigrant.</p>
 								</div>
 							</div>
 						</div>
@@ -156,8 +156,7 @@
 						">
 							<h2 class="bordered bordered--primary">Meet the team</h2>
 							<div class="module--txt-l">
-								<p>We’re a group of 80 volunteers, working evenings and weekends to make JustArrived a reality.</p>
-								<p>We collaborate with a number of organisations. Antrop, Jacob Burenstam, Cygni and NeverEndingMonday are currently developing our product. A team comprised of people from Wintrgarden, Universum, RödaKorset and Nova is managing other areas. Our project manager is Andreas König from Wintrgarden.</p>
+								<p>We're a group of 80 volunteers who have been working evenings and weekends since early autumn 2015 to make JustArrived a reality. We represent numerous competences, backgrounds and organizations, but everyone have the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We are always in need to passionate and competent people, no matter what if you represent an organization or just yourself.  For current needs see the section Join us below.</p>
 							</div>
 						</div>
 					</div>
@@ -208,21 +207,21 @@
 							<h4>Checklist</h4>
 							<ul class="checklist">
 								<li class="complete">
-									Application
+									Building landing page
 									<span class="completed-by">Contributed by Company</span>
 								</li>
 								<li class="complete">
-									Landing page
+									Translating landing page
 									<span class="completed-by">Contributed by <a href="http://nova.com" target="_blank" title="nova.com">Nova</a></span>
 								</li>
-								<li class="incomplete">Translations</li>
-								<li class="incomplete">Sponsors</li>
-								<li class="incomplete">Programming</li>
+								<li class="incomplete">Support with accounting services</li>
+								<li class="incomplete">Development of sales collateral</li>
+								<li class="incomplete">Desktop optimization of app</li>
 							</ul>
 						</div>
 						<div class="module-content module-content--left">
 							<p>
-								<a href="mailto:hi@justarrived.se?subject=I would like to contribute to JustArrived" class="contribute-btn border-btn border-btn--blue btn-large">I would like to contribute</a>
+								<a href="#" class="cd-popup-trigger-signin contribute-btn border-btn border-btn--blue btn-large">I would like to contribute</a>
 							</p>
 						</div>
 					</div>
@@ -282,7 +281,7 @@
 						module-content--centered
 						module--txt-c
 						">
-							<h2 class="bordered bordered--white">Sign up to post a job</h2>
+							<h2 class="bordered bordered--white">Contribute to the project</h2>
 							<form class="signup-form">
 								<div class="form-col">
 									<input type="text" placeholder="Name" />
@@ -302,46 +301,6 @@
 							</form>
 						</div>
 
-						<!-- Begin MailChimp Signup Form -->
-
-						<!-- Begin MailChimp Signup Form -->
-						<div id="mc_embed_signup">
-						<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						    <div id="mc_embed_signup_scroll">
-							<h2>Subscribe to our mailing list</h2>
-						<!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
-						<div class="mc-field-group">
-							<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-						</label>
-							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
-						</div>
-						<div class="mc-field-group">
-							<!-- <label for="mce-NAME">Name  <span class="asterisk">*</span>
-						</label> -->
-							<input type="text" value="" name="NAME" class="required" id="mce-NAME" placeholder="Name">
-						</div>
-						<div class="mc-field-group size1of2">
-							<!-- <label for="mce-PHONE">Phone Number </label> -->
-							<input type="number" name="PHONE" class="" value="" id="mce-PHONE" placeholder="Phone">
-						</div>
-						<div class="mc-field-group">
-							<!-- <label for="mce-COMPANY">Company </label> -->
-							<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY" placeholder="Company">
-						</div>
-							<div id="mce-responses" class="clear">
-								<div class="response" id="mce-error-response" style="display:none"></div>
-								<div class="response" id="mce-success-response" style="display:none"></div>
-							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value=""></div>
-						    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-						    </div>
-						</form>
-						</div>
-
-						<!--End mc_embed_signup-->
-
-
-						<!--End mc_embed_signup-->
 
 
 					</div>

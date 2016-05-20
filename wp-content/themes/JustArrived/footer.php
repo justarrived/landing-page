@@ -33,11 +33,10 @@
 					<div class="
 					module-content
 					module-content--centered
-					module--txt-c
 					module--black
 					">
 						<h2 class="bordered bordered--primary">Sign up to post a job</h2>
-						<form class="signup-form">
+						<!-- <form class="signup-form">
 							<div class="form-col">
 								<input type="text" placeholder="Name" />
 							</div>
@@ -53,7 +52,52 @@
 							<div class="form-col form-col--submit-btn">
 								<input type="submit" value="Sign up" class="border-btn btn-large border-btn--pink">
 							</div>
-						</form>
+						</form> -->
+
+						<div id="mc_embed_signup">
+							<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
+							    <div id="mc_embed_signup_scroll">
+									<h2 class="module--txt-c">Subscribe to our mailing list</h2>
+									<div class="form-col mc-field-group">
+										<label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+									</div>
+									<div class="form-col mc-field-group">
+										<label for="mce-NAME">Name <span class="asterisk">*</span>
+									</label>
+										<input type="text" value="" name="NAME" class="required" id="mce-NAME">
+									</div>
+									<div class="form-col mc-field-group size1of2">
+										<label for="mce-PHONE">Phone Number</label>
+										<input type="number" name="PHONE" class="" value="" id="mce-PHONE">
+									</div>
+									<div class="form-col mc-field-group">
+										<label for="mce-COMPANY">Company</label>
+										<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
+									</div>
+									<div class="form-col mc-field-group input-group">
+									    Interested in...
+									    <ul>
+									    	<li><input type="checkbox" value="1" name="group[3729][1]" id="mce-group[3729]-3729-0"><label for="mce-group[3729]-3729-0">Posting jobs</label></li>
+											<li><input type="checkbox" value="2" name="group[3729][2]" id="mce-group[3729]-3729-1" checked><label for="mce-group[3729]-3729-1">Donating</label></li>
+											<li><input type="checkbox" value="4" name="group[3729][4]" id="mce-group[3729]-3729-2"><label for="mce-group[3729]-3729-2">Helping out</label></li>
+											<li><input type="checkbox" value="8" name="group[3729][8]" id="mce-group[3729]-3729-3"><label for="mce-group[3729]-3729-3">Knowing more</label></li>
+										</ul>
+									</div>
+									<div id="mce-responses" class="clear">
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>
+									<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+								    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+								    	<input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
+								    </div>
+							    	<div class="clear">
+							    		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
+							    	</div>
+							    </div>
+							</form>
+						</div>
 					</div>
 					<a href="#0" class="cd-popup-close img-replace"></a>
 				</section>
@@ -72,7 +116,7 @@
 						<h2 class="bordered bordered--secondary">Enter your promo code</h2>
 						<form class="promo-form" onsubmit="return submitPromoCode()">
 							<div class="form-col form-col--full-width">
-								<input type="text" placeholder="Promo code" id="promo-code-input" value="" />
+								<input type="password" placeholder="Promo code" id="promo-code-input" value="" />
 							</div>
 							<div class="form-response" id="promo-error"></div>
 							<div class="form-response" id="promo-success"></div>

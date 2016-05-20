@@ -64,8 +64,8 @@
 							<span class="current-lang">English</span>
 							<span>Arabic</span>
 						</div>
-						<a href="#" class="primary-btn cd-popup-trigger-signin">Sign Up</a>
-						<a href="#" class="border-btn cd-popup-trigger-promo">Have a Promo Code? Sign in</a>
+						<a href="#" class="primary-btn cd-popup-trigger-signin">Sign up</a>
+						<a href="#" class="border-btn cd-popup-trigger-promo">Sign in with promo code</a>
 					</div>
 
 
