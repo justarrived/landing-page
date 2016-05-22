@@ -22,7 +22,9 @@
 		@include desktop {
 			width: 768px;
 		}
-		
+	}
+	& .primary-btn {
+		margin-top: 1em;
 	}
 }
 
@@ -117,6 +119,10 @@
 	text-align: center;
 	min-height: 280px;
 	background-position: 50% 50%;
+	max-width: 1024px;
+    margin: 0 auto;
+    border: 6px solid #FFFFFF;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 	@include tablet {
 		min-height: 420px;
 	}
@@ -234,10 +240,15 @@
 .signup-form,
 .promo-form {
 	@extend %clearfix;
+	position: relative;
 	margin: 2em auto 0;
 	& input[type="checkbox"] {
 		margin-right: 0.5em;
 	}
+}
+
+.signup-form {
+	font-size: 14px;
 }
 
 .form-col {
@@ -257,6 +268,37 @@
 .form-col--submit-btn {
 	width: 100%;
     margin-top: 1em;
+}
+
+.input-group {
+	padding: 0 0.5em;
+	& p {
+		font-size: 14px;
+		margin: 0 0 8px 0;
+		padding: 0;
+		color: $charcoal-medium;
+		font-weight: normal;
+	}
+	& .input-group-content {
+		clear: both;
+		margin-top: 8px;
+	    border: 1px dashed #D1D5DC;
+	    padding: 16px;
+	    font-size: 0;
+	    margin-bottom: 16px;
+	}
+	& ul {
+		margin: 0;
+	}
+	& li {
+		display: inline-block;
+	    width: auto;
+	    margin: 0 2em 0.6em 0;
+	    font-size: 14px;
+	    &:last-child {
+	    	margin-bottom: 0;
+	    }
+	}
 }
 
 .section--companies {
@@ -291,7 +333,6 @@
 
 .section--signup-popup {
 	padding: 2em 1em 2em;
-	text-align: center;
 	& .bordered {
 		&:before {
 			margin-left: auto;
@@ -321,7 +362,7 @@
 }
 
 .success-message {
-	color: #80B92B;
+	color: $success;
 	&:before {
 		background: url(../images/icons/ic-complete.png) no-repeat left center;
 		width: 16px;

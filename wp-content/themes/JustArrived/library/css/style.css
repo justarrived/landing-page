@@ -1134,12 +1134,8 @@ textarea,
   textarea.is-invalid,
   .field.error,
   .field.is-invalid {
-    color: #fbe3e4;
-    border-color: #fbe3e4;
-    background-color: #fff;
     background-position: 99% center;
     background-repeat: no-repeat;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDREQkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDREQ0YwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ3ODRGRkE2RjA0QTExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERBRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+U8iT5wAAAedJREFUeNqk1U9I02Ecx/HtV3aIFAc1hcRDUoGXRAq0oNLA2CrsEFmHbikZu0iQYIFGYAiegkCpLipBxPpDEBMUzB0EhSG2LhG7hMR2GviPgUTvB57Bw8P3+U23B16HPX8+e/b8nt93wezZSMCnhXETF3AcB5BDCnH8Dq98ExcGHcFn8Ah3cdDni+fxnPDv9oAnTB7CKu6VCFXtChZy56LxUjt+jfuB8toSOth9wd7xWAWhqrUjYR/FRTwWJm+iIPT/w7bQf5ljiZnBg45dtKFX6H+LU8gIY8OEV6vgTkStwXWE8BPTGDHGPqNPz2mCfSOOYkA99TvCt1bhGPL68zMcwmncMuape10jrI+q4BbHi/FLn31S9z2x5tRhTc+1W506ipM+T3oRD4X+8+qtc4SqFvL0z/Fr14S+Szjis8bz9Lvvaq8cwS/wwGfdlqfPSWqTiFlX77o13u9Ym1PBs8JAytpRoy44X9Ft9E/gvbA+rYKn8NcaaMVc8UHgBw4b9/iqUQZ6hOAJFbyDcUflmsEX4a6+wTtHGfhAIUqa1U29Zc2BytouThD8x6xuN5CtMPi2CrXLZkZf/HyZoRFCP7n+QVR4PV7uI/AjGghN7OU/r1ilnqILtfpNC+o6vIFljBKYlhb/F2AAgaBsWR5wRiIAAAAASUVORK5CYII=);
     outline-color: #fbe3e4; }
   input[type="text"].success, input[type="text"].is-valid,
   input[type="password"].success,
@@ -1179,7 +1175,6 @@ textarea,
     background-color: #fff;
     background-position: 99% center;
     background-repeat: no-repeat;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDRERkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDRFMEYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY0MzQ0NERERjA0QjExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERFRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7olkTQAAAfhJREFUeNqklU9oE0EUhzdroWjw0tBeWlDxkEaIp55TsCU9VKIgCrHBelA8CQ1Kr1WPbZrQ3gqtQqvGqxpQc2jBk6BIIaAGD4qNCKURpDSKiPi98gLDsJt//uBjsztvfnk7895sIPAw6/joGMThFJyAXn2+A+9gA57/TaY/eU0OeBgfhGm4DiGnsb7DAszxBz/NAdcKjMJLuNWCqagHbsscN5+L+hmH4QkMOe1L5jzFfNA2PgT34ajTuY7AGuZB0/hmh5m+gS0r8xv1zRvg+gGCHZiOwnF4DP3iB3sQkYxPd2C6CWfhB9Xwlus5+K1j4jXuaq3a+gM1H9OPcAa+7q9lPidZJqHbiIm7Wg22rsEI7FrPSzAMX/T+ADyAKSsu7Fr1KplehLvwCs5DvfBf65p+MypqRbO1FXK9utH4/QKuaqYTsG3E3INJv00Q46px3+XxanJ/Ute2/vqP4FKDza2KcdljIKdnhS0xXYULTaqmLMZFn8FFSFtvt6x70ExFCS5oUXspq2ssa7oEl1swFa+CGFdgtkHgPDyDKy02zyxNU6lXRUZb1EuHYayNNs+Yh5B0WQo+/8fpJnNTZFuzz2OpjoQ2QruSOQlMy35fEGmEGMxY9e1brxobw7TkWA1h6xfckUPb+JhGoE/Hpfvew7qUld/H9J8AAwDpw3WYrxcZ3QAAAABJRU5ErkJggg==);
     outline-color: #e6efc2; }
   input[type="text"][disabled], input[type="text"].is-disabled,
   input[type="password"][disabled],
@@ -1298,6 +1293,25 @@ select {
   background-repeat: no-repeat;
   background-position: 97.5% center; }
 
+.mailchimp-error {
+  opacity: 0;
+  margin-left: 0.5em; }
+  .mailchimp-error.error, .mailchimp-error.valid {
+    opacity: 1;
+    margin-top: -1em;
+    margin-bottom: 1em; }
+  .mailchimp-error.error {
+    color: #e5007d; }
+  .mailchimp-error.valid {
+    color: #80B92B; }
+
+.signup-error {
+  position: absolute;
+  top: -30px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px; }
+
 .header {
   background-color: #222531;
   padding: 12px 0;
@@ -1335,39 +1349,27 @@ select {
       .header__btns > a {
         margin: 0 0 0 0.6em; } }
 
-.lang-dropdown {
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  background: #fff;
-  width: 130px;
-  text-align: left;
-  right: 0;
-  border-radius: 4px;
-  color: #383f4e; }
-  .lang-dropdown.is-visible {
-    opacity: 1;
-    visibility: visible; }
-  .lang-dropdown ul {
-    margin: 0.4em 0; }
-  .lang-dropdown li {
-    padding: 0.1em 1em; }
-    .lang-dropdown li:hover {
-      background: #c8cdd2; }
-
 .lang-options {
   display: inline-block;
   font-size: 14px;
   margin-right: 1em; }
+  .lang-options a {
+    text-decoration: none;
+    outline: 0; }
   .lang-options span {
     color: #787D82;
     cursor: pointer;
     padding: 0.5em; }
     .lang-options span:hover {
       color: #fff; }
-  .lang-options .current-lang {
-    color: #fff;
-    cursor: default; }
+
+.page-template-tpl-homepage .lang-en {
+  color: #fff;
+  cursor: default; }
+
+.page-template-tpl-homepage-ar .lang-ar {
+  color: #fff;
+  cursor: default; }
 
 .module {
   position: relative; }
@@ -1462,7 +1464,7 @@ select {
 
 .module__overlay--black {
   background: #222531;
-  opacity: 0.9; }
+  opacity: 0.8; }
 
 .module__overlay--secondary {
   background: #0069d2;
@@ -2253,6 +2255,8 @@ img {
 @media (min-width: 1024px) {
   .section--introduction .columns {
     width: 768px; } }
+.section--introduction .primary-btn {
+  margin-top: 1em; }
 
 .section--how-to h2,
 .section--say-hej h2 {
@@ -2323,7 +2327,11 @@ img {
 .section--meet-team {
   text-align: center;
   min-height: 280px;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  max-width: 1024px;
+  margin: 0 auto;
+  border: 6px solid #FFFFFF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
   @media (min-width: 768px) {
     .section--meet-team {
       min-height: 420px; } }
@@ -2412,10 +2420,14 @@ img {
 
 .signup-form,
 .promo-form {
+  position: relative;
   margin: 2em auto 0; }
   .signup-form input[type="checkbox"],
   .promo-form input[type="checkbox"] {
     margin-right: 0.5em; }
+
+.signup-form {
+  font-size: 14px; }
 
 .form-col {
   width: 50%;
@@ -2431,6 +2443,31 @@ img {
 .form-col--submit-btn {
   width: 100%;
   margin-top: 1em; }
+
+.input-group {
+  padding: 0 0.5em; }
+  .input-group p {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    color: #222531;
+    font-weight: normal; }
+  .input-group .input-group-content {
+    clear: both;
+    margin-top: 8px;
+    border: 1px dashed #D1D5DC;
+    padding: 16px;
+    font-size: 0;
+    margin-bottom: 16px; }
+  .input-group ul {
+    margin: 0; }
+  .input-group li {
+    display: inline-block;
+    width: auto;
+    margin: 0 2em 0.6em 0;
+    font-size: 14px; }
+    .input-group li:last-child {
+      margin-bottom: 0; }
 
 .section--companies {
   border-top: 1px solid #efefef; }
@@ -2457,8 +2494,7 @@ img {
     display: block; }
 
 .section--signup-popup {
-  padding: 2em 1em 2em;
-  text-align: center; }
+  padding: 2em 1em 2em; }
   .section--signup-popup .bordered:before {
     margin-left: auto;
     margin-right: auto; }

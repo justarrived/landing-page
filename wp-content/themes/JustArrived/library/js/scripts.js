@@ -251,7 +251,9 @@ jQuery(document).ready(function($) {
     // Remove previously entered promo code when
     // reopening the popup
     var hello = document.getElementById("promo-code-input");
+    var hi = document.getElementById("promo-error");
     hello.value = "";
+    hi.innerHTML = "";
   });
   
   //close popup
@@ -274,15 +276,14 @@ jQuery(document).ready(function($) {
 
   // language
   $('.lang-options span').on('click', function(event){
-    event.preventDefault();
     $('.lang-options span').removeClass('current-lang');
     $(this).addClass('current-lang');
   });
 
   // Mailchimp
   $('#mc-embedded-subscribe-form').ajaxChimp({
-    url: 'http://justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5',
-    language: 'en_custom'
+    // url: 'http://justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5',
+    language: 'en'
   });
 
 

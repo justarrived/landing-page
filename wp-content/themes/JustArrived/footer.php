@@ -35,7 +35,7 @@
 					module-content--centered
 					module--black
 					">
-						<h2 class="bordered bordered--primary">Sign up to post a job</h2>
+						<h2 class="bordered bordered--primary module--txt-c">Sign up</h2>
 						<!-- <form class="signup-form">
 							<div class="form-col">
 								<input type="text" placeholder="Name" />
@@ -56,10 +56,15 @@
 
 						<div id="mc_embed_signup">
 							<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
+
+							<div class="signup-error module--txt-c">
+								<label for="mce-EMAIL" class="mailchimp-error">Email Address</label>
+							</div>
+
 							    <div id="mc_embed_signup_scroll">
-									<h2 class="module--txt-c">Subscribe to our mailing list</h2>
+									
 									<div class="form-col mc-field-group">
-										<label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+										<label>Email Address <span class="asterisk">*</span></label>
 										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 									</div>
 									<div class="form-col mc-field-group">
@@ -75,14 +80,16 @@
 										<label for="mce-COMPANY">Company</label>
 										<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
 									</div>
-									<div class="form-col mc-field-group input-group">
-									    Interested in...
-									    <ul>
-									    	<li><input type="checkbox" value="1" name="group[3729][1]" id="mce-group[3729]-3729-0"><label for="mce-group[3729]-3729-0">Posting jobs</label></li>
-											<li><input type="checkbox" value="2" name="group[3729][2]" id="mce-group[3729]-3729-1" checked><label for="mce-group[3729]-3729-1">Donating</label></li>
-											<li><input type="checkbox" value="4" name="group[3729][4]" id="mce-group[3729]-3729-2"><label for="mce-group[3729]-3729-2">Helping out</label></li>
-											<li><input type="checkbox" value="8" name="group[3729][8]" id="mce-group[3729]-3729-3"><label for="mce-group[3729]-3729-3">Knowing more</label></li>
-										</ul>
+									<div class="mc-field-group input-group">
+									    <div class="input-group-content">
+										    <p>I'm interested in...</p>
+										    <ul>
+										    	<li><input type="checkbox" value="1" name="group[3729][1]" id="mce-group[3729]-3729-0"><label for="mce-group[3729]-3729-0">Posting jobs</label></li>
+												<li><input type="checkbox" value="2" name="group[3729][2]" id="mce-group[3729]-3729-1"><label for="mce-group[3729]-3729-1">Donating</label></li>
+												<li><input type="checkbox" value="4" name="group[3729][4]" id="mce-group[3729]-3729-2"><label for="mce-group[3729]-3729-2">Helping out</label></li>
+												<li><input type="checkbox" value="8" name="group[3729][8]" id="mce-group[3729]-3729-3"><label for="mce-group[3729]-3729-3">Knowing more</label></li>
+											</ul>
+										</div>
 									</div>
 									<div id="mce-responses" class="clear">
 										<div class="response" id="mce-error-response" style="display:none"></div>

@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Homepage
+ Template Name: Homepage - Arabic
  *
  * This is your custom page template. You can create as many of these as you need.
  * Simply name is "page-whatever.php" and in add the "Template Name" title at the
@@ -29,7 +29,7 @@
 							<div class="wrap">
 								<div class="
 								module-content">
-									<h1>Helping new arrivals in Sweden enter the labour market</h1>
+									<h1>Arabic</h1>
 								</div>
 							</div>
 						</div>
@@ -345,7 +345,7 @@
 						">
 							<h2 class="bordered bordered--secondary">Enablers</h2>
 							<div class="companies">
-							<div class="company">
+								<div class="company">
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/hero.png">
 								</div>
 								<div class="company">

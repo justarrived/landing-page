@@ -61,9 +61,10 @@
 
 					<div class="header__btns">
 						<div class="lang-options">
-							<span class="current-lang">English</span>
-							<span>Arabic</span>
+							<a href="<?php echo home_url(); ?>"><span class="lang-en">English</span></a>
+							<a href="<?php echo home_url(); ?>/ar"><span class="lang-ar">Arabic</span></a>
 						</div>
+
 						<a href="#" class="primary-btn cd-popup-trigger-signin">Sign up</a>
 						<a href="#" class="border-btn cd-popup-trigger-promo">Sign in with promo code</a>
 					</div>
