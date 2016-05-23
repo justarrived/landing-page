@@ -50,8 +50,7 @@ textarea,
   box-shadow: none;
   border: 0;
   width: 100%;
-  max-width: 400px;
-  font-family: $lato;
+  font-family: $museo-reg;
   background-color: $gray;
   @include transition(background-color 0.24s ease-in-out);
 
@@ -139,5 +138,11 @@ select {
     width: 100%;
     text-align: center;    
     font-size: 14px;
+}
+
+#mc_embed_signup_scroll {
+  &.hide {
+    display: none;
+  }
 }
 

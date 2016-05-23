@@ -126,7 +126,8 @@ strong {
   font-weight: 600; }
 
 ul.bullet {
-  list-style: disc; }
+  list-style: disc;
+  margin-left: 1em; }
 
 /******************************************************************
 Site Name:

@@ -26,10 +26,21 @@
 	& .primary-btn {
 		margin-top: 1em;
 	}
+	& h2 {
+		.page-template-tpl-homepage-ar & {
+			max-width: 768px;
+			margin: 0 auto;
+    		@include tablet {
+    			padding: 0 16px;
+    		}
+		}
+	}
+	
 }
 
 .section--how-to,
-.section--say-hej {
+.section--say-hej,
+.section--introduction {
 	& h2 {
 		max-width: 560px;
 		margin: 0 auto;
@@ -47,6 +58,16 @@
 			padding: 0;
 			padding-top: 50px;
 			background-position: 50% top;
+		}
+	}
+}
+
+.section--how-to {
+	& h2 {
+		.page-template-tpl-homepage-ar & {
+			max-width: 1040px;
+		    margin: 0 auto;
+		    padding: 0 16px;
 		}
 	}
 }
@@ -80,19 +101,27 @@
 }
 
 .product-image {
-	float: left;
-	width: 45%;
+	width: 270px;
+	margin: 0 auto 2em;
 	& img {
-		width: 270px;
-		float: right;
+		@include tablet {			
+			float: right;
+		}
+	}
+	@include tablet {
+		float: left;
+		width: 45%;
 	}
 }
 
 .product-summary {
-	position: absolute;
-	left: 50%;
-	top: 7%;
-	width: 50%;
+	
+	@include tablet {
+		position: absolute;
+		left: 50%;
+		top: 7%;
+		width: 50%;
+	}
 }
 
 .section--change {
@@ -121,10 +150,12 @@
 	background-position: 50% 50%;
 	max-width: 1024px;
     margin: 0 auto;
-    border: 6px solid #FFFFFF;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 	@include tablet {
 		min-height: 420px;
+	}
+	@include desktop {
+		border: 6px solid #FFFFFF;
+    	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 	}
 }
 
@@ -183,6 +214,17 @@
 			}
 		}
 	}
+	.page-template-tpl-homepage-ar & {
+		& li {
+			padding-left: 0;
+			padding-right: 24px;
+			&:before {
+				float: right;
+				margin-right: -24px;
+				margin-left: 0;
+			}
+		}
+	}
 }
 
 .section--say-hej {
@@ -214,10 +256,16 @@
 			margin: 1.2em 0 0 1em;
 			float: left;
 			text-align: left;
+			.page-template-tpl-homepage-ar & {
+				text-align: initial;
+			}
 			@include tablet {
 				text-align: center;
 				float: none;
 				margin: 0.5em 0 0;
+				.page-template-tpl-homepage-ar & {
+					text-align: initial;
+				}
 			}
 		}
 	}
@@ -252,9 +300,13 @@
 }
 
 .form-col {
-	width: 50%;
+
 	padding: 0 0.5em;
-	float: left;
+	
+	@include tablet-small {
+		width: 50%;
+		float: left;		
+	}
 }
 
 .form-col--full-width {
@@ -293,8 +345,13 @@
 	& li {
 		display: inline-block;
 	    width: auto;
-	    margin: 0 2em 0.6em 0;
+	    margin: 0 0 0.6em 0;
 	    font-size: 14px;
+	    width: 100%;
+	    @include tablet-small {
+	    	margin: 0 0 0.6em 0;
+	    	width: 32%;	
+	    }
 	    &:last-child {
 	    	margin-bottom: 0;
 	    }
@@ -337,6 +394,9 @@
 		&:before {
 			margin-left: auto;
 			margin-right: auto;
+		}
+		.page-template-tpl-homepage-ar & {
+			text-align: center;
 		}
 	}
 }

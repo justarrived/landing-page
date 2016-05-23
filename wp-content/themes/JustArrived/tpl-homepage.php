@@ -15,6 +15,30 @@
 
 <?php get_header(); ?>
 
+			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+
+				<div id="inner-header" class="wrap cf">
+
+
+					<a href="<?php echo home_url(); ?>" rel="nofollow">
+						<div class="header__logo">JustArrived</div>
+					</a>
+
+					<div class="header__btns">
+						<div class="lang-options">
+							<a href="<?php echo home_url(); ?>"><span class="lang-en">English</span></a>
+							<a href="<?php echo home_url(); ?>/ar"><span class="lang-ar">Arabic</span></a>
+						</div>
+
+						<a href="#" class="primary-btn cd-popup-trigger-signin">Sign up</a>
+						<a href="#" class="border-btn cd-popup-trigger-promo">Sign in with promo code</a>
+					</div>
+
+
+				</div>
+
+			</header>
+
 			<div id="content">
 
 				<section class="
@@ -48,15 +72,15 @@
 						module-content
 						module--txt-c">
 							<h2 class="bordered bordered--primary ">Job opportunities for new arrivals</h2>
-							<div class="columns module--txt-l">
-								<div class="column-1-2">
+							<div class="columns">
+								<div class="column-1-2 module--txt-l">
 									<p>We connect newly-arrived immigrants with Swedish businesses who need help with day-to-day activities. Our digital platform enables businesses to post simple tasks and services, and match them with new arrivals looking for work.</p>
 								</div>
-								<div class="column-1-2">
+								<div class="column-1-2 module--txt-l">
 									<p>JustArrived translates tasks into migrants’ local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. JustArrived takes the employer responsibility for the newly arrived immigrant.</p>
 								</div>
+								<a href="#" class="primary-btn btn-large cd-popup-trigger-signin">Sign up</a>
 							</div>
-							<a href="#" class="primary-btn btn-large cd-popup-trigger-signin">Sign up</a>
 						</div>
 					</div>
 				</section>
@@ -223,7 +247,7 @@
 						</div>
 						<div class="module-content module-content--left">
 							<p>
-								<a href="#" class="cd-popup-trigger-signin contribute-btn border-btn border-btn--blue btn-large">I would like to contribute</a>
+								<a href="#" class="cd-popup-trigger-signin contribute-btn border-btn border-btn--blue btn-large">I would like to help out</a>
 							</p>
 						</div>
 					</div>
@@ -327,8 +351,11 @@
 								<div class="company">
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/bondstreet.png">
 								</div>
+								<div class="company">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/jacobburenstam.png">
+								</div>
 							</div>
-							<h4><br>Jacob Burensturn, Yuliga Bilinskaya, Caroline He, Mattias Bengtsson</h4>
+							<h4><br>Yuliga Bilinskaya, Caroline He, Mattias Bengtsson</h4>
 						</div>
 					</div>
 				</section>
@@ -380,6 +407,99 @@
 
 
 			</div>
+
+			<div class="cd-popup cd-popup-signin">
+			<div class="cd-popup-container">
+				<section class="section--signup-popup">
+					<div class="
+					module-content
+					module-content--centered
+					module--black
+					">
+						<h2 class="bordered bordered--primary module--txt-c">Sign up</h2>
+						<div id="mc_embed_signup">
+							<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
+
+							<div class="signup-error module--txt-c">
+								<label for="mce-EMAIL" class="mailchimp-error">Email Address</label>
+							</div>
+
+							    <div id="mc_embed_signup_scroll">
+									
+									<div class="form-col mc-field-group">
+										<label>Email Address <span class="asterisk">*</span></label>
+										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+									</div>
+									<div class="form-col mc-field-group">
+										<label for="mce-NAME">Name <span class="asterisk">*</span>
+									</label>
+										<input type="text" value="" name="NAME" class="required" id="mce-NAME">
+									</div>
+									<div class="form-col mc-field-group size1of2">
+										<label for="mce-PHONE">Phone Number</label>
+										<input type="number" name="PHONE" class="" value="" id="mce-PHONE">
+									</div>
+									<div class="form-col mc-field-group">
+										<label for="mce-COMPANY">Company</label>
+										<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
+									</div>
+									<div class="mc-field-group input-group">
+									    <div class="input-group-content">
+										    <p>I'm interested in...</p>
+										    <ul>
+										    	<li><input type="checkbox" value="1" name="group[3729][1]" id="mce-group[3729]-3729-0"><label for="mce-group[3729]-3729-0">Posting jobs</label></li>
+												<li><input type="checkbox" value="2" name="group[3729][2]" id="mce-group[3729]-3729-1"><label for="mce-group[3729]-3729-1">Finding jobs</label></li>
+												<li><input type="checkbox" value="4" name="group[3729][4]" id="mce-group[3729]-3729-2"><label for="mce-group[3729]-3729-2">Helping out</label></li>
+												<li><input type="checkbox" value="8" name="group[3729][8]" id="mce-group[3729]-3729-3"><label for="mce-group[3729]-3729-3">Donating</label></li>
+												<li><input type="checkbox" value="16" name="group[3729][16]" id="mce-group[3729]-3729-4"><label for="mce-group[3729]-3729-4">Knowing more</label></li>
+											</ul>
+										</div>
+									</div>
+									<div id="mce-responses" class="clear">
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>
+									<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+								    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+								    	<input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
+								    </div>
+							    	<div class="clear">
+							    		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
+							    	</div>
+							    </div>
+							</form>
+						</div>
+					</div>
+					<a href="#0" class="cd-popup-close img-replace"></a>
+				</section>
+			</div> <!-- cd-popup-container -->
+		</div> <!-- cd-popup -->
+
+		<div class="cd-popup cd-popup-promo">
+			<div class="cd-popup-container">
+				<section class="section--signup-popup">
+					<div class="
+					module-content
+					module-content--centered
+					module--txt-c
+					module--black
+					">
+						<h2 class="bordered bordered--secondary">Enter your promo code</h2>
+						<form class="promo-form" onsubmit="return submitPromoCode()">
+							<div class="form-col form-col--full-width">
+								<input type="password" placeholder="Promo code" id="promo-code-input" value="" />
+							</div>
+							<div class="form-response" id="promo-error"></div>
+							<div class="form-response" id="promo-success"></div>
+							<div class="form-col form-col--submit-btn">
+								<input type="submit" value="Take me to the app" class="border-btn btn-large border-btn--blue">
+							</div>
+						</form>
+					</div>
+					<a href="#0" class="cd-popup-close img-replace"></a>
+				</section>
+			</div> <!-- cd-popup-container -->
+		</div> <!-- cd-popup -->
 
 
 <?php get_footer(); ?>

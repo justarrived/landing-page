@@ -13,7 +13,7 @@
   margin: 0 auto 1em;
   text-indent: -9999em;
 
-  @include tablet-small {
+  @include desktop-small {
     float: left;
     margin: 0;  
   }
@@ -24,6 +24,7 @@
   clear: both;
   width: 100%;
   text-align: center;
+  margin-bottom: 0.5em;
 
   & > a {
     margin: 0 0.3em;
@@ -33,12 +34,13 @@
     padding: 0;
   }
 
-  @include tablet-small {
+  @include desktop-small {
     float: right;
     clear: none;
     width: auto;
     position: relative;
     top: 4px;
+    margin-bottom: 0;
 
     & > a {
       margin: 0 0 0 0.6em;
@@ -72,9 +74,12 @@
 // }
 
 .lang-options {
-  display: inline-block;
   font-size: 14px;
-  margin-right: 1em;
+  margin: 0 0 1em 0;
+  @include desktop-small {
+    display: inline-block;
+    margin: 0 1em 0 0;
+  }
   & a {
     text-decoration: none;
     outline: 0;
@@ -100,5 +105,30 @@
   & .lang-ar {
     color: #fff;
     cursor: default;
+  }
+  & .bordered {
+    &:before {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &.bordered--centered {
+      &:before {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+  
+  & .module--txt,
+  & .module--txt-l,
+  & .module--txt-c {
+    text-align: initial;
+    direction: rtl;
+  }
+  & .product-summary {
+    direction: rtl;
+  }
+  & .module-content {
+    direction: rtl;
   }
 }

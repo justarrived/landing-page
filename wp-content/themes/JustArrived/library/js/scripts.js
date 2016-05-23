@@ -132,6 +132,7 @@ function loadGravatars() {
             var form = $(elem);
             var email = form.find('input[type=email]');
             var label = form.find('label[for=' + email.attr('id') + ']');
+            var signupForm = form.find('#mc_embed_signup_scroll');
 
             var settings = $.extend({
                 'url': form.attr('action'),
@@ -150,6 +151,7 @@ function loadGravatars() {
                         msg = 'We have sent you a confirmation email';
                         label.removeClass('error').addClass('valid');
                         email.removeClass('error').addClass('valid');
+                        signupForm.addClass('hide');
                     } else {
                         email.removeClass('valid').addClass('error');
                         label.removeClass('valid').addClass('error');
@@ -292,13 +294,15 @@ jQuery(document).ready(function($) {
 
 function submitPromoCode() {
     var promoCode = jQuery('#promo-code-input').val();
+    // var appURL = 'http://app.justarrived.se';
     var appURL = 'https://app.justarrived.se';
 
     // Live URL
     // var url = 'https://just-match-api.herokuapp.com/api/v1/promo-codes/validate';
     //
     // Straging URL
-    var url = 'https://just-match-mccracken.herokuapp.com/api/v1/promo-codes/validate';
+    var url = 'https://api.justarrived.se/api/v1/promo-codes/validate';
+    // var url = 'https://just-match-mccracken.herokuapp.com/api/v1/promo-codes/validate';
     var payload = {
       data: {
         attributes: {
@@ -309,7 +313,7 @@ function submitPromoCode() {
 
     var successFunction = function (data) {
       setTimeout(function(){ 
-        location.href = appURL + '?promo_code=' + promoCode;
+        location.href = appURL + '/#/?promo_code=' + promoCode;
       }, 2000);
       
       // Add successMessage to DOM...
