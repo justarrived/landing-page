@@ -289,7 +289,7 @@
 .promo-form {
 	@extend %clearfix;
 	position: relative;
-	margin: 2em auto 0;
+	margin: 1.2em auto 0;
 	& input[type="checkbox"] {
 		margin-right: 0.5em;
 	}
@@ -297,15 +297,14 @@
 
 .signup-form {
 	font-size: 14px;
+	margin: 0.6em auto 0;
 }
 
 .form-col {
-
-	padding: 0 0.5em;
-	
 	@include tablet-small {
 		width: 50%;
-		float: left;		
+		float: left;
+		padding: 0 0.5em;
 	}
 }
 
@@ -323,7 +322,9 @@
 }
 
 .input-group {
-	padding: 0 0.5em;
+	@include tablet {
+		padding: 0 0.5em;
+	}
 	& p {
 		font-size: 14px;
 		margin: 0 0 8px 0;
@@ -392,8 +393,10 @@
 	padding: 2em 1em 2em;
 	& .bordered {
 		&:before {
-			margin-left: auto;
-			margin-right: auto;
+			@include tablet {
+				margin-left: auto;
+				margin-right: auto;
+			}
 		}
 		.page-template-tpl-homepage-ar & {
 			text-align: center;

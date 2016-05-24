@@ -15,7 +15,6 @@
 
 <?php get_header(); ?>
 
-			
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 				<div id="inner-header" class="wrap cf">
@@ -276,7 +275,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 									<img class="profile-pic profile-pic--no-border" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/general.png">
 									<p>
 										<strong>للاستفسارات العامة</strong> <br>
-										<a class="txt-link" href="#">hej@justarrived.se</a> <br>
+										<a class="txt-link" href="mailto:hej@justarrived.se">hej@justarrived.se</a> <br>
 										<a class="txt-link" href="tel:+46 733 868656">+46 733 868656</a>
 									</p>
 								</div>
@@ -425,6 +424,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 					module--black
 					">
 						<h2 class="bordered bordered--primary module--txt-c">تسجيل الدخول</h2>
+						<p>نحن حاليا باختبار منصة (مايو-سبتمبر) مع مجموعة حصرية من شركات والوافدين الجدد. إذا كنت مهتما في الاستفادة من منصة بعد الافتتاح الرسمي لدينا في 1 سبتمبر، يرجى تعبئة النموذج وسوف نقوم بالرد عليك!</p>
 						<div id="mc_embed_signup">
 							<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
 
@@ -493,6 +493,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 					module--black
 					">
 						<h2 class="bordered bordered--secondary">أدخل الشفرة الترويجية</h2>
+						<p>نحن حاليا باختبار منصة (مايو-سبتمبر) مع مجموعة حصرية من شركات والوافدين الجدد التي تم توفيرها مع الرمز الترويجي للوصول إلى المنصة. إذا لم يكن لديك الرمز الترويجي وكنت مهتما في الاستفادة من منصة يرجى النقر على الاشتراك وتسجيل اهتمامك هناك. شكرا!</p>
 						<form class="promo-form" onsubmit="return submitPromoCode()">
 							<div class="form-col form-col--full-width">
 								<input type="password" placeholder="شفرة تخفيض" id="promo-code-input" value="" />

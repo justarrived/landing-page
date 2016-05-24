@@ -136,7 +136,7 @@
 									<li><strong>New Arrival</strong> can register a digital CV and apply for the assigment</li>
 									<li><strong>Swedish Corporation</strong> can choose a candidate based on their digital CV and reviews from other assignments</li>
 									<li><strong>Swedish Corporation</strong> and New Arrival verify that the job is perfomed and an invoice is sent</li>
-									<li><strong>New Arrival</strong> recieve a the full amount invoiced (after deduction of taxes and other administrative costs)</li>
+									<li><strong>New Arrival</strong> recieves the full amount invoiced (after deduction of taxes and other administrative costs)</li>
 								</ul>
 							</div>
 						</div>
@@ -182,7 +182,7 @@
 						">
 							<h2 class="bordered bordered--primary">Meet the team</h2>
 							<div class="module--txt-l">
-								<p>We're a group of 80 volunteers who have been working evenings and weekends since early autumn 2015 to make JustArrived a reality. We represent numerous competences, backgrounds and organizations, but everyone have the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We are always in need to passionate and competent people, no matter what if you represent an organization or just yourself.  For current needs see the section Join us below.</p>
+								<p>We're a group of 80 volunteers who have been working evenings and weekends since early autumn 2015 to make JustArrived a reality. We represent numerous competences, backgrounds and organizations, but everyone have the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We are always in need of passionate and competent people, no matter what if you represent an organization or just yourself.  For current needs see the section Join us below.</p>
 							</div>
 						</div>
 					</div>
@@ -269,7 +269,7 @@
 									<img class="profile-pic profile-pic--no-border" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/general.png">
 									<p>
 										<strong>General enquiries</strong> <br>
-										<a class="txt-link" href="#">hej@justarrived.se</a> <br>
+										<a class="txt-link" href="mailto:hej@justarrived.se">hej@justarrived.se</a> <br>
 										<a class="txt-link" href="tel:+46 733 868656">+46 733 868656</a>
 									</p>
 								</div>
@@ -417,6 +417,7 @@
 					module--black
 					">
 						<h2 class="bordered bordered--primary module--txt-c">Sign up</h2>
+						<p>We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch on the 1st of September, please fill in the form and we will get back to you!</p>
 						<div id="mc_embed_signup">
 							<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
 
@@ -485,6 +486,7 @@
 					module--black
 					">
 						<h2 class="bordered bordered--secondary">Enter your promo code</h2>
+						<p class="module--txt-l">We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals that have been provided with a promo code to access the platform. If you don't have a promo code and you are interested in utilizing the platform please click on sign up  and register your interest there. Thank you!</p>
 						<form class="promo-form" onsubmit="return submitPromoCode()">
 							<div class="form-col form-col--full-width">
 								<input type="password" placeholder="Promo code" id="promo-code-input" value="" />
