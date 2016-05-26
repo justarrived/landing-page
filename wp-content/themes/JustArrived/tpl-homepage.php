@@ -74,10 +74,10 @@
 							<h2 class="bordered bordered--primary ">Job opportunities for new arrivals</h2>
 							<div class="columns">
 								<div class="column-1-2 module--txt-l">
-									<p>We connect newly-arrived immigrants with Swedish businesses who need help with day-to-day activities. Our digital platform enables businesses to post simple tasks and services, and match them with new arrivals looking for work.</p>
+									<p>We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.</p>
 								</div>
 								<div class="column-1-2 module--txt-l">
-									<p>JustArrived translates tasks into migrants’ local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. JustArrived takes the employer responsibility for the newly arrived immigrant.</p>
+									<p>JustArrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. JustArrived assumes employer responsibilities for all those who obtain work through the platform.</p>
 								</div>
 								<a href="#" class="primary-btn btn-large cd-popup-trigger-signin">Sign up</a>
 							</div>
@@ -130,12 +130,12 @@
 							</div>
 							<div class="product-summary">
 								<h2 class="bordered bordered--white bordered--left">Our Product</h2>
-								<p>JustArrived is a digital application that matches New Arrivals in Sweden with potential assignments provided by Swedish corporations. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows;</p>
+								<p>JustArrived is a digital application that matches New Arrivals in Sweden with potential assignments provided by Swedish companies. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows:</p>
 								<ul class="bullet">
-									<li><strong>Swedish Corporation</strong> post an assigment (from 1 hour to 6 months) on the application without cost</li>
+									<li><strong>Swedish company</strong> posts an assigment (from 1 hour to 6 months) on the application without cost</li>
 									<li><strong>New Arrival</strong> can register a digital CV and apply for the assigment</li>
-									<li><strong>Swedish Corporation</strong> can choose a candidate based on their digital CV and reviews from other assignments</li>
-									<li><strong>Swedish Corporation</strong> and New Arrival verify that the job is perfomed and an invoice is sent</li>
+									<li><strong>Swedish company</strong> can choose a candidate based on their digital CV and reviews from other assignments</li>
+									<li><strong>Swedish company</strong> and New Arrival verify that the job is perfomed and an invoice is sent</li>
 									<li><strong>New Arrival</strong> recieves the full amount invoiced (after deduction of taxes and other administrative costs)</li>
 								</ul>
 							</div>
@@ -148,7 +148,6 @@
 						module--txt-img
 						module--white
 						module--secondary-bg">
-
 							<div class="module--img module--img-left"
 								style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/urban.jpg); background-position: 50% 50%;">
 							</div>
@@ -157,14 +156,14 @@
 								module--txt
 								module--txt-right
 								">
-								<h2 class="bordered bordered--white bordered--left">Be the change</h2>
+								<h2 class="bordered bordered--white bordered--left">Be the Change</h2>
 								<p>In 2015, more than 160,000 people applied for asylum in Sweden. These are people like you and me, with the same needs and desires. However, statistics show that it takes many years for most new arrivals to get a job and support themselves in Sweden.*</p>
 		 
-								<p><strong> Now, Swedish businesses have the opportunity to make a difference.</strong></p>
+								<p><strong> Now, Swedish companies have the opportunity to make a difference.</strong></p>
 
-								<p>JustArrived exists to make it easy for businesses to help. To create a sense of belonging and community by outsourcing simple tasks and jobs.</p>
+								<p>JustArrived exists to make it easy for companies to help. To create a sense of belonging and community by outsourcing simple tasks and jobs.</p>
 
-								<p><small><em>* After ten years, only 60% of all immigrants have a job by which they can support themselves. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda </small> </em></p>
+								<p><small><em>* After ten years, only 60% of all immigrants have a job by which they can support themselves. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.</small></em></p>
 							</div>
 
 				</section>
@@ -180,9 +179,9 @@
 						module-content--centered
 						module--txt-c
 						">
-							<h2 class="bordered bordered--primary">Meet the team</h2>
+							<h2 class="bordered bordered--primary">Meet the Team</h2>
 							<div class="module--txt-l">
-								<p>We're a group of 80 volunteers who have been working evenings and weekends since early autumn 2015 to make JustArrived a reality. We represent numerous competences, backgrounds and organizations, but everyone have the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We are always in need of passionate and competent people, no matter what if you represent an organization or just yourself.  For current needs see the section Join us below.</p>
+								<p>We're a group of 80 volunteers who have been working evenings and weekends since early autumn 2015 to make JustArrived a reality. We represent numerous competences, backgrounds and organizations, but everyone shares the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We're always on the lookout for passionate and talented people, irrespective of whether they represent an organisation or just themselves. For current needs, see the Join Us section below.</p>
 							</div>
 						</div>
 					</div>
@@ -270,7 +269,6 @@
 									<p>
 										<strong>General enquiries</strong> <br>
 										<a class="txt-link" href="mailto:hej@justarrived.se">hej@justarrived.se</a> <br>
-										<a class="txt-link" href="tel:+46 733 868656">+46 733 868656</a>
 									</p>
 								</div>
 								<div class="column-1-3">
@@ -278,7 +276,8 @@
 									<p>
 										<strong>Andreas König</strong> <br>
 										Project Manager <br>
-										<a class="txt-link" href="mailto:andreas@justarrived.se">andreas@justarrived.se</a>
+										<a class="txt-link" href="mailto:andreas@justarrived.se">andreas@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 733 868656">+46 733 868656</a>
 									</p>
 								</div>
 								<div class="column-1-3">
@@ -286,7 +285,8 @@
 									<p>
 										<strong>Fredric Ghatan</strong> <br>
 										Product Development <br>
-										<a class="txt-link" href="mailto:fredric@justarrived.se">fredric@justarrived.se</a>
+										<a class="txt-link" href="mailto:fredric@justarrived.se">fredric@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 735 012993">+46 735 012993</a>
 									</p>
 								</div>
 							</div>

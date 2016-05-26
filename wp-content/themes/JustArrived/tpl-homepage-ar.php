@@ -276,7 +276,6 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 									<p>
 										<strong>للاستفسارات العامة</strong> <br>
 										<a class="txt-link" href="mailto:hej@justarrived.se">hej@justarrived.se</a> <br>
-										<a class="txt-link" href="tel:+46 733 868656">+46 733 868656</a>
 									</p>
 								</div>
 								<div class="column-1-3">
@@ -284,7 +283,8 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 									<p>
 										<strong>Andreas König</strong> <br>
 										مدير المشروع <br>
-										<a class="txt-link" href="mailto:andreas@justarrived.se">andreas@justarrived.se</a>
+										<a class="txt-link" href="mailto:andreas@justarrived.se">andreas@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 733 868656">+46 733 868656</a>
 									</p>
 								</div>
 								<div class="column-1-3">
@@ -292,7 +292,8 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 									<p>
 										<strong>Fredric Ghatan</strong> <br>
 										مطور المشروع <br>
-										<a class="txt-link" href="mailto:fredric@justarrived.se">fredric@justarrived.se</a>
+										<a class="txt-link" href="mailto:fredric@justarrived.se">fredric@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 735 012993">+46 735 012993</a>
 									</p>
 								</div>
 							</div>
