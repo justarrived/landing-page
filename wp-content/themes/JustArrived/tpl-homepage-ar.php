@@ -53,7 +53,7 @@
 							<div class="wrap">
 								<div class="
 								module-content">
-									<h1>مساعدة الوافدين الجدد في السويد للدخول الى سوق العمل</h1>
+									<h1>نساعد الوافدين الجدد في السويد للدخول إلى سوق العمل</h1>
 								</div>
 							</div>
 						</div>
@@ -74,7 +74,7 @@
 							<h2 class="bordered bordered--primary">فرص عمل للوافدين الجدد.</h2>
 							<div class="columns">
 								<div class="column-1-2 module--txt-l">
-									<p>نحن نقوم بالربط بين الوافدين الجدد من الاجئين مع الشركات السويدية اللتي تحتاج الى المساعدة في الأعمال اليومية.
+									<p>نقوم بالربط بين الوافدين الجدد من الاجئين مع الشركات السويدية التي تحتاج إلى المساعدة في الأعمال اليومية.
 إن تطبيقنا هذا يسمح للشركات بالإعلان عن الأعمال والخدمات التي تحتاجها والربط مع الوافدين الجدد الراغبين في العمل.</p>
 								</div>
 								<div class="column-1-2 module--txt-l">
@@ -96,17 +96,17 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 					module--txt-c">
 					<div class="wrap">
 						<div class="module-content">
-							<h2 class="bordered">JustArrived  تسهل على الشركات جذب او توظيف الوافادين الجدد</h2>
+							<h2 class="bordered">"JustArrived" تسهل على الشركات جذب وتوظيف الوافدين الجدد.</h2>
 
 							<div class="columns">
 								<div class="column-1-3">
 									<div class="icon icon--tick">
-										<p>نقوم بدفع الضرائب والتكاليف الاجتماعية والتامينات المتعلقة بتوظيف موظف جديد.</p>
+										<p>نقوم بدفع الضرائب والتكاليف الإجتماعية والتأمينات المتعلقة بتوظيف الموظف الجديد.</p>
 									</div>
 								</div>
 								<div class="column-1-3">
 									<div class="icon icon--pen">
-										<p>نحن نخفغ الاعباء الادارية على الشركات بتحمل الكسؤولية الكاملة للتوظيف.</p>
+										<p>نخفف الأعباء الإدارية على الشركات بتحمل المسؤولية الكاملة للتوظيف.</p>
 									</div>
 								</div>
 								<div class="column-1-3">
@@ -132,16 +132,17 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 								<img src="<?php echo get_template_directory_uri(); ?>/library/images/inline/iphone6.png">
 							</div>
 							<div class="product-summary">
-								<h2 class="bordered bordered--white bordered--left">منتجاتنا or نتائج اعمالنا.</h2>
-								<p>جست ارايفد" هو تطبيق يعمل على الربط بين الواصلين حديثا الى السويد وبين الوظائف المتوفرة القدمة من الشركات السويدية. ويتم ذلك من خلال واجهة تطبيق سهلة الاستخدام يمكن الوصول اليها من كافة انواع الاجهزة المحمولة وتدعم ترجمة لمعظم اللغات.
-طريقة عمل هذا التطبيق كالتالي:
-</p>
+								<h2 class="bordered bordered--white bordered--left">عن التطبيق :</h2>
+								<p>"JustArrived" هو تطبيق يعمل على الربط بين الواصلين حديثا الى السويد وبين الوظائف المتوفرة المقدمة من الشركات السويدية. ويتم ذلك من خلال تطبيق سهل الإستخدام يمكن الوصول اليه من كافة الأجهزة المحمولة ويوفر الترجمة لمعظم لغات الوافدين الجدد.
+يعمل هذا التطبيق كالتالي:</p>
 								<ul class="bullet">
-									<li>تقوم الشركة السويدية باضافة مهمة او وظيفة في التطبيق ( وقد تكون مدة العمل ساعة واحدة كحد ادنى و 6 اشهر كحد اقصى) بدون تكلفة.</li>
-									<li>يمكن للواصل الجديد تسجيل سيرته الذاتية ومن ثم يقوم بالتقديم على الوظيفة.</li>
-									<li>تقوم الشركة السويدية باختيار المرشح من خلال الاطلاع على السيرة الذاتية والتقييمات من وظائف سابقة.</li>
-									<li>تقوم الشركة السويدية والقادم الجديد بالتحقق من ان العمل قد وان اافاتورة قد ارسلت.</li>
-									<li>يحصل القادم الجديد على كافة المبلغ المذكور في الفاتورة ( بعد خصم الضرائب والتكاليف الادارية الاخرى)</li>
+									<li>- تقوم الشركة السويدية باضافة مهمة او وظيفة في التطبيق ( وقد تكون مدة العمل ساعة واحدة كحد أدنى و 6 أشهر كحد أقصى) بدون تكلفة.</li>
+									<li>- يمكن للوافد الجديد تسجيل سيرته الذاتية في التطبيق ومن ثم يقوم بالتقديم على الوظيفة.*</li>
+									<li>- تقوم الشركة السويدية بإختيار المرشح من خلال الإطلاع على سيرتة الذاتية والتقييمات من الوظائف السابقة.</li>
+									<li>- تقوم الشركة السويدية والوافد الجديد بالتحقق من أن العمل قد تم وأن الفاتورة قد أرسلت.</li>
+									<li>- يحصل الوافد الجديد على كافة المبلغ المذكور في الفاتورة ( بعد خصم الضرائب والتكاليف الإدارية الاخرى)</li>
+									<p><small>يتطلب AT-UND، رقم الهوية الشخصية أو رقم التنسيق والحصول على حساب مصرفي
+</small></p>
 								</ul>
 							</div>
 						</div>
@@ -162,14 +163,15 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 								module--txt
 								module--txt-right
 								">
-								<h2 class="bordered bordered--white bordered--left">كن انت التغيير</h2>
-								<p>في عام 2015 اكتر من 160،000 شخص تقدم بطلب لجوء في السويد، هؤلاء الاشخاص هم مثلي ومثلك، بنفس الرغبات والاحتياجات، ومع ذلك تشير الاحصائيات بان معضم الوافدين الجدد يستغرقون العديد من السنوات للحصول على عمل واعالة انفسهم في السويد.</p>
+								<h2 class="bordered bordered--white bordered--left">إصنع التغيير...</h2>
+								<p>في عام 2015 اكتر من 160،000 شخص تقدم بطلب لجوء في السويد، هؤلاء الاشخاص هم مثلي ومثلك، بنفس الرغبات والاحتياجات، ومع ذلك تشير الإحصائيات بان معظم الوافدين الجدد يستغرقون العديد من السنوات للحصول على عمل وإعالة أنفسهم في السويد*.</p>
 		 
-								<p><strong>الان. لدى الاعمال السويدية الفرصة لاحداث التقدم .</strong></p>
+								<p><strong>الان. الأعمال السويدية لديها الفرصة لتصنع التغيير.</strong></p>
 
-								<p>جست ارايفد، وجدت لتسهل على الاعمل تقديم المساعدة، وخلق شع د الانتماج والدمج المجتمعي من خلال الاستعانة باعمل بسيطة ووظائف خارجية.</p>
+								<p>"JustArrived " تقوم بتسهيل الأعمال وتقديم المساعدة، وخلق شعور بالإندماج والدمج المجتمعي من خلال الإستعانة بأعمال ووظائف بسيطة.</p>
 
-								<p><small><em>بعد عشر سنوات فقط 60% من المهاجرين حصلو على عمل التي منتهم من اعانة انفسهم.</small> </em></p>
+								<p><small><em>بعد عشر سنوات فقط 60% من المهاجرين حصلوا على عمل مكنهم من إعانة أنفسهم.
+*المصدر: http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda</small> </em></p>
 							</div>
 
 				</section>
@@ -187,8 +189,8 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 						">
 							<h2 class="bordered bordered--primary">فريق العمل</h2>
 							<div class="module--txt-l">
-								<p>نحن مجموعة من 80 متطوع نعمل في اوقات المساء او في عطل نهاية الاسبوع منذ خريف عام 2015 لنجعل جست ارايفد حقيقة. نحن نشكل العديد من الاختصاصات والهلفيات والمنظمات. ولكن لدينا جميعا هدفا جماعيا بان نجعل من السهل على الوافد الجديد الحصول على العمل والاندماج في المجتمع السويدي. نحن نحتاج دائما الى اشخاص متعاطفين وكفء لتلبية الاحتياجات ( بغض النظر عما اذا كانو منظمات او مجرد اشخاص ).
-يمكنك الاطلاع على ذلك من خلال الضغط على ( انضم معنا) في الاسفل</p>
+								<p>نحن مجموعة من 80 متطوع نعمل في أوقات المساء أو في عطل نهاية الاسبوع منذ خريف عام 2015 لنقدم لكم "JustArrived" . نشكل العديد من الإختصاصات والخلفيات والمنظمات. يجمعنا هدف جماعي وهو أن نجعل من السهل على الوافد الجديد الحصول على العمل والإندماج في المجتمع السويدي. نحتاج دائما الى أشخاص متعاطفين وكفء لتلبية الإحتياجات ( بغض النظر ما إذا كانوا منظمات أو مجرد اشخاص ).
+يمكنك الإطلاع على ذلك من خلال الضغط على ( إنضم معنا ) في الأسفل.</p>
 							</div>
 						</div>
 					</div>
@@ -204,25 +206,6 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 				</section>
 
 
-				<!-- <section class="
-					module
-					module--padding
-					module--bg-cover"
-					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/people.jpg)">
-					<div class="wrap">
-						<div class="
-						module-content
-						module-content--padding
-						module--white
-						module--secondary-bg
-						module-content--right">
-							<h2>Meet the team</h2>
-							<p>We’re a group of 80 volunteers, working evenings and weekends to make JustArrived a reality.</p>
-							<p>We collaborate with a number of organisations. Antrop, Jacob Burenstam, Cygni and NeverEndingMonday are currently developing our product. A team comprised of people from Wintrgarden, Universum, RödaKorset and Nova is managing other areas. Our project manager is Andreas König from Wintrgarden.</p>
-						</div>
-					</div>
-				</section> -->
-
 				<section class="
 					section--joinus
 					module
@@ -231,8 +214,8 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 					<div class="wrap">
 						<div class="module-content module-content--left">
 							<h2 class="bordered bordered--secondary bordered--left">انضم معنا</h2>
-							<p>جست اريفد تتقدم بجهد فريق من المتطوعين الذين يرغبون بالتغيير. اذا كنت تعتقد بانه يمكنك تقديم المساعدة باي مجال، يرجى الضعظ على الزر في الاسفل.</p>
-							<p>نحن نبحث حاليا عن مبرمجين (AngularJS, Ruby on Rails) ، ومترجمون ورعاة. اذا كنت مطورا وترغب في المساهمة في موقعنا   GitHub repository. </p>
+							<p>"JustArrived" تتقدم بجهد فريق من المتطوعين الذين يرغبون بصناعة التغيير. إذا كنت تعتقد أنه بإمكانك تقديم المساعدة في أي مجال، يرجى الضعظ على الزر في الأسفل.</p>
+							<p>نبحث حاليا عن مبرمجين (AngularJS, Ruby on Rails) ، ومترجمين وداعمين. إذا كنت مطور برمجة وترغب في المساهمة في موقعنا   GitHub repository. </p>
 						</div>
 						
 						<div class="module--checklist module-content module-content--right">
@@ -240,14 +223,14 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 							<ul class="checklist">
 								<li class="complete">
 									بناء الصفحة الرئيسية
-									<span class="completed-by">شارك ب <a href="http://nova.com" target="_blank" title="nova.com">Nova</a></span>
+									<span class="completed-by">تم من قبل <a href="http://nova.com" target="_blank" title="nova.com">Nova</a></span>
 								</li>
 								<li class="complete">
 									ترجمة الواجهة الرئيسية
-									<span class="completed-by">شارك ب Zaher Barood</span>
+									<span class="completed-by">تم من قبل Zaher Barood</span>
 								</li>
-								<li class="incomplete">المساهمة في الخدمات الحسابية</li>
-								<li class="incomplete">تطوير المبيعات</li>
+								<li class="incomplete">المساهمة في الخدمات الحسابية </li>
+								<li class="incomplete">تطوير المبيعات </li>
 								<li class="incomplete">تخصيصات سطح مكتب التطبيق</li>
 							</ul>
 						</div>
@@ -268,7 +251,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 					module--black-bg">
 					<div class="wrap">
 						<div class="module-content">
-							<h2 class="bordered bordered--secondary bordered--centered">رحب ب</h2>
+							<h2 class="bordered bordered--secondary bordered--centered">للتواصل مع:</h2>
 
 							<div class="columns columns--inline">
 								<div class="column-1-3">
@@ -292,7 +275,6 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 									<p>
 										<strong>Fredric Ghatan</strong> <br>
 										مطور المشروع <br>
-										<a class="txt-link" href="mailto:fredric@justarrived.se">fredric@justarrived.se</a> <br>
 										<a class="txt-link" href="tel:+46 735 012993">+46 735 012993</a>
 									</p>
 								</div>
@@ -314,9 +296,9 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 						module-content--centered
 						module--txt-c
 						">
-							<h2 class="bordered bordered--white">المساهمة في المشروع</h2>
+							<h2 class="bordered bordered--white">للمساهمة في المشروع</h2>
 							<p>
-								<a href="#" class="cd-popup-trigger-signin contribute-btn border-btn btn-large border-btn--white border-btn--white-blue">ارغب بالتبرع</a>
+								<a href="#" class="cd-popup-trigger-signin contribute-btn border-btn btn-large border-btn--white border-btn--white-blue">للمساهمة في المشروع</a>
 							</p>
 						</div>
 
@@ -335,7 +317,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 						module-content
 						module--txt-c
 						">
-							<h2 class="bordered bordered--primary">تم التعاون مع بعض الشركات الرائعة <br> Partners and Champions</h2>
+							<h2 class="bordered bordered--primary">الشركاء والداعمون</h2>
 							<div class="companies">
 								<div class="company">
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/janssonnorin.png">
@@ -377,7 +359,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 						module-content
 						module--txt-c
 						">
-							<h2 class="bordered bordered--secondary">تم التعاون مع بعض الشركات الرائعة <br> Enablers</h2>
+							<h2 class="bordered bordered--secondary">بالتعاون مع</h2>
 							<div class="companies">
 								<div class="company">
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/hero.png">
@@ -407,7 +389,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/welcome.png">
 								</div>
 							</div>
-							<h4>Caroline Olsson, Elena Rahimova</h4>
+							<h4>Caroline Olsson, Elena Rahimova, Olle Norgren</h4>
 						</div>
 					</div>
 				</section>
@@ -430,7 +412,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 							<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
 
 							<div class="signup-error module--txt-c">
-								<label for="mce-EMAIL" class="mailchimp-error">Email Address</label>
+								<label for="mce-EMAIL" class="mailchimp-error">البريد الالكتروني</label>
 							</div>
 
 							    <div id="mc_embed_signup_scroll">
@@ -452,7 +434,23 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 										<label for="mce-COMPANY">الشركة</label>
 										<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
 									</div>
+									<div class="form-col form-col--full-width mc-field-group">
+										<label for="mce-LOCATION">موقع</label>
+										<input type="text" value="" name="LOCATION" class="" id="mce-LOCATION">
+									</div>
 									<div class="mc-field-group input-group">
+										<div class="input-group-content">
+											<p>أنا مهتم ب...</p>
+											<ul>
+												<li><input type="radio" value="Posting jobs" name="MMERGE5" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">نشر فرص العمل</label></li>
+												<li><input type="radio" value="Finding jobs" name="MMERGE5" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">العثور على وظائف</label></li>
+												<li><input type="radio" value="Helping out" name="MMERGE5" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">يساعد خارجا</label></li>
+												<li><input type="radio" value="Donating" name="MMERGE5" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">تبرع</label></li>
+												<li><input type="radio" value="Knowing more" name="MMERGE5" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">معرفة المزيد</label></li>
+											</ul>
+										</div>
+									</div>
+									<!-- <div class="mc-field-group input-group">
 									    <div class="input-group-content">
 										    <p>أنا مهتم ب...</p>
 										    <ul>
@@ -463,7 +461,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 												<li><input type="checkbox" value="16" name="group[3729][16]" id="mce-group[3729]-3729-4"><label for="mce-group[3729]-3729-4">معرفة المزيد</label></li>
 											</ul>
 										</div>
-									</div>
+									</div> -->
 									<div id="mce-responses" class="clear">
 										<div class="response" id="mce-error-response" style="display:none"></div>
 										<div class="response" id="mce-success-response" style="display:none"></div>

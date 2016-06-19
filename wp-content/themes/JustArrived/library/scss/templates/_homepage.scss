@@ -290,7 +290,8 @@
 	@extend %clearfix;
 	position: relative;
 	margin: 1.2em auto 0;
-	& input[type="checkbox"] {
+	& input[type="checkbox"],
+	& input[type="radio"] {
 		margin-right: 0.5em;
 	}
 }

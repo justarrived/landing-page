@@ -2486,8 +2486,9 @@ img {
 .promo-form {
   position: relative;
   margin: 1.2em auto 0; }
-  .signup-form input[type="checkbox"],
-  .promo-form input[type="checkbox"] {
+  .signup-form input[type="checkbox"], .signup-form input[type="radio"],
+  .promo-form input[type="checkbox"],
+  .promo-form input[type="radio"] {
     margin-right: 0.5em; }
 
 .signup-form {

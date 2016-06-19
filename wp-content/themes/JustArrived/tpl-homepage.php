@@ -133,11 +133,12 @@
 								<p>JustArrived is a digital application that matches New Arrivals in Sweden with potential assignments provided by Swedish companies. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows:</p>
 								<ul class="bullet">
 									<li><strong>Swedish company</strong> posts an assigment (from 1 hour to 6 months) on the application without cost</li>
-									<li><strong>New Arrival</strong> can register a digital CV and apply for the assigment</li>
+									<li><strong>New Arrival</strong> can register a digital CV and apply for the assigment*</li>
 									<li><strong>Swedish company</strong> can choose a candidate based on their digital CV and reviews from other assignments</li>
 									<li><strong>Swedish company</strong> and New Arrival verify that the job is perfomed and an invoice is sent</li>
 									<li><strong>New Arrival</strong> recieves the full amount invoiced (after deduction of taxes and other administrative costs)</li>
 								</ul>
+								<p><small>* Requires AT-UND, personal identity number or co-ordination number and access to bank account.</small></p>
 							</div>
 						</div>
 				</section>
@@ -195,26 +196,6 @@
 					module--bg-cover"
 					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/team.jpg)">
 				</section>
-
-
-				<!-- <section class="
-					module
-					module--padding
-					module--bg-cover"
-					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/people.jpg)">
-					<div class="wrap">
-						<div class="
-						module-content
-						module-content--padding
-						module--white
-						module--secondary-bg
-						module-content--right">
-							<h2>Meet the team</h2>
-							<p>We’re a group of 80 volunteers, working evenings and weekends to make JustArrived a reality.</p>
-							<p>We collaborate with a number of organisations. Antrop, Jacob Burenstam, Cygni and NeverEndingMonday are currently developing our product. A team comprised of people from Wintrgarden, Universum, RödaKorset and Nova is managing other areas. Our project manager is Andreas König from Wintrgarden.</p>
-						</div>
-					</div>
-				</section> -->
 
 				<section class="
 					section--joinus
@@ -285,7 +266,6 @@
 									<p>
 										<strong>Fredric Ghatan</strong> <br>
 										Product Development <br>
-										<a class="txt-link" href="mailto:fredric@justarrived.se">fredric@justarrived.se</a> <br>
 										<a class="txt-link" href="tel:+46 735 012993">+46 735 012993</a>
 									</p>
 								</div>
@@ -400,7 +380,7 @@
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/welcome.png">
 								</div>
 							</div>
-							<h4>Caroline Olsson, Elena Rahimova</h4>
+							<h4>Caroline Olsson, Elena Rahimova, Olle Norgren</h4>
 						</div>
 					</div>
 				</section>
@@ -444,7 +424,23 @@
 										<label for="mce-COMPANY">Company</label>
 										<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
 									</div>
+									<div class="form-col form-col--full-width mc-field-group">
+										<label for="mce-LOCATION">Location</label>
+										<input type="text" value="" name="LOCATION" class="" id="mce-LOCATION">
+									</div>
 									<div class="mc-field-group input-group">
+										<div class="input-group-content">
+											<p>I'm interested in...</p>
+											<ul>
+												<li><input type="radio" value="Posting jobs" name="MMERGE5" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">Posting jobs</label></li>
+												<li><input type="radio" value="Finding jobs" name="MMERGE5" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">Finding jobs</label></li>
+												<li><input type="radio" value="Helping out" name="MMERGE5" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">Helping out</label></li>
+												<li><input type="radio" value="Donating" name="MMERGE5" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">Donating</label></li>
+												<li><input type="radio" value="Knowing more" name="MMERGE5" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">Knowing more</label></li>
+											</ul>
+										</div>
+									</div>
+									<!-- <div class="mc-field-group input-group">
 									    <div class="input-group-content">
 										    <p>I'm interested in...</p>
 										    <ul>
@@ -455,7 +451,7 @@
 												<li><input type="checkbox" value="16" name="group[3729][16]" id="mce-group[3729]-3729-4"><label for="mce-group[3729]-3729-4">Knowing more</label></li>
 											</ul>
 										</div>
-									</div>
+									</div> -->
 									<div id="mce-responses" class="clear">
 										<div class="response" id="mce-error-response" style="display:none"></div>
 										<div class="response" id="mce-success-response" style="display:none"></div>
