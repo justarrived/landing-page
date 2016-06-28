@@ -1731,6 +1731,10 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
+html {
+  width: 100%;
+  height: 100%; }
+
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -1740,11 +1744,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-@media (min-width: 880px) {
-  #container {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1480px; } }
+#container {
+  height: 100%;
+  position: relative; }
+  @media (min-width: 880px) {
+    #container {
+      width: 90%;
+      margin: 0 auto;
+      max-width: 1480px; } }
 
 #content {
   background: #fff;
@@ -2605,6 +2612,44 @@ img {
     position: relative;
     top: 2px; }
 
+.page-template-tpl-almadalen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url(../images/bgs/almedalen.jpg) no-repeat;
+  background-size: cover; }
+
+.almedalen-logo {
+  background: url(../images/logos/justarrived-almedalen.png) no-repeat;
+  width: 329px;
+  height: 64px;
+  margin: 10% auto; }
+
+.almedalen-content-container {
+  top: auto;
+  width: 100%;
+  position: absolute;
+  min-height: 660px; }
+
+.almedalen-signup,
+.almedalen-copy {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 3% 5%; }
+
+.almedalen-signup {
+  left: 0;
+  background: #fff; }
+  .almedalen-signup .section--signup-popup {
+    padding: 0; }
+  .almedalen-signup .module-content--centered {
+    max-width: auto; }
+
+.almedalen-copy {
+  right: 0;
+  background: #222531; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2905,7 +2950,10 @@ query for retina AND a certain size if you want. Go Nuts.
   (this is pretty standard practice). Set the background image so it matches
   the original dimensions and you are good to go. 
   
-  */ }
+  */
+  .almedalen-logo {
+    background: url(../images/logos/justarrived-almedalen@2x.png) no-repeat;
+    background-size: 329px 64px; } }
 /*********************
 PRINT STYLESHEET
 Feel free to customize this. Remember to add things that won't make

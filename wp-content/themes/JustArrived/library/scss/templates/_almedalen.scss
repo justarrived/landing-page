@@ -1,0 +1,47 @@
+.page-template-tpl-almadalen {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: url(../images/bgs/almedalen.jpg) no-repeat;
+	background-size: cover;
+}
+
+.almedalen-logo {
+	background: url(../images/logos/justarrived-almedalen.png) no-repeat;
+	width: 329px;
+	height: 64px;
+	margin: 10% auto;
+}
+
+.almedalen-content-container {
+	top: auto;
+	width: 100%;
+	position: absolute;
+	min-height: 660px;
+}
+
+.almedalen-signup,
+.almedalen-copy {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	padding: 3% 5%;
+}
+
+.almedalen-signup {
+	left: 0;
+	background: #fff;
+
+	& .section--signup-popup {
+		padding: 0;
+	} 
+	
+	& .module-content--centered {
+		max-width: auto;
+	}
+}
+
+.almedalen-copy {
+	right: 0;
+	background: $charcoal-medium;
+}
