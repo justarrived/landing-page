@@ -7,16 +7,16 @@
 }
 
 .almedalen-logo {
-	background: url(../images/logos/justarrived-almedalen.png) no-repeat;
-	width: 329px;
+	background: url(../images/logos/justarrived-almedalen.png) no-repeat center center;
+	width: 100%;
 	height: 64px;
-	margin: 10% auto;
+	padding: 10% 0;
 }
 
 .almedalen-content-container {
 	top: auto;
 	width: 100%;
-	position: absolute;
+	position: relative;
 	min-height: 660px;
 }
 
@@ -35,7 +35,7 @@
 	& .section--signup-popup {
 		padding: 0;
 	} 
-	
+
 	& .module-content--centered {
 		max-width: auto;
 	}
