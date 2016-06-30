@@ -21,7 +21,7 @@
 
 					<div class="almedalen-content-container">
 
-						<div class="almedalen-signup">
+						<div class="almedalen-signup equal-height">
 
 							<section class="section--signup-popup">
 								<div class="
@@ -29,7 +29,7 @@
 								module-content--centered
 								module--black
 								">
-									<h2 class="bordered bordered--primary module--txt-c">Sign up</h2>
+									<h1 class="bordered bordered--primary module--txt-c">Sign up</h1>
 									<p>We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch on the 1st of September, please fill in the form and we will get back to you!</p>
 									<div id="mc_embed_signup">
 										<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
@@ -93,12 +93,25 @@
 
 						</div> <!-- /almedalen-signup --> 
 
-						<div class="almedalen-copy">
+						<div class="almedalen-copy equal-height">
 
-							<h1>Om Just Arrived</h1>
+							<h1 class="bordered bordered--secondary module--txt-c">Om Just Arrived</h1>
 							<p>avgörande skillnad för alla de nyanlända som kommer till Sverige. Just Arrived skulle drivas som ett icke vinstdrivande företag och ligga under en stiftelse. Initiativet skulle dessutom byggas upp pro bono, av människor och företag som frivilligt ger av sin tid, pengar och sitt engagemang. Idag engagerar Just Arrived över 100 personer som representerar 20 olika företag och myndigheter i Sverige.</p>
 							<p>Tillsammans har vi lagt tusentals timmar på att ta fram den webb-applikation som matchar nyanlända med jobbmöjligheter. Vi tar fullt arbetsgivaransvar genom att betala skatter, sociala avgifter och försäkringar för de nyanlända. Detta innebär minimal administration för de företag som lägger upp uppdrag på vår sida. Framför allt för Just Arrived ihop två grupper i samhället som letar efter varandra; företag som vill hjälpa nyanlända samt nyanlända som letar efter jobb.</p>
-
+							<ul class="social-list">
+								<li class="social-list__link">
+									<a class="facebook-link" href="#" title="Facebook" target=""><i class="fa fa-facebook-official" aria-hidden="true"></a></i>
+								</li>
+								<li class="social-list__link">
+									<a class="twitter-link" href="#" title="Twitter" target=""><i class="fa fa-twitter" aria-hidden="true"></a></i>
+								</li>
+								<li class="social-list__link">
+									<a class="instagram-link" href="#" title="Instagram" target=""><i class="fa fa-instagram" aria-hidden="true"></a></i>
+								</li>
+								<li class="social-list__link social-list__text-link">
+									<a class="justarrived-link" href="http://justarrived.se" title="JustArrived.se">Visit <strong>JustArrived.se</strong></a>
+								</li>
+							</ul>
 						</div> <!-- /almedalen-copy -->
 
 					</div>

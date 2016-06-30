@@ -1832,7 +1832,8 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a {
-  color: #0069d2; }
+  color: #0069d2;
+  transition: 0.14s ease-in-out; }
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
@@ -2615,28 +2616,52 @@ img {
 .page-template-tpl-almadalen {
   height: 100%;
   width: 100%;
-  position: absolute;
-  background: url(../images/bgs/almedalen.jpg) no-repeat;
-  background-size: cover; }
+  background: #222531; }
+  @media (min-width: 650px) {
+    .page-template-tpl-almadalen {
+      background: url(../images/bgs/almedalen.jpg) no-repeat;
+      background-size: cover; } }
 
 .almedalen-logo {
   background: url(../images/logos/justarrived-almedalen.png) no-repeat center center;
   width: 100%;
   height: 64px;
-  padding: 10% 0; }
+  padding: 2.4em 0;
+  background-size: 209px 41px; }
+  @media (min-width: 480px) {
+    .almedalen-logo {
+      padding: 4em 0;
+      background-size: 269px 52px; } }
+  @media (min-width: 768px) {
+    .almedalen-logo {
+      padding: 10% 0;
+      background-size: 329px 64px; } }
 
 .almedalen-content-container {
   top: auto;
   width: 100%;
-  position: relative;
-  min-height: 660px; }
+  max-width: 650px;
+  margin: 0 auto; }
+  @media (min-width: 1024px) {
+    .almedalen-content-container {
+      max-width: 1200px; } }
+  .almedalen-content-container h1 {
+    font-size: 32px; }
 
 .almedalen-signup,
 .almedalen-copy {
-  position: absolute;
-  width: 50%;
   height: 100%;
-  padding: 3% 5%; }
+  padding: 10% 6%; }
+  @media (min-width: 600px) {
+    .almedalen-signup,
+    .almedalen-copy {
+      padding: 8% 10%; } }
+  @media (min-width: 1024px) {
+    .almedalen-signup,
+    .almedalen-copy {
+      float: left;
+      width: 50%;
+      padding: 4% 5%; } }
 
 .almedalen-signup {
   left: 0;
@@ -2648,7 +2673,46 @@ img {
 
 .almedalen-copy {
   right: 0;
+  color: #787D82;
   background: #222531; }
+  .almedalen-copy h1 {
+    color: #fff; }
+
+.social-list {
+  margin-top: 36px;
+  font-size: 0; }
+  .social-list a {
+    color: #e8ebee;
+    text-decoration: none; }
+
+.social-list__link {
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 0.8em; }
+
+.social-list__text-link {
+  font-size: 18px;
+  margin-right: 0;
+  float: right;
+  position: relative;
+  top: 5px; }
+  @media (min-width: 480px) {
+    .social-list__text-link {
+      float: none;
+      top: auto;
+      margin-left: 2em; } }
+
+.facebook-link:hover {
+  color: #3b5998; }
+
+.twitter-link:hover {
+  color: #55acee; }
+
+.instagram-link:hover {
+  color: #5851db; }
+
+.justarrived-link:hover {
+  color: #e5007d; }
 
 /*********************
 LARGER MOBILE DEVICES
@@ -2953,7 +3017,14 @@ query for retina AND a certain size if you want. Go Nuts.
   */
   .almedalen-logo {
     background: url(../images/logos/justarrived-almedalen@2x.png) no-repeat center center;
-    background-size: 329px 64px; } }
+    background-size: 209px 41px; } }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), only screen and (min--moz-device-pixel-ratio: 1.5) and (min-width: 480px), only screen and (min-device-pixel-ratio: 1.5) and (min-width: 480px) {
+    .almedalen-logo {
+      background-size: 269px 52px; } }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 1.5) and (min-width: 768px), only screen and (min-device-pixel-ratio: 1.5) and (min-width: 768px) {
+    .almedalen-logo {
+      background-size: 329px 64px; } }
+
 /*********************
 PRINT STYLESHEET
 Feel free to customize this. Remember to add things that won't make

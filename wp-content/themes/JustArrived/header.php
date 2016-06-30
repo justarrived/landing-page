@@ -37,7 +37,8 @@
 		<?php // end of wordpress head ?>
 
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700' rel='stylesheet' type='text/css'>
-
+		<script src="https://use.fontawesome.com/a891d007d4.js"></script>
+		
 		<?php // drop Google Analytics Here ?>
 		<script>
 		 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

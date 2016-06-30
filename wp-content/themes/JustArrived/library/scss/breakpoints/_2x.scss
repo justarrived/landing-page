@@ -42,5 +42,11 @@ the original dimensions and you are good to go.
 
 .almedalen-logo {
 	background: url(../images/logos/justarrived-almedalen@2x.png) no-repeat center center;
-	background-size: 329px 64px;
+	background-size: 209px 41px;
+	@include mobile {
+		background-size: 269px 52px;
+	}
+	@include tablet {
+		background-size: 329px 64px;
+	}
 }

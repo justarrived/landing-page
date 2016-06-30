@@ -1,37 +1,59 @@
 .page-template-tpl-almadalen {
 	height: 100%;
 	width: 100%;
-	position: absolute;
-	background: url(../images/bgs/almedalen.jpg) no-repeat;
-	background-size: cover;
+	background: $charcoal-medium;
+	@include tablet-medium {
+		background: url(../images/bgs/almedalen.jpg) no-repeat;
+		background-size: cover;
+	}
 }
 
 .almedalen-logo {
 	background: url(../images/logos/justarrived-almedalen.png) no-repeat center center;
 	width: 100%;
 	height: 64px;
-	padding: 10% 0;
+	padding: 2.4em 0;
+	background-size: 209px 41px;
+	@include mobile {
+		padding: 4em 0;
+		background-size: 269px 52px;
+	}
+	@include tablet {
+		padding: 10% 0;
+		background-size: 329px 64px;
+	}
 }
 
 .almedalen-content-container {
 	top: auto;
 	width: 100%;
-	position: relative;
-	min-height: 660px;
+	max-width: 650px;
+    margin: 0 auto;
+    @include desktop {
+    	max-width: 1200px;
+    }
+    & h1 {
+		font-size: 32px;
+	}
 }
 
 .almedalen-signup,
 .almedalen-copy {
-	position: absolute;
-	width: 50%;
-	height: 100%;
-	padding: 3% 5%;
+	height: 100%;	
+	padding: 10% 6%;
+	@include tablet-small {
+		padding: 8% 10%;	
+	}
+	@include desktop {
+		float: left;
+		width: 50%;
+		padding: 4% 5%;
+	}
 }
 
 .almedalen-signup {
 	left: 0;
 	background: #fff;
-
 	& .section--signup-popup {
 		padding: 0;
 	} 
@@ -43,5 +65,61 @@
 
 .almedalen-copy {
 	right: 0;
+	color: $stone-dark;
 	background: $charcoal-medium;
+	& h1 {
+		color: #fff;
+	}
+}
+
+.social-list {
+	margin-top: 36px;
+	font-size: 0;
+	& a {
+		color: $stone-light;
+		text-decoration: none;
+	}
+}
+
+.social-list__link {
+	font-size: 24px;
+	display: inline-block;
+	margin-right: 0.8em;
+}
+
+.social-list__text-link {
+	font-size: 18px;
+    margin-right: 0;
+    float: right;
+    position: relative;
+    top: 5px;
+    @include mobile {
+    	float: none;
+    	top: auto;
+    	margin-left: 2em;
+    }
+}
+
+.facebook-link {
+	&:hover {
+		color: #3b5998;
+	}
+}
+
+.twitter-link {
+	&:hover {
+		color: #55acee;
+	}
+}
+
+.instagram-link {
+	&:hover {
+		color: #5851db;
+	}
+}
+
+.justarrived-link {
+	&:hover {
+		color: $cerise;
+	}
 }
