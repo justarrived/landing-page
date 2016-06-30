@@ -77,6 +77,7 @@
 													<div class="response" id="mce-error-response" style="display:none"></div>
 													<div class="response" id="mce-success-response" style="display:none"></div>
 												</div>
+												<!-- prevent bot signups -->
 											    <div style="position: absolute; left: -5000px;" aria-hidden="true">
 											    	<input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
 											    </div>

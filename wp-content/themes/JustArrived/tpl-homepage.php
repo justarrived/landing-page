@@ -440,23 +440,11 @@
 											</ul>
 										</div>
 									</div>
-									<!-- <div class="mc-field-group input-group">
-									    <div class="input-group-content">
-										    <p>I'm interested in...</p>
-										    <ul>
-										    	<li><input type="checkbox" value="1" name="group[3729][1]" id="mce-group[3729]-3729-0"><label for="mce-group[3729]-3729-0">Posting jobs</label></li>
-												<li><input type="checkbox" value="2" name="group[3729][2]" id="mce-group[3729]-3729-1"><label for="mce-group[3729]-3729-1">Finding jobs</label></li>
-												<li><input type="checkbox" value="4" name="group[3729][4]" id="mce-group[3729]-3729-2"><label for="mce-group[3729]-3729-2">Helping out</label></li>
-												<li><input type="checkbox" value="8" name="group[3729][8]" id="mce-group[3729]-3729-3"><label for="mce-group[3729]-3729-3">Donating</label></li>
-												<li><input type="checkbox" value="16" name="group[3729][16]" id="mce-group[3729]-3729-4"><label for="mce-group[3729]-3729-4">Knowing more</label></li>
-											</ul>
-										</div>
-									</div> -->
 									<div id="mce-responses" class="clear">
 										<div class="response" id="mce-error-response" style="display:none"></div>
 										<div class="response" id="mce-success-response" style="display:none"></div>
 									</div>
-									<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									<!-- prevent bot signups -->
 								    <div style="position: absolute; left: -5000px;" aria-hidden="true">
 								    	<input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
 								    </div>
