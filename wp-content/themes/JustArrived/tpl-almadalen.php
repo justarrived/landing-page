@@ -32,44 +32,55 @@
 									<h1 class="bordered bordered--primary module--txt-c">Sign up</h1>
 									<p>We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch on the 1st of September, please fill in the form and we will get back to you!</p>
 									<div id="mc_embed_signup">
-										<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
-
-										<div class="signup-error module--txt-c">
-											<label for="mce-EMAIL" class="mailchimp-error">Email Address</label>
-										</div>
-
+										<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+				
+											<input type=hidden name="oid" value="00D58000000cNvl">
+											<input type=hidden name="retURL" value="http://www.justarrived.se">
+											<input type=hidden name="lead_source" value="Web">
+				
+											<!--  ----------------------------------------------------------------------  -->
+											<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+											<!--  these lines if you wish to test in debug mode.                          -->
+											<!--  <input type="hidden" name="debug" value=1>                              -->
+											<!--  <input type="hidden" name="debugEmail" value="richard.dearn@eins.se">   -->
+											<!--  ----------------------------------------------------------------------  -->
+				
+											<div class="signup-error module--txt-c">
+												<label for="mce-EMAIL" class="mailchimp-error">Email Address</label>
+											</div>
+				
 										    <div id="mc_embed_signup_scroll">
 												
 												<div class="form-col mc-field-group">
 													<label>Email Address <span class="asterisk">*</span></label>
-													<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+													<input type="email" value="" name="email" class="required email" id="mce-EMAIL">
 												</div>
 												<div class="form-col mc-field-group">
 													<label for="mce-NAME">Name <span class="asterisk">*</span>
 												</label>
-													<input type="text" value="" name="NAME" class="required" id="mce-NAME">
+													<input type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME">
 												</div>
 												<div class="form-col mc-field-group size1of2">
 													<label for="mce-PHONE">Phone Number</label>
-													<input type="number" name="PHONE" class="" value="" id="mce-PHONE">
+													<input type="number" maxlength="40" name="phone" class="" value="" id="mce-PHONE">
 												</div>
 												<div class="form-col mc-field-group">
 													<label for="mce-COMPANY">Company</label>
-													<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
+													<input type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY">
 												</div>
 												<div class="form-col form-col--full-width mc-field-group">
 													<label for="mce-LOCATION">Location</label>
-													<input type="text" value="" name="LOCATION" class="" id="mce-LOCATION">
+													<input type="text" value="" name="00N580000088gDR" class="" id="mce-LOCATION">
 												</div>
 												<div class="mc-field-group input-group">
 													<div class="input-group-content">
 														<p>I'm interested in...</p>
 														<ul>
-															<li><input type="radio" value="Posting jobs" name="MMERGE5" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">Posting jobs</label></li>
-															<li><input type="radio" value="Finding jobs" name="MMERGE5" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">Finding jobs</label></li>
-															<li><input type="radio" value="Helping out" name="MMERGE5" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">Helping out</label></li>
-															<li><input type="radio" value="Donating" name="MMERGE5" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">Donating</label></li>
-															<li><input type="radio" value="Knowing more" name="MMERGE5" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">Knowing more</label></li>
+															<li><input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">Posting jobs</label></li>
+															<li><input type="radio" value="Finding jobs" name="00N580000088fVu" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">Finding jobs</label></li>
+															<li><input type="radio" value="Helping out" name="00N580000088fVu" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">Helping out</label></li>
+															<li><input type="radio" value="Donating" name="00N580000088fVu" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">Donating</label></li>
+															<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">Knowing more</label></li>
 														</ul>
 													</div>
 												</div>
