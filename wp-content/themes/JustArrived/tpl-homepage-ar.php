@@ -409,44 +409,55 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 						<h2 class="bordered bordered--primary module--txt-c">تسجيل الدخول</h2>
 						<p>نحن حاليا باختبار منصة (مايو-سبتمبر) مع مجموعة حصرية من شركات والوافدين الجدد. إذا كنت مهتما في الاستفادة من منصة بعد الافتتاح الرسمي لدينا في 1 سبتمبر، يرجى تعبئة النموذج وسوف نقوم بالرد عليك!</p>
 						<div id="mc_embed_signup">
-							<form action="//justarrived.us13.list-manage.com/subscribe/post?u=ac005505ee4f55f35fc7bdc5d&amp;id=4cc4f7c8c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
-
-							<div class="signup-error module--txt-c">
-								<label for="mce-EMAIL" class="mailchimp-error">البريد الالكتروني</label>
-							</div>
-
+							<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+	
+								<input type=hidden name="oid" value="00D58000000cNvl">
+								<input type=hidden name="retURL" value="http://www.justarrived.se">
+								<input type=hidden name="lead_source" value="Web">
+	
+								<!--  ----------------------------------------------------------------------  -->
+								<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+								<!--  these lines if you wish to test in debug mode.                          -->
+								<!--  <input type="hidden" name="debug" value=1>                              -->
+								<!--  <input type="hidden" name="debugEmail" value="richard.dearn@eins.se">   -->
+								<!--  ----------------------------------------------------------------------  -->
+	
+								<div class="signup-error module--txt-c">
+									<label for="mce-EMAIL" class="mailchimp-error">البريد الالكتروني</label>
+								</div>
+	
 							    <div id="mc_embed_signup_scroll">
 									
 									<div class="form-col mc-field-group">
 										<label>البريد الالكتروني <span class="asterisk">*</span></label>
-										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+										<input type="email" value="" name="email" class="required email" id="mce-EMAIL">
 									</div>
 									<div class="form-col mc-field-group">
 										<label for="mce-NAME">الاسم <span class="asterisk">*</span>
 									</label>
-										<input type="text" value="" name="NAME" class="required" id="mce-NAME">
+										<input type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME">
 									</div>
 									<div class="form-col mc-field-group size1of2">
 										<label for="mce-PHONE">رقم الهاتف</label>
-										<input type="number" name="PHONE" class="" value="" id="mce-PHONE">
+										<input type="number" maxlength="40" name="phone" class="" value="" id="mce-PHONE">
 									</div>
 									<div class="form-col mc-field-group">
 										<label for="mce-COMPANY">الشركة</label>
-										<input type="text" value="" name="COMPANY" class="" id="mce-COMPANY">
+										<input type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY">
 									</div>
 									<div class="form-col form-col--full-width mc-field-group">
 										<label for="mce-LOCATION">موقع</label>
-										<input type="text" value="" name="LOCATION" class="" id="mce-LOCATION">
+										<input type="text" value="" name="00N580000088gDR" class="" id="mce-LOCATION">
 									</div>
 									<div class="mc-field-group input-group">
 										<div class="input-group-content">
 											<p>أنا مهتم ب...</p>
 											<ul>
-												<li><input type="radio" value="Posting jobs" name="MMERGE5" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">نشر فرص العمل</label></li>
-												<li><input type="radio" value="Finding jobs" name="MMERGE5" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">العثور على وظائف</label></li>
-												<li><input type="radio" value="Helping out" name="MMERGE5" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">يساعد خارجا</label></li>
-												<li><input type="radio" value="Donating" name="MMERGE5" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">تبرع</label></li>
-												<li><input type="radio" value="Knowing more" name="MMERGE5" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">معرفة المزيد</label></li>
+												<li><input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">نشر فرص العمل</label></li>
+												<li><input type="radio" value="Finding jobs" name="00N580000088fVu" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">العثور على وظائف</label></li>
+												<li><input type="radio" value="Helping out" name="00N580000088fVu" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">يساعد خارجا</label></li>
+												<li><input type="radio" value="Donating" name="00N580000088fVu" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">تبرع</label></li>
+												<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">معرفة المزيد</label></li>
 											</ul>
 										</div>
 									</div>
@@ -459,7 +470,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 								    	<input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
 								    </div>
 							    	<div class="clear">
-							    		<input type="submit" value="تسجيل الدخول" name="subscribe" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
+							    		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
 							    	</div>
 							    </div>
 							</form>
