@@ -412,9 +412,18 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 							<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 	
 								<input type=hidden name="oid" value="00D58000000cNvl">
-								<input type=hidden name="retURL" value="http://www.justarrived.se">
+								<input type=hidden name="retURL" value="justarrived.se" id="salesforce_retURL">
 								<input type=hidden name="lead_source" value="Web">
 	
+								<script>
+									function getCurrentURIForRedirect() {
+									    var ele = document.getElementById("salesforce_retURL");
+									    console.log('ele');
+									    ele.setAttribute("value", window.location.href + "?message=thanks");
+									}
+	
+									//getCurrentURIForRedirect();
+								</script>		
 								<!--  ----------------------------------------------------------------------  -->
 								<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
 								<!--  these lines if you wish to test in debug mode.                          -->
