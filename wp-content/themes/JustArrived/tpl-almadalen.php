@@ -53,12 +53,12 @@
 												
 												<div class="form-col mc-field-group">
 													<label>Email Address <span class="asterisk">*</span></label>
-													<input type="email" value="" name="email" class="required email" id="mce-EMAIL">
+													<input type="email" value="" name="email" class="required email" id="mce-EMAIL" required>
 												</div>
 												<div class="form-col mc-field-group">
 													<label for="mce-NAME">Name <span class="asterisk">*</span>
 												</label>
-													<input type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME">
+													<input type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required>
 												</div>
 												<div class="form-col mc-field-group size1of2">
 													<label for="mce-PHONE">Phone Number</label>
