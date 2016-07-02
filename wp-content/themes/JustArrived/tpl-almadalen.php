@@ -32,7 +32,7 @@
 									<h1 class="bordered bordered--primary module--txt-c">Sign up</h1>
 									<p>We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch on the 1st of September, please fill in the form and we will get back to you!</p>
 									<div id="mc_embed_signup">
-										<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+										<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form">
 				
 											<input type=hidden name="oid" value="00D58000000cNvl">
 											<input type=hidden name="retURL" value="justarrived.se" id="salesforce_retURL">
@@ -116,7 +116,7 @@
 
 						<div class="almedalen-copy equal-height">
 
-							<h1 class="bordered bordered--secondary module--txt-c">Om Just Arrived</h1>
+							<h1 class="bordered bordered--lightblue module--txt-c">Om Just Arrived</h1>
 							<p>avgörande skillnad för alla de nyanlända som kommer till Sverige. Just Arrived skulle drivas som ett icke vinstdrivande företag och ligga under en stiftelse. Initiativet skulle dessutom byggas upp pro bono, av människor och företag som frivilligt ger av sin tid, pengar och sitt engagemang. Idag engagerar Just Arrived över 100 personer som representerar 20 olika företag och myndigheter i Sverige.</p>
 							<p>Tillsammans har vi lagt tusentals timmar på att ta fram den webb-applikation som matchar nyanlända med jobbmöjligheter. Vi tar fullt arbetsgivaransvar genom att betala skatter, sociala avgifter och försäkringar för de nyanlända. Detta innebär minimal administration för de företag som lägger upp uppdrag på vår sida. Framför allt för Just Arrived ihop två grupper i samhället som letar efter varandra; företag som vill hjälpa nyanlända samt nyanlända som letar efter jobb.</p>
 							<ul class="social-list">
@@ -134,6 +134,69 @@
 								</li>
 							</ul>
 						</div> <!-- /almedalen-copy -->
+
+						<div class="almedalen-wrapper">
+							<div class="almedalen-sponsors">
+
+								<h2 class="bordered bordered--primary module--txt-c">Our Almedalen Sponsors</h2>
+								<ul class="almedalen-sponsors__logos">
+									<li class="almedalen-sponsors__logo">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/welcome-al.png">
+									</li>
+									<li class="almedalen-sponsors__logo">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/refugee-tech-al.png">
+									</li>
+									<li class="almedalen-sponsors__logo --eins">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/eins-al.png">
+									</li>
+									<li class="almedalen-sponsors__logo">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/hallvarsson-al.png">
+									</li>
+									<li class="almedalen-sponsors__logo --ryska">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/ryska-al.png">
+									</li>
+								</ul>
+
+							</div>
+
+							<div class="almedalen-profiles">
+								<h2 class="bordered bordered--secondary module--txt-c">Together we're building JustArrived</h2>
+								<ul class="almedalen-profiles__profiles">
+									<li class="almedalen-profiles__profile">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/almedalen/andreas-al.png">
+										<h4>Andreas</h4>
+									</li>
+									<li class="almedalen-profiles__profile">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/almedalen/fredric-al.png">
+										<h4>Fredric</h4>
+									</li>
+									<li class="almedalen-profiles__profile">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/almedalen/jacob-al.png">
+										<h4>Jacob</h4>
+									</li>
+									<li class="almedalen-profiles__profile">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/almedalen/anna-al.png">
+										<h4>Anna</h4>
+									</li>
+									<li class="almedalen-profiles__profile">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/almedalen/per-al.png">
+										<h4>Per</h4>
+									</li>
+									<li class="almedalen-profiles__profile">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/almedalen/yuliya-al.png">
+										<h4>Yuliya</h4>
+									</li>
+									<li class="almedalen-profiles__profile">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/almedalen/carolin-al.png">
+										<h4>Carolin</h4>
+									</li>
+									<li class="almedalen-profiles__profile">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/almedalen/olof-al.png">
+										<h4>Olof</h4>
+									</li>
+								</ul>
+							</div>
+						</div>
 
 					</div>
 				
