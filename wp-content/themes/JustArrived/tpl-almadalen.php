@@ -119,6 +119,7 @@
 							<h1 class="bordered bordered--lightblue module--txt-c">Om Just Arrived</h1>
 							<p>avgörande skillnad för alla de nyanlända som kommer till Sverige. Just Arrived skulle drivas som ett icke vinstdrivande företag och ligga under en stiftelse. Initiativet skulle dessutom byggas upp pro bono, av människor och företag som frivilligt ger av sin tid, pengar och sitt engagemang. Idag engagerar Just Arrived över 100 personer som representerar 20 olika företag och myndigheter i Sverige.</p>
 							<p>Tillsammans har vi lagt tusentals timmar på att ta fram den webb-applikation som matchar nyanlända med jobbmöjligheter. Vi tar fullt arbetsgivaransvar genom att betala skatter, sociala avgifter och försäkringar för de nyanlända. Detta innebär minimal administration för de företag som lägger upp uppdrag på vår sida. Framför allt för Just Arrived ihop två grupper i samhället som letar efter varandra; företag som vill hjälpa nyanlända samt nyanlända som letar efter jobb.</p>
+							<p>We're currently in Stockholm, and accepting job postings from Stockholm, Göteborg &amp; Malmö.</p>
 							<ul class="social-list">
 								<li class="social-list__link">
 									<a class="facebook-link" href="#" title="Facebook" target=""><i class="fa fa-facebook-official" aria-hidden="true"></a></i>
