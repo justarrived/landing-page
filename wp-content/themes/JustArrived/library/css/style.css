@@ -2718,13 +2718,14 @@ img {
   margin-right: 0.8em; }
 
 .social-list__text-link {
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 0;
   float: right;
   position: relative;
   top: 5px; }
   @media (min-width: 480px) {
     .social-list__text-link {
+      font-size: 18px;
       float: none;
       top: auto;
       margin-left: 2em; } }
@@ -2763,20 +2764,28 @@ img {
 .almedalen-sponsors__logo {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 2em 2em; }
+  margin: 0 5% 2em;
+  width: 33%; }
+  @media (min-width: 480px) {
+    .almedalen-sponsors__logo {
+      width: auto;
+      margin: 0 2em 2em; } }
   .almedalen-sponsors__logo img {
     width: 100%;
     max-width: 120px; }
     @media (min-width: 768px) {
       .almedalen-sponsors__logo img {
         max-width: 150px; } }
-  .almedalen-sponsors__logo.--eins {
+  .almedalen-sponsors__logo.logo--eins img {
     max-width: 115px; }
-  .almedalen-sponsors__logo.--ryska {
-    max-width: 80px; }
-  .almedalen-sponsors__logo.--fotografiska {
+  .almedalen-sponsors__logo.logo--ryska img {
+    max-width: 74px; }
+    @media (min-width: 480px) {
+      .almedalen-sponsors__logo.logo--ryska img {
+        max-width: 80px; } }
+  .almedalen-sponsors__logo.logo--fotografiska img {
     max-width: 100px; }
-  .almedalen-sponsors__logo.--nova {
+  .almedalen-sponsors__logo.logo--nova img {
     max-width: 110px; }
 
 .almedalen-profiles__profiles {
@@ -2787,9 +2796,9 @@ img {
 
 .almedalen-profiles__profile {
   display: inline-block;
-  margin: 0 2% 2%;
+  margin: 0 4% 2%;
   text-align: center;
-  width: 29%;
+  width: 25%;
   font-size: 14px;
   color: #fff; }
   @media (min-width: 600px) {

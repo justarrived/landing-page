@@ -151,22 +151,22 @@
 									<li class="almedalen-sponsors__logo">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/refugee-tech-al.png">
 									</li>
-									<li class="almedalen-sponsors__logo --eins">
+									<li class="almedalen-sponsors__logo logo--eins">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/eins-al.png">
 									</li>
 									<li class="almedalen-sponsors__logo">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/hallvarsson-al.png">
 									</li>
-									<li class="almedalen-sponsors__logo --ryska">
+									<li class="almedalen-sponsors__logo logo--ryska">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/ryska-al.png">
 									</li>
-									<li class="almedalen-sponsors__logo --fotografiska">
+									<li class="almedalen-sponsors__logo logo--fotografiska">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/fotografiska-al.png">
 									</li>
-									<li class="almedalen-sponsors__logo --nova">
+									<li class="almedalen-sponsors__logo logo--nova">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/nova-al.png">
 									</li>
-									<li class="almedalen-sponsors__logo --nova">
+									<li class="almedalen-sponsors__logo logo--nova">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/mingla-al.png">
 									</li>
 									<li class="almedalen-sponsors__logo">

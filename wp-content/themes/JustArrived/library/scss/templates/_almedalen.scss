@@ -107,12 +107,13 @@
 }
 
 .social-list__text-link {
-	font-size: 18px;
+	font-size: 16px;
     margin-right: 0;
     float: right;
     position: relative;
     top: 5px;
     @include mobile {
+    	font-size: 18px;
     	float: none;
     	top: auto;
     	margin-left: 2em;
@@ -168,7 +169,12 @@
 .almedalen-sponsors__logo {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 2em 2em;
+	margin: 0 5% 2em;
+    width: 33%;
+	@include mobile {
+		width: auto;
+		margin: 0 2em 2em;
+	}
 	& img {
 		width: 100%;
 		max-width: 120px;
@@ -176,17 +182,28 @@
 			max-width: 150px;
 		}
 	}
-	&.--eins {
-		max-width: 115px;
+	&.logo--eins {
+		& img {
+			max-width: 115px;
+		}
 	}
-	&.--ryska {
-		max-width: 80px;
+	&.logo--ryska {
+		& img {
+			max-width: 74px;
+			@include mobile {
+				max-width: 80px;	
+			}
+		}
 	}
-	&.--fotografiska {
-		max-width: 100px;
+	&.logo--fotografiska {
+		& img {
+			max-width: 100px;
+		}
 	}
-	&.--nova {
-		max-width: 110px;
+	&.logo--nova {
+		& img {
+			max-width: 110px;
+		}
 	}
 }
 
@@ -199,9 +216,9 @@
 
 .almedalen-profiles__profile {
 	display: inline-block;
-	margin: 0 2% 2%;
+	margin: 0 4% 2%;
 	text-align: center;
-	width: 29%;
+	width: 25%;
 	font-size: 14px;
 	color: #fff;
 	@include tablet-small {
