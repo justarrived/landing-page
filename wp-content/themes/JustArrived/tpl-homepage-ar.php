@@ -15,6 +15,12 @@
 
 <?php get_header(); ?>
 
+			<div class="module-banner">
+				<div class="wrap cf">
+					<a href="<?php echo home_url(); ?>/almedalen" title="Visit our Almedalen page"><strong>نحن في Almedalen <i class="fa fa-angle-right fa-flip-horizontal" aria-hidden="true"></i></strong></a>
+				</div>
+			</div>
+
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 				<div id="inner-header" class="wrap cf">
@@ -232,6 +238,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 								<li class="incomplete">المساهمة في الخدمات الحسابية </li>
 								<li class="incomplete">تطوير المبيعات </li>
 								<li class="incomplete">تخصيصات سطح مكتب التطبيق</li>
+								<li class="incomplete">ترجمة التطبيق لالكورمانجية، الداري والباشتو أو التغرينية</li>
 							</ul>
 						</div>
 						<div class="module-content module-content--left">
@@ -409,7 +416,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 						<h2 class="bordered bordered--primary module--txt-c">تسجيل الدخول</h2>
 						<p>نحن حاليا باختبار منصة (مايو-سبتمبر) مع مجموعة حصرية من شركات والوافدين الجدد. إذا كنت مهتما في الاستفادة من منصة بعد الافتتاح الرسمي لدينا في 1 سبتمبر، يرجى تعبئة النموذج وسوف نقوم بالرد عليك!</p>
 						<div id="mc_embed_signup">
-							<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+							<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form">
 	
 								<input type=hidden name="oid" value="00D58000000cNvl">
 								<input type=hidden name="retURL" value="justarrived.se" id="salesforce_retURL">

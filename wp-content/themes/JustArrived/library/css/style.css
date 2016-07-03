@@ -1581,6 +1581,19 @@ select {
       padding: 0 1em;
       float: left; } }
 
+.module-banner {
+  text-align: center;
+  padding: 0.4em 0;
+  color: #fff;
+  background: #e5007d; }
+  .module-banner a {
+    display: block;
+    color: #fff;
+    text-decoration: none; }
+
+.page-template-tpl-homepage-ar .module-banner {
+  direction: rtl; }
+
 .footer {
   clear: both;
   padding: 2em 0 2em;
@@ -2620,20 +2633,23 @@ img {
   height: 100%;
   width: 100%;
   background: #222531; }
+  @media (min-width: 600px) {
+    .page-template-tpl-almadalen .input-group li {
+      width: 49%; } }
 
 .almedalen-logo {
   background: url(../images/logos/justarrived-almedalen.png) no-repeat center center;
   width: 100%;
-  height: 86px;
+  height: 111px;
   padding: 4em 0;
-  background-size: 278px 73px; }
+  background-size: 296px 77px; }
   @media (min-width: 480px) {
     .almedalen-logo {
       padding: 4em 0; } }
   @media (min-width: 768px) {
     .almedalen-logo {
-      padding: 8% 0;
-      background-size: 329px 86px; } }
+      padding: 6em 0;
+      background-size: 411px 107px; } }
 
 .almedalen-content-container {
   top: auto;
@@ -2738,10 +2754,11 @@ img {
 
 .almedalen-sponsors__logos {
   text-align: center;
-  margin: 2em 0 0; }
+  margin: 2em auto 0;
+  max-width: 940px; }
   @media (min-width: 768px) {
     .almedalen-sponsors__logos {
-      margin: 0; } }
+      margin: 0 auto; } }
 
 .almedalen-sponsors__logo {
   display: inline-block;
@@ -2757,6 +2774,10 @@ img {
     max-width: 115px; }
   .almedalen-sponsors__logo.--ryska {
     max-width: 80px; }
+  .almedalen-sponsors__logo.--fotografiska {
+    max-width: 100px; }
+  .almedalen-sponsors__logo.--nova {
+    max-width: 110px; }
 
 .almedalen-profiles__profiles {
   font-size: 0;
@@ -2779,6 +2800,11 @@ img {
   .almedalen-profiles__profile img {
     width: 100%;
     max-width: 170px; }
+
+.number-of-spaces {
+  text-align: center;
+  font-size: 18px;
+  color: #e5007d !important; }
 
 /*********************
 LARGER MOBILE DEVICES
@@ -3083,10 +3109,10 @@ query for retina AND a certain size if you want. Go Nuts.
   */
   .almedalen-logo {
     background: url(../images/logos/justarrived-almedalen@2x.png) no-repeat center center;
-    background-size: 278px 73px; } }
+    background-size: 296px 77px; } }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 1.5) and (min-width: 768px), only screen and (min-device-pixel-ratio: 1.5) and (min-width: 768px) {
     .almedalen-logo {
-      background-size: 329px 86px; } }
+      background-size: 411px 107px; } }
 
 /*********************
 PRINT STYLESHEET

@@ -260,3 +260,21 @@
     float: left;
   }
 }
+
+.module-banner {
+  text-align: center;
+  padding: 0.4em 0;
+  color: #fff;
+  background: $cerise;
+  & a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.page-template-tpl-homepage-ar {
+  & .module-banner {
+    direction: rtl;
+  }
+}

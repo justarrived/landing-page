@@ -617,13 +617,36 @@ function loadGravatars() {
     };
 })(jQuery);
 
+// Maxmimum 100 JustArrived accounts, change this is you want to "countdown from more"
+MAX_JA_ACCOUNTS = 100;
+// The selector for all elements that include the counter
+MAX_JA_ACCOUNTS_SELECTOR = '.js-ja-max-accounts-selector';
 
+function getCompanyUsersCount(callback) {
+  var url = 'https://api.justarrived.se/api/v1/users/company_users_count';
+  jQuery.ajax({
+    url: url,
+    type: 'GET',
+    dataType: 'json',
+    success: function(json, data) {
+      callback(json.count);
+    },
+    error: function() {
+      callback(0);
+    }
+  });
+}
 
 /*
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
 
+    // Update number
+    getCompanyUsersCount(function(companyUsersCount) {
+        var stock = MAX_JA_ACCOUNTS - companyUsersCount;
+        jQuery(MAX_JA_ACCOUNTS_SELECTOR).text(stock); 
+    });
 
   //open signup popup
   $('.cd-popup-trigger-signin').on('click', function(event){

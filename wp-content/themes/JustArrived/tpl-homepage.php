@@ -14,6 +14,12 @@
 ?>
 
 <?php get_header(); ?>
+			
+			<div class="module-banner">
+				<div class="wrap cf">
+					<a href="<?php echo home_url(); ?>/almedalen" title="Visit our Almedalen page"><strong>We're at Almedalen <i class="fa fa-angle-right" aria-hidden="true"></i></strong></a>
+				</div>
+			</div>
 
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
@@ -223,6 +229,7 @@
 								<li class="incomplete">Support with accounting services</li>
 								<li class="incomplete">Development of sales collateral</li>
 								<li class="incomplete">Desktop optimization of app</li>
+								<li class="incomplete">Translating application to kurmanji, dari, pushto or tigrinya</li>
 							</ul>
 						</div>
 						<div class="module-content module-content--left">
@@ -396,10 +403,10 @@
 					module-content--centered
 					module--black
 					">
-						<h2 class="bordered bordered--primary module--txt-c">Sign up</h2>
+						<h2 class="bordered bordered--primary module--txt-c">Sign up to the beta</h2>
 						<p>We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch on the 1st of September, please fill in the form and we will get back to you!</p>
 						<div id="mc_embed_signup">
-						<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+						<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form">
 
 							<input type=hidden name="oid" value="00D58000000cNvl">
 							<input type=hidden name="retURL" value="justarrived.se" id="salesforce_retURL">

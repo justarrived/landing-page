@@ -29,8 +29,11 @@
 								module-content--centered
 								module--black
 								">
-									<h1 class="bordered bordered--primary module--txt-c">Sign up</h1>
-									<p>We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch on the 1st of September, please fill in the form and we will get back to you!</p>
+									<h1 class="bordered bordered--primary module--txt-c">100 platser släpps under Almedalen</h1>
+									<p class="number-of-spaces">Bara <strong class="js-ja-max-accounts-selector">94</strong> platser kvar</p>
+									<p>Under Almedalen släpper vi 100 exklusiva företagsplatser. Om du är intresserad av att lägga ut uppdrag på www.justarrived.se och matchas ihop med nyanlända personer i Sverige så fyll i dina uppgifter nedan. Vi återkommer sedan till de 100 första företagen som skriver upp sig med en promo code som ger access till vår digitala plattform.</p>
+									<p>Först till kvarn!</p>
+									<p>Vi finns för närvarande i Stockholm och accepterar uppdrag som läggs upp i Stockholm, Göteborg och Malmö.</p>
 									<div id="mc_embed_signup">
 										<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form">
 				
@@ -62,35 +65,35 @@
 										    <div id="mc_embed_signup_scroll">
 												
 												<div class="form-col mc-field-group">
-													<label>Email Address <span class="asterisk">*</span></label>
+													<label>E-postadress <span class="asterisk">*</span></label>
 													<input type="email" value="" name="email" class="required email" id="mce-EMAIL" required>
 												</div>
 												<div class="form-col mc-field-group">
-													<label for="mce-NAME">Name <span class="asterisk">*</span>
+													<label for="mce-NAME">Namn <span class="asterisk">*</span>
 												</label>
 													<input type="text" value="" maxlength="80" name="last_name" class="required" id="mce-LASTNAME" required>
 												</div>
 												<div class="form-col mc-field-group size1of2">
-													<label for="mce-PHONE">Phone Number</label>
+													<label for="mce-PHONE">Telefonnummer</label>
 													<input type="number" maxlength="40" name="phone" class="" value="" id="mce-PHONE">
 												</div>
 												<div class="form-col mc-field-group">
-													<label for="mce-COMPANY">Company</label>
+													<label for="mce-COMPANY">Företag</label>
 													<input type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY">
 												</div>
 												<div class="form-col form-col--full-width mc-field-group">
-													<label for="mce-LOCATION">Location</label>
+													<label for="mce-LOCATION">Stad</label>
 													<input type="text" value="" name="00N580000088gDR" class="" id="mce-LOCATION">
 												</div>
 												<div class="mc-field-group input-group">
 													<div class="input-group-content">
-														<p>I'm interested in...</p>
+														<p>Jag är intresserad av att...</p>
 														<ul>
-															<li><input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">Posting jobs</label></li>
-															<li><input type="radio" value="Finding jobs" name="00N580000088fVu" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">Finding jobs</label></li>
-															<li><input type="radio" value="Helping out" name="00N580000088fVu" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">Helping out</label></li>
-															<li><input type="radio" value="Donating" name="00N580000088fVu" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">Donating</label></li>
-															<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">Knowing more</label></li>
+															<li><input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">Lägga upp jobbpositioner</label></li>
+															<li><input type="radio" value="Finding jobs" name="00N580000088fVu" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">Hitta jobb</label></li>
+															<li><input type="radio" value="Helping out" name="00N580000088fVu" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">Hjälpa till</label></li>
+															<li><input type="radio" value="Donating" name="00N580000088fVu" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">Donera</label></li>
+															<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">Veta mer</label></li>
 														</ul>
 													</div>
 												</div>
@@ -103,7 +106,7 @@
 											    	<input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
 											    </div>
 										    	<div class="clear">
-										    		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
+										    		<input type="submit" value="Prenumerera" name="subscribe" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
 										    	</div>
 										    </div>
 										</form>
@@ -112,14 +115,15 @@
 								<a href="#0" class="cd-popup-close img-replace"></a>
 							</section>
 
-						</div> <!-- /almedalen-signup --> 
+						</div> <!-- /almedalen-signup -->
 
 						<div class="almedalen-copy equal-height">
 
-							<h1 class="bordered bordered--lightblue module--txt-c">Om Just Arrived</h1>
-							<p>avgörande skillnad för alla de nyanlända som kommer till Sverige. Just Arrived skulle drivas som ett icke vinstdrivande företag och ligga under en stiftelse. Initiativet skulle dessutom byggas upp pro bono, av människor och företag som frivilligt ger av sin tid, pengar och sitt engagemang. Idag engagerar Just Arrived över 100 personer som representerar 20 olika företag och myndigheter i Sverige.</p>
-							<p>Tillsammans har vi lagt tusentals timmar på att ta fram den webb-applikation som matchar nyanlända med jobbmöjligheter. Vi tar fullt arbetsgivaransvar genom att betala skatter, sociala avgifter och försäkringar för de nyanlända. Detta innebär minimal administration för de företag som lägger upp uppdrag på vår sida. Framför allt för Just Arrived ihop två grupper i samhället som letar efter varandra; företag som vill hjälpa nyanlända samt nyanlända som letar efter jobb.</p>
-							<p>We're currently in Stockholm, and accepting job postings from Stockholm, Göteborg &amp; Malmö.</p>
+							<h1 class="bordered bordered--lightblue module--txt-c">JustArrived i Almedalen</h1>
+							<p>Under Almedalen kör vi shuttle service mellan Visby flygplats och Almedalen med vår fantastiska Just Arrived-minibuss. Vi deltar dessutom i ett flertal seminarier. Missa inte heller att besöka oss i S:t Karins ruin i direkt anslutning till Fotografiskas utställning. För mer information om Just Arrived och vår kampanj i Almedalen följ oss i sociala medier.</p>
+							<br>
+							<h3>Just Arrived - Från Nyanländ till Nyanställd</h3>
+							<p>Just Arrived är en digital plattform som förmedlar enkla jobb och uppdrag till nyanlända personer i Sverige. Initiativet drivs som ett icke vinstdrivande företag och ligger under en stiftelse. Företaget har byggts upp pro bono, av människor och företag som frivilligt gett av sin tid, pengar och sitt engagemang. Idag engagerar Just Arrived över 100 personer som representerar 20 olika företag och myndigheter i Sverige. Tillsammans har vi lagt tusentals timmar på att ta fram den webb-applikation som matchar nyanlända med jobbmöjligheter. Vi tar fullt arbetsgivaransvar genom att betala skatter, sociala avgifter och försäkringar för de nyanlända. Detta innebär minimal administration för de företag som lägger upp uppdrag på vår sida. Framför allt för Just Arrived ihop två grupper i samhället som letar efter varandra; företag som vill hjälpa nyanlända samt nyanlända som letar efter jobb.</p>
 							<ul class="social-list">
 								<li class="social-list__link">
 									<a class="facebook-link" href="#" title="Facebook" target=""><i class="fa fa-facebook-official" aria-hidden="true"></a></i>
@@ -131,7 +135,7 @@
 									<a class="instagram-link" href="#" title="Instagram" target=""><i class="fa fa-instagram" aria-hidden="true"></a></i>
 								</li>
 								<li class="social-list__link social-list__text-link">
-									<a class="justarrived-link" href="http://justarrived.se" title="JustArrived.se">Visit <strong>JustArrived.se</strong></a>
+									<a class="justarrived-link" href="<?php echo home_url(); ?>" title="JustArrived.se">Besök <strong>JustArrived.se</strong></a>
 								</li>
 							</ul>
 						</div> <!-- /almedalen-copy -->
@@ -139,7 +143,7 @@
 						<div class="almedalen-wrapper">
 							<div class="almedalen-sponsors">
 
-								<h2 class="bordered bordered--primary module--txt-c">Our Almedalen Sponsors</h2>
+								<h2 class="bordered bordered--primary module--txt-c">Våra Almedalen sponsorer</h2>
 								<ul class="almedalen-sponsors__logos">
 									<li class="almedalen-sponsors__logo">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/welcome-al.png">
@@ -156,12 +160,27 @@
 									<li class="almedalen-sponsors__logo --ryska">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/ryska-al.png">
 									</li>
+									<li class="almedalen-sponsors__logo --fotografiska">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/fotografiska-al.png">
+									</li>
+									<li class="almedalen-sponsors__logo --nova">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/nova-al.png">
+									</li>
+									<li class="almedalen-sponsors__logo --nova">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/mingla-al.png">
+									</li>
+									<li class="almedalen-sponsors__logo">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/wintrgarden-al.png">
+									</li>
+									<li class="almedalen-sponsors__logo">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/milton-al.png">
+									</li>
 								</ul>
 
 							</div>
 
 							<div class="almedalen-profiles">
-								<h2 class="bordered bordered--secondary module--txt-c">Together we're building JustArrived</h2>
+								<h2 class="bordered bordered--secondary module--txt-c">Tillsammans bygger vi JustArrived</h2>
 								<ul class="almedalen-profiles__profiles">
 									<li class="almedalen-profiles__profile">
 										<img src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/almedalen/andreas-al.png">
