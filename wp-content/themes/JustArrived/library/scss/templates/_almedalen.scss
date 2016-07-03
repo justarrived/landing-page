@@ -11,8 +11,7 @@
 	padding: 4em 0;
 	background-size: 278px 73px;
 	@include mobile {
-		padding: 2em 0;
-		background-size: 278px 73px;
+		padding: 4em 0;
 	}
 	@include tablet {
 		padding: 8% 0;
@@ -164,6 +163,7 @@
 	vertical-align: middle;
 	margin: 0 2em 2em;
 	& img {
+		width: 100%;
 		max-width: 120px;
 		@include tablet {
 			max-width: 150px;
@@ -180,6 +180,7 @@
 .almedalen-profiles__profiles {
 	font-size: 0;
 	margin: 32px auto 0;
+	width: 100%;
 	max-width: 900px;
 }
 
@@ -196,6 +197,7 @@
 		font-size: 16px;
 	}
 	& img {
+		width: 100%;
 		max-width: 170px;
 	}
 }

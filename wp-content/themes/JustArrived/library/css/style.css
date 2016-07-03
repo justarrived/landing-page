@@ -2544,7 +2544,8 @@ img {
   width: auto;
   margin: 0 0 0.6em 0;
   font-size: 14px;
-  width: 100%; }
+  width: 100%;
+  vertical-align: top; }
   @media (min-width: 600px) {
     .input-group li {
       margin: 0 0 0.6em 0;
@@ -2628,8 +2629,7 @@ img {
   background-size: 278px 73px; }
   @media (min-width: 480px) {
     .almedalen-logo {
-      padding: 2em 0;
-      background-size: 278px 73px; } }
+      padding: 4em 0; } }
   @media (min-width: 768px) {
     .almedalen-logo {
       padding: 8% 0;
@@ -2748,6 +2748,7 @@ img {
   vertical-align: middle;
   margin: 0 2em 2em; }
   .almedalen-sponsors__logo img {
+    width: 100%;
     max-width: 120px; }
     @media (min-width: 768px) {
       .almedalen-sponsors__logo img {
@@ -2760,6 +2761,7 @@ img {
 .almedalen-profiles__profiles {
   font-size: 0;
   margin: 32px auto 0;
+  width: 100%;
   max-width: 900px; }
 
 .almedalen-profiles__profile {
@@ -2775,6 +2777,7 @@ img {
       width: 21%;
       font-size: 16px; } }
   .almedalen-profiles__profile img {
+    width: 100%;
     max-width: 170px; }
 
 /*********************
@@ -3080,13 +3083,10 @@ query for retina AND a certain size if you want. Go Nuts.
   */
   .almedalen-logo {
     background: url(../images/logos/justarrived-almedalen@2x.png) no-repeat center center;
-    background-size: 209px 41px; } }
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), only screen and (min--moz-device-pixel-ratio: 1.5) and (min-width: 480px), only screen and (min-device-pixel-ratio: 1.5) and (min-width: 480px) {
-    .almedalen-logo {
-      background-size: 269px 52px; } }
+    background-size: 278px 73px; } }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 1.5) and (min-width: 768px), only screen and (min-device-pixel-ratio: 1.5) and (min-width: 768px) {
     .almedalen-logo {
-      background-size: 329px 64px; } }
+      background-size: 329px 86px; } }
 
 /*********************
 PRINT STYLESHEET
