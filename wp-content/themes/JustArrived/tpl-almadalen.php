@@ -89,7 +89,7 @@
 													<div class="input-group-content">
 														<p>Jag är intresserad av att...</p>
 														<ul>
-															<li><input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">Lägga upp jobbpositioner</label></li>
+															<li><input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">Vara ett av de 100 företagen</label></li>
 															<li><input type="radio" value="Finding jobs" name="00N580000088fVu" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">Hitta jobb</label></li>
 															<li><input type="radio" value="Helping out" name="00N580000088fVu" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">Hjälpa till</label></li>
 															<li><input type="radio" value="Donating" name="00N580000088fVu" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">Donera</label></li>
