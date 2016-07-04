@@ -458,13 +458,13 @@
 								</div>
 								<div class="mc-field-group input-group">
 									<div class="input-group-content">
-										<p>I'm interested in...</p>
+										<p>I'm interested in... <span class="asterisk">*</span></p>
 										<ul>
 											<li><input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">Posting jobs</label></li>
 											<li><input type="radio" value="Finding jobs" name="00N580000088fVu" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">Finding jobs</label></li>
 											<li><input type="radio" value="Helping out" name="00N580000088fVu" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">Helping out</label></li>
 											<li><input type="radio" value="Donating" name="00N580000088fVu" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">Donating</label></li>
-											<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">Knowing more</label></li>
+											<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4" checked><label for="mce-MMERGE5-4">Knowing more</label></li>
 										</ul>
 									</div>
 								</div>

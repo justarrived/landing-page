@@ -467,13 +467,13 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 									</div>
 									<div class="mc-field-group input-group">
 										<div class="input-group-content">
-											<p>أنا مهتم ب...</p>
+											<p>أنا مهتم ب... <span class="asterisk">*</span></p>
 											<ul>
 												<li><input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">نشر فرص العمل</label></li>
 												<li><input type="radio" value="Finding jobs" name="00N580000088fVu" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">العثور على وظائف</label></li>
 												<li><input type="radio" value="Helping out" name="00N580000088fVu" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">يساعد خارجا</label></li>
 												<li><input type="radio" value="Donating" name="00N580000088fVu" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">تبرع</label></li>
-												<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">معرفة المزيد</label></li>
+												<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4" checked><label for="mce-MMERGE5-4">معرفة المزيد</label></li>
 											</ul>
 										</div>
 									</div>
