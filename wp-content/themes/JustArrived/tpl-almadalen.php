@@ -31,7 +31,7 @@
 								">
 									<h1 class="bordered bordered--primary module--txt-c">100 platser släpps under Almedalen</h1>
 									<p class="number-of-spaces">Bara <strong class="js-ja-max-accounts-selector">94</strong> platser kvar</p>
-									<p>Under Almedalen släpper vi 100 exklusiva företagsplatser. Om du är intresserad av att lägga ut uppdrag på www.justarrived.se och matchas ihop med nyanlända personer i Sverige så fyll i dina uppgifter nedan. Vi återkommer sedan till de 100 första företagen som skriver upp sig med en promo code som ger access till vår digitala plattform.</p>
+									<p>Under Almedalen släpper vi 100 exklusiva företagsplatser. Dessa 100 blir de första som få möjlighet att lägga ut uppdrag på www.justarrived.se och matchas ihop med nyanlända personer i Sverige. Vill du vara en förebild för Svenska företag och knipa en plats? Fyll i dina uppgifter nedan så återkommer vi och hjälper er registrera er och lägga upp jobb!</p>
 									<p>Först till kvarn!</p>
 									<p>Vi finns för närvarande i Stockholm och accepterar uppdrag som läggs upp i Stockholm, Göteborg och Malmö.</p>
 									<div id="mc_embed_signup">
