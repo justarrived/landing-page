@@ -14,12 +14,7 @@
 ?>
 
 <?php get_header(); ?>
-			
-			<div class="module-banner">
-				<div class="wrap cf">
-					<a href="<?php echo home_url(); ?>/almedalen" title="Visit our Almedalen page"><strong>We're at Almedalen <i class="fa fa-angle-right" aria-hidden="true"></i></strong></a>
-				</div>
-			</div>
+		
 
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 

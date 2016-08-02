@@ -15,12 +15,6 @@
 
 <?php get_header(); ?>
 
-			<div class="module-banner">
-				<div class="wrap cf">
-					<a href="<?php echo home_url(); ?>/almedalen" title="Visit our Almedalen page"><strong>نحن في Almedalen <i class="fa fa-angle-right fa-flip-horizontal" aria-hidden="true"></i></strong></a>
-				</div>
-			</div>
-
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 				<div id="inner-header" class="wrap cf">
