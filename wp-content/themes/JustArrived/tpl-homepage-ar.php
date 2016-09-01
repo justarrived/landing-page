@@ -21,7 +21,7 @@
 
 
 					<a href="<?php echo home_url(); ?>" rel="nofollow">
-						<div class="header__logo">JustArrived</div>
+						<div class="header__logo">Just Arrived</div>
 					</a>
 
 					<div class="header__btns">
@@ -47,7 +47,7 @@
 					module--padding
 					module--white
 					module--bg-cover"
-					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/couple.jpg)">
+					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/smiles.jpg)">
 					<div class="table">
 						<div class="table-cell">
 							<div class="wrap">
@@ -58,15 +58,15 @@
 							</div>
 						</div>
 					</div>
-					<div class="module__overlay module__overlay--black"></div>
+					<div class="module__overlay"></div>
 				</section>
 
 				<section class="
 					section--introduction
 					module
 					module--padding
-					module--white
-					module--black-bg">
+					module--black
+					module--white-bg">
 					<div class="wrap">
 						<div class="
 						module-content
@@ -80,7 +80,7 @@
 								<div class="column-1-2 module--txt-l">
 									<p>إن هذا التطبيق يقوم بترجمة الإعلانات الى لغات الاجئين المحلية.
 كما يوفر هذا التطبيق إمكانية التواصل بين الشركات والوافد الجديد مع بعضهم البعض وذلك يساهم في توفير المزيد من المعلومات والمرجعيات التي تساعد الوافد الجديد في الحصول على المزيد من فرص العمل.
-JustArrived  تأخذ على عاتقها مسؤولية الوافد الجديد في سوق العمل.</p>
+Just Arrived  تأخذ على عاتقها مسؤولية الوافد الجديد في سوق العمل.</p>
 								</div>
 								<a href="#" class="primary-btn btn-large cd-popup-trigger-signin">تسجيل الدخول</a>
 							</div>
@@ -92,11 +92,12 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 					section--how-to
 					module
 					module--padding
-					module--black
+					module--white
+					module--black-bg
 					module--txt-c">
 					<div class="wrap">
 						<div class="module-content">
-							<h2 class="bordered">"JustArrived" تسهل على الشركات جذب وتوظيف الوافدين الجدد.</h2>
+							<h2 class="bordered">"Just Arrived" تسهل على الشركات جذب وتوظيف الوافدين الجدد.</h2>
 
 							<div class="columns">
 								<div class="column-1-3">
@@ -133,7 +134,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 							</div>
 							<div class="product-summary">
 								<h2 class="bordered bordered--white bordered--left">عن التطبيق :</h2>
-								<p>"JustArrived" هو تطبيق يعمل على الربط بين الواصلين حديثا الى السويد وبين الوظائف المتوفرة المقدمة من الشركات السويدية. ويتم ذلك من خلال تطبيق سهل الإستخدام يمكن الوصول اليه من كافة الأجهزة المحمولة ويوفر الترجمة لمعظم لغات الوافدين الجدد.
+								<p>"Just Arrived" هو تطبيق يعمل على الربط بين الواصلين حديثا الى السويد وبين الوظائف المتوفرة المقدمة من الشركات السويدية. ويتم ذلك من خلال تطبيق سهل الإستخدام يمكن الوصول اليه من كافة الأجهزة المحمولة ويوفر الترجمة لمعظم لغات الوافدين الجدد.
 يعمل هذا التطبيق كالتالي:</p>
 								<ul class="bullet">
 									<li>- تقوم الشركة السويدية باضافة مهمة او وظيفة في التطبيق ( وقد تكون مدة العمل ساعة واحدة كحد أدنى و 6 أشهر كحد أقصى) بدون تكلفة.</li>
@@ -168,7 +169,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 		 
 								<p><strong>الان. الأعمال السويدية لديها الفرصة لتصنع التغيير.</strong></p>
 
-								<p>"JustArrived " تقوم بتسهيل الأعمال وتقديم المساعدة، وخلق شعور بالإندماج والدمج المجتمعي من خلال الإستعانة بأعمال ووظائف بسيطة.</p>
+								<p>"Just Arrived " تقوم بتسهيل الأعمال وتقديم المساعدة، وخلق شعور بالإندماج والدمج المجتمعي من خلال الإستعانة بأعمال ووظائف بسيطة.</p>
 
 								<p><small><em>بعد عشر سنوات فقط 60% من المهاجرين حصلوا على عمل مكنهم من إعانة أنفسهم.
 *المصدر: http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda</small> </em></p>
@@ -189,7 +190,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 						">
 							<h2 class="bordered bordered--primary">فريق العمل</h2>
 							<div class="module--txt-l">
-								<p>نحن مجموعة من 80 متطوع نعمل في أوقات المساء أو في عطل نهاية الاسبوع منذ خريف عام 2015 لنقدم لكم "JustArrived" . نشكل العديد من الإختصاصات والخلفيات والمنظمات. يجمعنا هدف جماعي وهو أن نجعل من السهل على الوافد الجديد الحصول على العمل والإندماج في المجتمع السويدي. نحتاج دائما الى أشخاص متعاطفين وكفء لتلبية الإحتياجات ( بغض النظر ما إذا كانوا منظمات أو مجرد اشخاص ).
+								<p>نحن مجموعة من 80 متطوع نعمل في أوقات المساء أو في عطل نهاية الاسبوع منذ خريف عام 2015 لنقدم لكم "Just Arrived" . نشكل العديد من الإختصاصات والخلفيات والمنظمات. يجمعنا هدف جماعي وهو أن نجعل من السهل على الوافد الجديد الحصول على العمل والإندماج في المجتمع السويدي. نحتاج دائما الى أشخاص متعاطفين وكفء لتلبية الإحتياجات ( بغض النظر ما إذا كانوا منظمات أو مجرد اشخاص ).
 يمكنك الإطلاع على ذلك من خلال الضغط على ( إنضم معنا ) في الأسفل.</p>
 							</div>
 						</div>
@@ -214,7 +215,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 					<div class="wrap">
 						<div class="module-content module-content--left">
 							<h2 class="bordered bordered--secondary bordered--left">انضم معنا</h2>
-							<p>"JustArrived" تتقدم بجهد فريق من المتطوعين الذين يرغبون بصناعة التغيير. إذا كنت تعتقد أنه بإمكانك تقديم المساعدة في أي مجال، يرجى الضعظ على الزر في الأسفل.</p>
+							<p>"Just Arrived" تتقدم بجهد فريق من المتطوعين الذين يرغبون بصناعة التغيير. إذا كنت تعتقد أنه بإمكانك تقديم المساعدة في أي مجال، يرجى الضعظ على الزر في الأسفل.</p>
 							<p>نبحث حاليا عن مبرمجين (AngularJS, Ruby on Rails) ، ومترجمين وداعمين. إذا كنت مطور برمجة وترغب في المساهمة في موقعنا   GitHub repository. </p>
 						</div>
 						
@@ -263,20 +264,48 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 									</p>
 								</div>
 								<div class="column-1-3">
-									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/andreas.jpg">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/andreas_konig.jpg">
 									<p>
 										<strong>Andreas König</strong> <br>
 										مدير المشروع <br>
 										<a class="txt-link" href="mailto:andreas@justarrived.se">andreas@justarrived.se</a> <br>
-										<a class="txt-link" href="tel:+46 733 868656">+46 733 868656</a>
+										<a class="txt-link" href="tel:+46 73 386 86 56">+46 73 386 86 56</a>
 									</p>
 								</div>
 								<div class="column-1-3">
-									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/fredric.jpg">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/jacob_burenstam.jpg">
 									<p>
-										<strong>Fredric Ghatan</strong> <br>
-										مطور المشروع <br>
-										<a class="txt-link" href="tel:+46 735 012993">+46 735 012993</a>
+										<strong>Jacob Burenstam</strong> <br>
+										CTO <br>
+										<a class="txt-link" href="mailto:jacob@justarrived.se">jacob@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 73 500 50 04">+46 73 500 50 04</a>
+									</p>
+								</div>
+								<div class="column-1-3">
+									<img class="profile-pic profile-pic--no-border" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/general.png">
+									<p>
+										<strong>Per Clingweld</strong> <br>
+										CMO <br>
+										<a class="txt-link" href="mailto:per@justarrived.se">per.clingweld@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 72 301 91 91">+46 72 301 91 91</a>
+									</p>
+								</div>
+								<div class="column-1-3">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/yazan_al_rayyes.jpg">
+									<p>
+										<strong>Yazan Al Ryyes</strong> <br>
+										Business Development Manager <br>
+										<a class="txt-link" href="mailto:yazan.alryyes@justarrived.se">yazan.alryyes@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:++46 76 271 30 92">+46 76 271 30 92</a>
+									</p>
+								</div>
+								<div class="column-1-3">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/anna_hornmark.jpg">
+									<p>
+										<strong>Anna Hörnmark</strong> <br>
+										Operations Manager <br>
+										<a class="txt-link" href="mailto:anna.hornmark@justarrived.se">anna.hornmark@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 76 802 59 97">+46 76 802 59 97</a>
 									</p>
 								</div>
 							</div>
@@ -480,7 +509,7 @@ JustArrived  تأخذ على عاتقها مسؤولية الوافد الجدي
 								    	<input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
 								    </div>
 							    	<div class="clear">
-							    		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
+							    		<input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
 							    	</div>
 							    </div>
 							</form>

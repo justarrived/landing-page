@@ -22,7 +22,7 @@
 
 
 					<a href="<?php echo home_url(); ?>" rel="nofollow">
-						<div class="header__logo">JustArrived</div>
+						<div class="header__logo">Just Arrived</div>
 					</a>
 
 					<div class="header__btns">
@@ -31,7 +31,7 @@
 							<a href="<?php echo home_url(); ?>/ar"><span class="lang-ar">Arabic</span></a>
 						</div>
 
-						<a href="#" class="primary-btn cd-popup-trigger-signin">Sign up</a>
+						<a href="#" class="primary-btn cd-popup-trigger-signin">I want a job</a>
 						<a href="#" class="border-btn cd-popup-trigger-promo">Sign in with promo code</a>
 					</div>
 
@@ -48,26 +48,31 @@
 					module--padding
 					module--white
 					module--bg-cover"
-					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/couple.jpg)">
+					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/smiles.jpg)">
 					<div class="table">
 						<div class="table-cell">
 							<div class="wrap">
 								<div class="
 								module-content">
 									<h1>Helping new arrivals in Sweden enter the labour market</h1>
+									<div class="section--hero__social-media">
+										<span>Find us on:</span>
+          								<a href="https://www.facebook.com/JustArrivedSE/" class="border-btn border-btn--white-blue" title="Just Arrived Facebook page" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; Facebook</a>
+          								<a href="https://twitter.com/JustArrivedSE" class="border-btn border-btn--white-blue" title="Just Arrived Twitter page" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; Twitter</a>
+          							</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="module__overlay module__overlay--black"></div>
+					<div class="module__overlay module__overlay--light-black"></div>
 				</section>
 
 				<section class="
 					section--introduction
 					module
 					module--padding
-					module--white
-					module--black-bg">
+					module--black
+					module--white-bg">
 					<div class="wrap">
 						<div class="
 						module-content
@@ -78,7 +83,7 @@
 									<p>We connect newly-arrived immigrants with Swedish companies who need help with day-to-day activities. Our digital platform enables companies to post simple tasks and services, and match them with new arrivals looking for work.</p>
 								</div>
 								<div class="column-1-2 module--txt-l">
-									<p>JustArrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. JustArrived assumes employer responsibilities for all those who obtain work through the platform.</p>
+									<p>Just Arrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. Just Arrived assumes employer responsibilities for all those who obtain work through the platform.</p>
 								</div>
 								<a href="#" class="primary-btn btn-large cd-popup-trigger-signin">Sign up</a>
 							</div>
@@ -91,10 +96,11 @@
 					module
 					module--padding
 					module--black
+					module--gray-bg
 					module--txt-c">
 					<div class="wrap">
 						<div class="module-content">
-							<h2 class="bordered">JustArrived makes it simple for companies to engage or employ a new arrival.</h2>
+							<h2 class="bordered">Just Arrived makes it simple for companies to engage or employ a new arrival.</h2>
 
 							<div class="columns">
 								<div class="column-1-3">
@@ -131,7 +137,7 @@
 							</div>
 							<div class="product-summary">
 								<h2 class="bordered bordered--white bordered--left">Our Product</h2>
-								<p>JustArrived is a digital application that matches New Arrivals in Sweden with potential assignments provided by Swedish companies. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows:</p>
+								<p>Just Arrived is a digital application that matches New Arrivals in Sweden with potential assignments provided by Swedish companies. It is done through an intuitive web interface, accessible through all kinds of devices and with extensive language and translation support. The application work as follows:</p>
 								<ul class="bullet">
 									<li><strong>Swedish company</strong> posts an assigment (from 1 hour to 6 months) on the application without cost</li>
 									<li><strong>New Arrival</strong> can register a digital CV and apply for the assigment*</li>
@@ -151,7 +157,7 @@
 						module--white
 						module--secondary-bg">
 							<div class="module--img module--img-left"
-								style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/urban.jpg); background-position: 50% 50%;">
+								style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/bethechange.jpg); background-position: 50% 50%;">
 							</div>
 
 							<div class="
@@ -163,7 +169,7 @@
 		 
 								<p><strong> Now, Swedish companies have the opportunity to make a difference.</strong></p>
 
-								<p>JustArrived exists to make it easy for companies to help. To create a sense of belonging and community by outsourcing simple tasks and jobs.</p>
+								<p>Just Arrived exists to make it easy for companies to help. To create a sense of belonging and community by outsourcing simple tasks and jobs.</p>
 
 								<p><small><em>* After ten years, only 60% of all immigrants have a job by which they can support themselves. http://forte.se/artikel/svarforcerad-arbetsmarknad-for-nyanlanda.</small></em></p>
 							</div>
@@ -183,7 +189,7 @@
 						">
 							<h2 class="bordered bordered--primary">Meet the Team</h2>
 							<div class="module--txt-l">
-								<p>We're a group of 80 volunteers who have been working evenings and weekends since early autumn 2015 to make JustArrived a reality. We represent numerous competences, backgrounds and organizations, but everyone shares the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We're always on the lookout for passionate and talented people, irrespective of whether they represent an organisation or just themselves. For current needs, see the Join Us section below.</p>
+								<p>We're a group of 80 volunteers who have been working evenings and weekends since early autumn 2015 to make Just Arrived a reality. We represent numerous competences, backgrounds and organizations, but everyone shares the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We're always on the lookout for passionate and talented people, irrespective of whether they represent an organisation or just themselves. For current needs, see the Join Us section below.</p>
 							</div>
 						</div>
 					</div>
@@ -206,7 +212,7 @@
 					<div class="wrap">
 						<div class="module-content module-content--left">
 							<h2 class="bordered bordered--secondary bordered--left">Join us</h2>
-							<p>JustArrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.</p>
+							<p>Just Arrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.</p>
 							<p>We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.</p>
 						</div>
 						
@@ -255,20 +261,48 @@
 									</p>
 								</div>
 								<div class="column-1-3">
-									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/andreas.jpg">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/andreas_konig.jpg">
 									<p>
 										<strong>Andreas König</strong> <br>
 										Project Manager <br>
 										<a class="txt-link" href="mailto:andreas@justarrived.se">andreas@justarrived.se</a> <br>
-										<a class="txt-link" href="tel:+46 733 868656">+46 733 868656</a>
+										<a class="txt-link" href="tel:+46 73 386 86 56">+46 73 386 86 56</a>
 									</p>
 								</div>
 								<div class="column-1-3">
-									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/fredric.jpg">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/jacob_burenstam.jpg">
 									<p>
-										<strong>Fredric Ghatan</strong> <br>
-										Product Development <br>
-										<a class="txt-link" href="tel:+46 735 012993">+46 735 012993</a>
+										<strong>Jacob Burenstam</strong> <br>
+										CTO <br>
+										<a class="txt-link" href="mailto:jacob@justarrived.se">jacob@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 73 500 50 04">+46 73 500 50 04</a>
+									</p>
+								</div>
+								<div class="column-1-3">
+									<img class="profile-pic profile-pic--no-border" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/general.png">
+									<p>
+										<strong>Per Clingweld</strong> <br>
+										CMO <br>
+										<a class="txt-link" href="mailto:per@justarrived.se">per.clingweld@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 72 301 91 91">+46 72 301 91 91</a>
+									</p>
+								</div>
+								<div class="column-1-3">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/yazan_al_rayyes.jpg">
+									<p>
+										<strong>Yazan Al Ryyes</strong> <br>
+										Business Development Manager <br>
+										<a class="txt-link" href="mailto:yazan.alryyes@justarrived.se">yazan.alryyes@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:++46 76 271 30 92">+46 76 271 30 92</a>
+									</p>
+								</div>
+								<div class="column-1-3">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/anna_hornmark.jpg">
+									<p>
+										<strong>Anna Hörnmark</strong> <br>
+										Operations Manager <br>
+										<a class="txt-link" href="mailto:anna.hornmark@justarrived.se">anna.hornmark@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 76 802 59 97">+46 76 802 59 97</a>
 									</p>
 								</div>
 							</div>
@@ -448,18 +482,18 @@
 									<input type="text" value="" maxlength="40" name="company" class="" id="mce-COMPANY">
 								</div>
 								<div class="form-col form-col--full-width mc-field-group">
-									<label for="mce-LOCATION">Location</label>
-									<input type="text" value="" name="00N580000088gDR" class="" id="mce-LOCATION">
+									<label for="mce-CITY">City</label>
+									<input type="text" value="" name="00N580000088gDR" class="" id="mce-CITY">
 								</div>
 								<div class="mc-field-group input-group">
 									<div class="input-group-content">
 										<p>I'm interested in... <span class="asterisk">*</span></p>
 										<ul>
 											<li><input type="radio" value="Posting jobs" name="00N580000088fVu" id="mce-MMERGE5-0"><label for="mce-MMERGE5-0">Posting jobs</label></li>
-											<li><input type="radio" value="Finding jobs" name="00N580000088fVu" id="mce-MMERGE5-1"><label for="mce-MMERGE5-1">Finding jobs</label></li>
+											<li><input type="radio" value="Finding jobs" name="00N580000088fVu" id="mce-MMERGE5-1" checked><label for="mce-MMERGE5-1">Finding jobs</label></li>
 											<li><input type="radio" value="Helping out" name="00N580000088fVu" id="mce-MMERGE5-2"><label for="mce-MMERGE5-2">Helping out</label></li>
 											<li><input type="radio" value="Donating" name="00N580000088fVu" id="mce-MMERGE5-3"><label for="mce-MMERGE5-3">Donating</label></li>
-											<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4" checked><label for="mce-MMERGE5-4">Knowing more</label></li>
+											<li><input type="radio" value="Knowing more" name="00N580000088fVu" id="mce-MMERGE5-4"><label for="mce-MMERGE5-4">Knowing more</label></li>
 										</ul>
 									</div>
 								</div>
@@ -472,7 +506,7 @@
 							    	<input type="text" name="b_ac005505ee4f55f35fc7bdc5d_4cc4f7c8c5" tabindex="-1" value="">
 							    </div>
 						    	<div class="clear">
-						    		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
+						    		<input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" class="button border-btn btn-large border-btn--pink">
 						    	</div>
 						    </div>
 						</form>

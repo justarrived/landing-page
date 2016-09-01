@@ -931,7 +931,7 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, .comment-reply-link, #submit, .primary-btn, .border-btn, .transparent-btn {
+.blue-btn, .comment-reply-link, #submit, .primary-btn, .border-btn, .transparent-btn, .transparent-btn--blue {
   display: inline-block;
   position: relative;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -947,14 +947,14 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   font-weight: 600;
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
-  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .primary-btn:hover, .border-btn:hover, .transparent-btn:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus, .primary-btn:focus, .border-btn:focus, .transparent-btn:focus {
+  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .primary-btn:hover, .border-btn:hover, .transparent-btn:hover, .transparent-btn--blue:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus, .primary-btn:focus, .border-btn:focus, .transparent-btn:focus, .transparent-btn--blue:focus {
     color: #fff;
     text-decoration: none !important;
     outline: none; }
-  .blue-btn:visited, .comment-reply-link:visited, #submit:visited, .primary-btn:visited, .border-btn:visited, .transparent-btn:visited {
+  .blue-btn:visited, .comment-reply-link:visited, #submit:visited, .primary-btn:visited, .border-btn:visited, .transparent-btn:visited, .transparent-btn--blue:visited {
     color: #fff; }
   @media (min-width: 600px) {
-    .blue-btn, .comment-reply-link, #submit, .primary-btn, .border-btn, .transparent-btn {
+    .blue-btn, .comment-reply-link, #submit, .primary-btn, .border-btn, .transparent-btn, .transparent-btn--blue {
       font-size: 0.875em; } }
 
 /*
@@ -1406,7 +1406,9 @@ select {
       padding: 3em 0; } }
   @media (min-width: 768px) {
     .module--padding {
-      padding: 5em 0; } }
+      padding: 5em 0; }
+      .module--padding.section--hero {
+        padding: 8em 0; } }
 
 .module--white {
   color: #fff; }
@@ -1433,7 +1435,7 @@ select {
   background: #fff; }
 
 .module--gray-bg {
-  background: #e8ebee; }
+  background: #f6f6f6; }
 
 .module--primary-bg {
   background: #e5007d; }
@@ -1490,6 +1492,9 @@ select {
   background: #222531;
   opacity: 0.8; }
 
+.module__overlay--light-black {
+  background: rgba(0, 0, 0, 0.1); }
+
 .module__overlay--secondary {
   background: #0069d2;
   opacity: 0.8; }
@@ -1500,7 +1505,7 @@ select {
   padding: 2em 0 1em; }
   @media (min-width: 880px) {
     .module--txt {
-      padding: 2em;
+      padding: 5em 2em;
       width: 50%; } }
   @media (min-width: 1024px) {
     .module--txt {
@@ -1970,11 +1975,11 @@ POSTS & CONTENT STYLES
   margin-bottom: 1.5em;
   border: 1px solid #ccc; }
   .hentry header {
-    border-bottom: 1px solid #f8f9fa;
+    border-bottom: 1px solid #f6f6f6;
     padding: 1.5em; }
   .hentry footer {
     padding: 1.5em;
-    border-top: 1px solid #f8f9fa; }
+    border-top: 1px solid #f6f6f6; }
     .hentry footer p {
       margin: 0; }
 
@@ -2023,14 +2028,14 @@ POSTS & CONTENT STYLES
   .entry-content tr {
     border-bottom: 1px solid #eaedf2; }
     .entry-content tr:nth-child(even) {
-      background-color: #f8f9fa; }
+      background-color: #f6f6f6; }
   .entry-content td {
     padding: 7px;
     border-right: 1px solid #eaedf2; }
     .entry-content td:last-child {
       border-right: 0; }
   .entry-content th {
-    background-color: #f8f9fa;
+    background-color: #f6f6f6;
     border-bottom: 1px solid #eaedf2;
     border-right: 1px solid #eaedf2; }
     .entry-content th:last-child {
@@ -2059,7 +2064,7 @@ POSTS & CONTENT STYLES
     height: auto; }
   .entry-content pre {
     background: #323944;
-    color: #f8f9fa;
+    color: #f6f6f6;
     font-size: 0.9em;
     padding: 1.5em;
     margin: 0 0 1.5em;
@@ -2146,7 +2151,7 @@ COMMENT STYLES
 #comments-title {
   padding: 0.75em;
   margin: 0;
-  border-top: 1px solid #f8f9fa;
+  border-top: 1px solid #f6f6f6;
   /* number of comments span */ }
 
 .commentlist {
@@ -2158,7 +2163,7 @@ COMMENT STYLES
   clear: both;
   overflow: hidden;
   padding: 1.5em;
-  border-bottom: 1px solid #f8f9fa;
+  border-bottom: 1px solid #f6f6f6;
   /* vcard */
   /* end .commentlist .vcard */
   /* end children */
@@ -2202,7 +2207,7 @@ COMMENT STYLES
   .comment.odd {
     background-color: #fff; }
   .comment.even {
-    background: #f8f9fa; }
+    background: #f6f6f6; }
 
 /* comment meta */
 /* comment content */
@@ -2230,7 +2235,7 @@ COMMENT FORM STYLES
 ******************************************************************/
 .comment-respond {
   padding: 1.5em;
-  border-top: 1px solid #f8f9fa; }
+  border-top: 1px solid #f6f6f6; }
 
 #reply-title {
   margin: 0; }
@@ -2247,7 +2252,7 @@ COMMENT FORM STYLES
 
 .form-allowed-tags {
   padding: 1.5em;
-  background-color: #f8f9fa;
+  background-color: #f6f6f6;
   font-size: 0.9em; }
 
 /* comment submit button */
@@ -2297,11 +2302,25 @@ img {
     .section--hero .table {
       min-height: 340px; } }
 .section--hero h1 {
-  text-align: center; }
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
   @media (min-width: 1024px) {
     .section--hero h1 {
       width: 580px;
       margin: 0 auto; } }
+
+.section--hero__social-media {
+  margin-top: 2em;
+  text-align: center; }
+  .section--hero__social-media span {
+    display: none; }
+  .section--hero__social-media a {
+    display: inline-block;
+    margin: 0 0.5em 1em; }
+  @media (min-width: 768px) {
+    .section--hero__social-media a, .section--hero__social-media span {
+      margin: 0 0.5em 0;
+      display: inline-block; } }
 
 @media (min-width: 1024px) {
   .section--introduction .columns {
@@ -2376,7 +2395,7 @@ img {
   @media (min-width: 768px) {
     .product-image {
       float: left;
-      width: 45%; } }
+      width: 38%; } }
 
 @media (min-width: 768px) {
   .product-summary {
@@ -2460,7 +2479,7 @@ img {
 .section--say-hej {
   text-align: center; }
   .section--say-hej .module-content {
-    max-width: 700px;
+    max-width: 768px;
     margin: 0 auto; }
   .section--say-hej .profile-pic {
     float: left;

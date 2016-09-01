@@ -17,6 +17,9 @@
   }
   @include tablet {
     padding: 5em 0;
+    &.section--hero {
+      padding: 8em 0;
+    }
   }
 }
 
@@ -25,7 +28,6 @@
   & p, & ul, & ol {
     color: rgba(255,255,255,0.8);
   }
-
 }
 
 .module--primary {
@@ -58,7 +60,7 @@
 }
 
 .module--gray-bg {
-  background: $stone-light;
+  background: $light-gray;
 }
 
 .module--primary-bg {
@@ -133,6 +135,10 @@
   opacity: 0.8;
 }
 
+.module__overlay--light-black {
+  background: rgba(0,0,0,0.1);
+}
+
 .module__overlay--secondary {
   background: $bluesea;
   opacity: 0.8;
@@ -143,7 +149,7 @@
   margin: 0 auto;
   padding: 2em 0 1em;
   @include desktop-small {
-    padding: 2em;
+    padding: 5em 2em;
     width: 50%;
   }
   @include desktop {

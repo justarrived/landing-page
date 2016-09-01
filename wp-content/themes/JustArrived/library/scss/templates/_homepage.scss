@@ -10,9 +10,28 @@
 	}
 	& h1 {
 		text-align: center;
+		text-shadow: 0 1px 3px rgba(0,0,0,0.4);
 		@include desktop {
 			width: 580px;
 			margin: 0 auto;
+		}
+	}
+}
+
+.section--hero__social-media {
+	margin-top: 2em;
+	text-align: center;
+	& span {
+		display: none;
+	}
+	& a {
+		display: inline-block;
+		margin: 0 0.5em 1em;
+	}
+	@include tablet {
+		& a, & span {
+			margin: 0 0.5em 0;
+			display: inline-block;
 		}
 	}
 }
@@ -110,7 +129,7 @@
 	}
 	@include tablet {
 		float: left;
-		width: 45%;
+		width: 38%;
 	}
 }
 
@@ -230,7 +249,7 @@
 .section--say-hej {
 	text-align: center;
 	& .module-content {
-		max-width: 700px;
+		max-width: 768px;
 		margin: 0 auto;
 	}
 	& .profile-pic {
