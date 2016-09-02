@@ -17,7 +17,10 @@
 							)); ?>
 						</nav>
 
-						<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+						<p class="source-org copyright">
+							<span>&copy; <?php echo date('Y'); ?> Just Arrived</span>
+							<a href="https://www.facebook.com/JustArrivedSE/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; Facebook</a>
+          					<a href="https://twitter.com/JustArrivedSE" title="Twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; Twitter</a></p>
 
 					</div>
 			</footer>

@@ -1,4 +1,5 @@
 .section--hero {
+	text-align: center;
 	& .table {
 		min-height: 250px;
 		@include tablet {
@@ -9,24 +10,59 @@
 		}
 	}
 	& h1 {
-		text-align: center;
-		text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+		text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 		@include desktop {
 			width: 580px;
-			margin: 0 auto;
+			margin: 0 auto 0.6em;
 		}
+	}
+	& .wrap {
+		margin: 0 auto;
+		padding: 0 5%;
+		width: auto;
+		@include desktop {
+			float: right;
+		}
+		@include desktop-large {
+			padding: 0;
+			margin: 0;
+			float: right;
+			margin-right: 13%;
+		}
+	}
+	& .module__overlay {
+		background: transparentize($charcoal-medium, 0.4);
+		@include desktop {
+			background: transparentize($charcoal-medium, 0.9);
+		}
+	}
+	@include desktop {
+		background-color: $cerise;
 	}
 }
 
 .section--hero__social-media {
-	margin-top: 2em;
+	margin-top: 3em;
 	text-align: center;
+	&:before {
+		content: "";
+		display: block;
+		margin: 0 auto;
+		width: 30px;
+		height: 1px;
+		border-top: 2px solid #fff;
+    	padding-top: 1em;
+	}
 	& span {
 		display: none;
 	}
 	& a {
+		color: #fff;
 		display: inline-block;
 		margin: 0 0.5em 1em;
+		&:hover {
+			text-decoration: none;
+		}
 	}
 	@include tablet {
 		& a, & span {

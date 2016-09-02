@@ -48,17 +48,17 @@
 					module--padding
 					module--white
 					module--bg-cover"
-					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/smiles.jpg)">
+					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/smiles.png);">
 					<div class="table">
 						<div class="table-cell">
 							<div class="wrap">
 								<div class="
 								module-content">
 									<h1>Helping new arrivals in Sweden enter the labour market</h1>
+									<a href="#" class="border-btn border-btn--white-pink btn-large cd-popup-trigger-signin">Sign up to find a job</a>
 									<div class="section--hero__social-media">
-										<span>Find us on:</span>
-          								<a href="https://www.facebook.com/JustArrivedSE/" class="border-btn border-btn--white-blue" title="Just Arrived Facebook page" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; Facebook</a>
-          								<a href="https://twitter.com/JustArrivedSE" class="border-btn border-btn--white-blue" title="Just Arrived Twitter page" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; Twitter</a>
+          								<a href="https://www.facebook.com/JustArrivedSE/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; Facebook</a>
+          								<a href="https://twitter.com/JustArrivedSE" title="Twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; Twitter</a>
           							</div>
 								</div>
 							</div>
@@ -85,7 +85,7 @@
 								<div class="column-1-2 module--txt-l">
 									<p>Just Arrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. Just Arrived assumes employer responsibilities for all those who obtain work through the platform.</p>
 								</div>
-								<a href="#" class="primary-btn btn-large cd-popup-trigger-signin">Sign up</a>
+								<a href="#" class="primary-btn btn-large cd-popup-trigger-signin">I want to post a job</a>
 							</div>
 						</div>
 					</div>
@@ -189,7 +189,7 @@
 						">
 							<h2 class="bordered bordered--primary">Meet the Team</h2>
 							<div class="module--txt-l">
-								<p>We're a group of 80 volunteers who have been working evenings and weekends since early autumn 2015 to make Just Arrived a reality. We represent numerous competences, backgrounds and organizations, but everyone shares the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We're always on the lookout for passionate and talented people, irrespective of whether they represent an organisation or just themselves. For current needs, see the Join Us section below.</p>
+								<p>We're a group of 150 volunteers who have been working evenings and weekends since early autumn 2015 to make Just Arrived a reality. We represent numerous competences, backgrounds and organizations, but everyone shares the collective goal of making it easier for New Arrivals to get a job and the chance to get into Swedish society. We're always on the lookout for passionate and talented people, irrespective of whether they represent an organisation or just themselves. For current needs, see the Join Us section below.</p>
 							</div>
 						</div>
 					</div>
@@ -433,7 +433,7 @@
 					module--black
 					">
 						<h2 class="bordered bordered--primary module--txt-c">Sign up to the beta</h2>
-						<p>We are currently testing the platform (May - September) with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch on the 1st of September, please fill in the form and we will get back to you!</p>
+						<p>We are currently testing the platform with an exclusive group of companies and new arrivals. If you are interested in utilizing the platform after our official launch, please fill in the form and we will get back to you!</p>
 						<div id="mc_embed_signup">
 						<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form">
 

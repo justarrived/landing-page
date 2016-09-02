@@ -996,6 +996,9 @@ and it will create a button dependant on those variables.
   .border-btn.border-btn--white-blue:hover {
     background: #fff;
     color: #0069d2; }
+  .border-btn.border-btn--white-pink:hover {
+    background: #fff;
+    color: #e5007d; }
 
 .transparent-btn {
   background-color: transparent;
@@ -1601,9 +1604,31 @@ select {
 
 .footer {
   clear: both;
-  padding: 2em 0 2em;
+  padding: 2em 1em;
   color: #787D82;
   text-align: center; }
+  .footer a {
+    text-decoration: none;
+    color: #787D82; }
+    .footer a:last-child {
+      margin-right: 0;
+      padding: 0;
+      border: 0; }
+  .footer a, .footer span {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5em; }
+    @media (min-width: 321px) {
+      .footer a, .footer span {
+        border-right: 1px solid #d2d2d2;
+        margin-bottom: 0;
+        width: auto;
+        margin-right: 1em;
+        padding-right: 1em;
+        display: inline-block; } }
 
 .cd-popup {
   position: fixed;
@@ -2293,30 +2318,63 @@ img {
   margin-bottom: 0;
   width: 100%; }
 
-.section--hero .table {
-  min-height: 250px; }
-  @media (min-width: 768px) {
-    .section--hero .table {
-      min-height: 300px; } }
+.section--hero {
+  text-align: center; }
+  .section--hero .table {
+    min-height: 250px; }
+    @media (min-width: 768px) {
+      .section--hero .table {
+        min-height: 300px; } }
+    @media (min-width: 1024px) {
+      .section--hero .table {
+        min-height: 340px; } }
+  .section--hero h1 {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
+    @media (min-width: 1024px) {
+      .section--hero h1 {
+        width: 580px;
+        margin: 0 auto 0.6em; } }
+  .section--hero .wrap {
+    margin: 0 auto;
+    padding: 0 5%;
+    width: auto; }
+    @media (min-width: 1024px) {
+      .section--hero .wrap {
+        float: right; } }
+    @media (min-width: 1240px) {
+      .section--hero .wrap {
+        padding: 0;
+        margin: 0;
+        float: right;
+        margin-right: 13%; } }
+  .section--hero .module__overlay {
+    background: rgba(34, 37, 49, 0.6); }
+    @media (min-width: 1024px) {
+      .section--hero .module__overlay {
+        background: rgba(34, 37, 49, 0.1); } }
   @media (min-width: 1024px) {
-    .section--hero .table {
-      min-height: 340px; } }
-.section--hero h1 {
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
-  @media (min-width: 1024px) {
-    .section--hero h1 {
-      width: 580px;
-      margin: 0 auto; } }
+    .section--hero {
+      background-color: #e5007d; } }
 
 .section--hero__social-media {
-  margin-top: 2em;
+  margin-top: 3em;
   text-align: center; }
+  .section--hero__social-media:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 1px;
+    border-top: 2px solid #fff;
+    padding-top: 1em; }
   .section--hero__social-media span {
     display: none; }
   .section--hero__social-media a {
+    color: #fff;
     display: inline-block;
     margin: 0 0.5em 1em; }
+    .section--hero__social-media a:hover {
+      text-decoration: none; }
   @media (min-width: 768px) {
     .section--hero__social-media a, .section--hero__social-media span {
       margin: 0 0.5em 0;

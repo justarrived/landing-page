@@ -129,6 +129,12 @@ and it will create a button dependant on those variables.
       color: $bluesea;
     }
   }
+  &.border-btn--white-pink {
+    &:hover {
+      background: #fff;
+      color: $cerise;
+    }
+  }
 }
 
 .transparent-btn {

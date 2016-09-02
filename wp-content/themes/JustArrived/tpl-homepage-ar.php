@@ -47,13 +47,18 @@
 					module--padding
 					module--white
 					module--bg-cover"
-					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/smiles.jpg)">
+					style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/smiles.png);">
 					<div class="table">
 						<div class="table-cell">
 							<div class="wrap">
 								<div class="
 								module-content">
 									<h1>نساعد الوافدين الجدد في السويد للدخول إلى سوق العمل</h1>
+									<a href="#" class="border-btn border-btn--white-pink btn-large cd-popup-trigger-signin">تسجيل الدخول</a>
+									<div class="section--hero__social-media">
+          								<a href="https://www.facebook.com/JustArrivedSE/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; Facebook</a>
+          								<a href="https://twitter.com/JustArrivedSE" title="Twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp; Twitter</a>
+          							</div>
 								</div>
 							</div>
 						</div>
@@ -65,6 +70,7 @@
 					section--introduction
 					module
 					module--padding
+					module--black
 					module--black
 					module--white-bg">
 					<div class="wrap">
@@ -92,8 +98,8 @@ Just Arrived  تأخذ على عاتقها مسؤولية الوافد الجد�
 					section--how-to
 					module
 					module--padding
-					module--white
-					module--black-bg
+					module--black
+					module--gray-bg
 					module--txt-c">
 					<div class="wrap">
 						<div class="module-content">

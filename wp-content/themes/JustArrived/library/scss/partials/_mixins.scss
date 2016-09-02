@@ -75,12 +75,20 @@ probably best not to use it. I mean, were you going to anyway? */
 MEDIA QUERIES
 *********************/
 
+$mobile-small: 321px;
 $mobile-width: 480px;
 $tablet-small: 600px;
 $tablet-medium: 650px;
 $tablet-width: 768px;
 $desktop-small: 880px;
 $desktop-width: 1024px;
+$desktop-large: 1240px;
+
+@mixin mobile-small {
+  @media (min-width: #{$mobile-small}) {
+    @content;
+  }
+}
 
 @mixin mobile {
   @media (min-width: #{$mobile-width}) {
@@ -126,6 +134,12 @@ $desktop-width: 1024px;
 
 @mixin desktop {
   @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin desktop-large {
+  @media (min-width: #{$desktop-large}) {
     @content;
   }
 }
