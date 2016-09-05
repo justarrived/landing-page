@@ -163,7 +163,7 @@ Just Arrived  تأخذ على عاتقها مسؤولية الوافد الجد�
 						module--secondary-bg">
 
 							<div class="module--img module--img-left"
-								style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/urban.jpg); background-position: 50% 50%;">
+								style="background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/bgs/bethechange.jpg); background-position: 50% 50%;">
 							</div>
 
 							<div class="

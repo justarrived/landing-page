@@ -30,7 +30,6 @@
 							<a href="<?php echo home_url(); ?>"><span class="lang-en">English</span></a>
 							<a href="<?php echo home_url(); ?>/ar"><span class="lang-ar">Arabic</span></a>
 						</div>
-
 						<a href="#" class="primary-btn cd-popup-trigger-signin">I want a job</a>
 						<a href="#" class="border-btn cd-popup-trigger-promo">Sign in with promo code</a>
 					</div>
@@ -54,7 +53,8 @@
 							<div class="wrap">
 								<div class="
 								module-content">
-									<h1>Helping new arrivals in Sweden enter the labour market</h1>
+									<h1>We give new arrivals in Sweden the chance to enter the job market</h1>
+									<p>Are you a new arrival? Apply to qualify and gain access to the Just Arrived app.</p>
 									<a href="#" class="border-btn border-btn--white-pink btn-large cd-popup-trigger-signin">Sign up to find a job</a>
 									<div class="section--hero__social-media">
           								<a href="https://www.facebook.com/JustArrivedSE/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp; Facebook</a>
@@ -84,6 +84,9 @@
 								</div>
 								<div class="column-1-2 module--txt-l">
 									<p>Just Arrived translates tasks into migrants' local languages. We allow the company and migrant to review each other, which provides references that enable migrants to gain further employment. Just Arrived assumes employer responsibilities for all those who obtain work through the platform.</p>
+								</div>
+								<div>
+									<p style="company-cta-paragraph"><strong>Are you a company interested in posting a job? Fill out the form and we’ll get back to you soon.</strong></p>
 								</div>
 								<a href="#" class="primary-btn btn-large cd-popup-trigger-signin">I want to post a job</a>
 							</div>
@@ -279,7 +282,7 @@
 									</p>
 								</div>
 								<div class="column-1-3">
-									<img class="profile-pic profile-pic--no-border" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/general.png">
+									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/per-clingweld.jpg">
 									<p>
 										<strong>Per Clingweld</strong> <br>
 										CMO <br>
@@ -438,7 +441,7 @@
 						<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form">
 
 							<input type=hidden name="oid" value="00D58000000cNvl">
-							<input type=hidden name="retURL" value="justarrived.se" id="salesforce_retURL">
+							<input type=hidden name="retURL" value="justarrived.se?message=thanks" id="salesforce_retURL">
 							<input type=hidden name="lead_source" value="Web">
 
 							<script>
