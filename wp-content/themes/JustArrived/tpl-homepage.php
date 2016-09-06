@@ -14,7 +14,7 @@
 ?>
 
 <?php get_header(); ?>
-		
+
 
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
@@ -122,7 +122,7 @@
 									</div>
 								</div>
 							</div>
-							
+
 						</div>
 					</div>
 				</section>
@@ -169,7 +169,7 @@
 								">
 								<h2 class="bordered bordered--white bordered--left">Be the Change</h2>
 								<p>In 2015, more than 160,000 people applied for asylum in Sweden. These are people like you and me, with the same needs and desires. However, statistics show that it takes many years for most new arrivals to get a job and support themselves in Sweden.*</p>
-		 
+
 								<p><strong> Now, Swedish companies have the opportunity to make a difference.</strong></p>
 
 								<p>Just Arrived exists to make it easy for companies to help. To create a sense of belonging and community by outsourcing simple tasks and jobs.</p>
@@ -218,7 +218,7 @@
 							<p>Just Arrived is driven by a team of volunteers that wants to make a difference. If you think you can help in any way, please click the button below.</p>
 							<p>We're currently looking for programmers (AngularJS, Ruby on Rails), translators and sponsors. If you're a developer, we’d love you to contribute to our GitHub repository.</p>
 						</div>
-						
+
 						<div class="module--checklist module-content module-content--right">
 							<h4>Checklist</h4>
 							<ul class="checklist">
@@ -293,10 +293,10 @@
 								<div class="column-1-3">
 									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/yazan_al_rayyes.jpg">
 									<p>
-										<strong>Yazan Al Ryyes</strong> <br>
+										<strong>Yazan Al Rayyes</strong> <br>
 										Business Development Manager <br>
-										<a class="txt-link" href="mailto:yazan.alryyes@justarrived.se">yazan.alryyes@justarrived.se</a> <br>
-										<a class="txt-link" href="tel:++46 76 271 30 92">+46 76 271 30 92</a>
+										<a class="txt-link" href="mailto:yazan.alryyes@justarrived.se">yazan.alrayyes@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 76 800 27 80">+46 76 800 27 80</a>
 									</p>
 								</div>
 								<div class="column-1-3">
@@ -309,7 +309,7 @@
 									</p>
 								</div>
 							</div>
-							
+
 						</div>
 					</div>
 				</section>
@@ -452,7 +452,7 @@
 								}
 
 								//getCurrentURIForRedirect();
-							</script>	
+							</script>
 
 							<!--  ----------------------------------------------------------------------  -->
 							<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -466,7 +466,7 @@
 							</div>
 
 						    <div id="mc_embed_signup_scroll">
-								
+
 								<div class="form-col mc-field-group">
 									<label>Email Address <span class="asterisk">*</span></label>
 									<input type="email" value="" name="email" class="required email" id="mce-EMAIL" required>

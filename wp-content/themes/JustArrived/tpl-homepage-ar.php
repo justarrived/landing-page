@@ -122,7 +122,7 @@ Just Arrived  تأخذ على عاتقها مسؤولية الوافد الجد�
 									</div>
 								</div>
 							</div>
-							
+
 						</div>
 					</div>
 				</section>
@@ -172,7 +172,7 @@ Just Arrived  تأخذ على عاتقها مسؤولية الوافد الجد�
 								">
 								<h2 class="bordered bordered--white bordered--left">إصنع التغيير...</h2>
 								<p>في عام 2015 اكتر من 160،000 شخص تقدم بطلب لجوء في السويد، هؤلاء الاشخاص هم مثلي ومثلك، بنفس الرغبات والاحتياجات، ومع ذلك تشير الإحصائيات بان معظم الوافدين الجدد يستغرقون العديد من السنوات للحصول على عمل وإعالة أنفسهم في السويد*.</p>
-		 
+
 								<p><strong>الان. الأعمال السويدية لديها الفرصة لتصنع التغيير.</strong></p>
 
 								<p>"Just Arrived " تقوم بتسهيل الأعمال وتقديم المساعدة، وخلق شعور بالإندماج والدمج المجتمعي من خلال الإستعانة بأعمال ووظائف بسيطة.</p>
@@ -224,7 +224,7 @@ Just Arrived  تأخذ على عاتقها مسؤولية الوافد الجد�
 							<p>"Just Arrived" تتقدم بجهد فريق من المتطوعين الذين يرغبون بصناعة التغيير. إذا كنت تعتقد أنه بإمكانك تقديم المساعدة في أي مجال، يرجى الضعظ على الزر في الأسفل.</p>
 							<p>نبحث حاليا عن مبرمجين (AngularJS, Ruby on Rails) ، ومترجمين وداعمين. إذا كنت مطور برمجة وترغب في المساهمة في موقعنا   GitHub repository. </p>
 						</div>
-						
+
 						<div class="module--checklist module-content module-content--right">
 							<h4>قائمة التحقق</h4>
 							<ul class="checklist">
@@ -299,10 +299,10 @@ Just Arrived  تأخذ على عاتقها مسؤولية الوافد الجد�
 								<div class="column-1-3">
 									<img class="profile-pic" src="<?php echo get_template_directory_uri(); ?>/library/images/profile-pictures/yazan_al_rayyes.jpg">
 									<p>
-										<strong>Yazan Al Ryyes</strong> <br>
+										<strong>Yazan Al Rayyes</strong> <br>
 										Business Development Manager <br>
-										<a class="txt-link" href="mailto:yazan.alryyes@justarrived.se">yazan.alryyes@justarrived.se</a> <br>
-										<a class="txt-link" href="tel:++46 76 271 30 92">+46 76 271 30 92</a>
+										<a class="txt-link" href="mailto:yazan.alryyes@justarrived.se">yazan.alrayyes@justarrived.se</a> <br>
+										<a class="txt-link" href="tel:+46 76 800 27 80">+46 76 800 27 80</a>
 									</p>
 								</div>
 								<div class="column-1-3">
@@ -315,7 +315,7 @@ Just Arrived  تأخذ على عاتقها مسؤولية الوافد الجد�
 									</p>
 								</div>
 							</div>
-							
+
 						</div>
 					</div>
 				</section>
@@ -446,33 +446,33 @@ Just Arrived  تأخذ على عاتقها مسؤولية الوافد الجد�
 						<p>نحن حاليا باختبار منصة (مايو-سبتمبر) مع مجموعة حصرية من شركات والوافدين الجدد. إذا كنت مهتما في الاستفادة من منصة بعد الافتتاح الرسمي لدينا في 1 سبتمبر، يرجى تعبئة النموذج وسوف نقوم بالرد عليك!</p>
 						<div id="mc_embed_signup">
 							<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="signup-form">
-	
+
 								<input type=hidden name="oid" value="00D58000000cNvl">
 								<input type=hidden name="retURL" value="justarrived.se" id="salesforce_retURL">
 								<input type=hidden name="lead_source" value="Web">
-	
+
 								<script>
 									function getCurrentURIForRedirect() {
 									    var ele = document.getElementById("salesforce_retURL");
 									    console.log('ele');
 									    ele.setAttribute("value", window.location.href + "?message=thanks");
 									}
-	
+
 									//getCurrentURIForRedirect();
-								</script>		
+								</script>
 								<!--  ----------------------------------------------------------------------  -->
 								<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
 								<!--  these lines if you wish to test in debug mode.                          -->
 								<!--  <input type="hidden" name="debug" value=1>                              -->
 								<!--  <input type="hidden" name="debugEmail" value="richard.dearn@eins.se">   -->
 								<!--  ----------------------------------------------------------------------  -->
-	
+
 								<div class="signup-error module--txt-c">
 									<label for="mce-EMAIL" class="mailchimp-error">البريد الالكتروني</label>
 								</div>
-	
+
 							    <div id="mc_embed_signup_scroll">
-									
+
 									<div class="form-col mc-field-group">
 										<label>البريد الالكتروني <span class="asterisk">*</span></label>
 										<input type="email" value="" name="email" class="required email" id="mce-EMAIL" required>
