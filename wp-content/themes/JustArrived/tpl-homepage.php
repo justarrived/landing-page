@@ -350,10 +350,10 @@
 							<h2 class="bordered bordered--primary">Partners and Champions</h2>
 							<div class="companies">
 								<div class="company">
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/janssonnorin.png">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/antrop.png">
 								</div>
 								<div class="company">
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/antrop.png">
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/janssonnorin.png">
 								</div>
 								<div class="company">
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/frilansfinans.png">
